@@ -1,0 +1,1034 @@
+
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+@font-face {
+    font-family:"etsy-regular";
+    src :url(assets/Graphik-Regular-Web.woff2);
+}
+@font-face {
+    font-family:"etsy-medium";
+    src :url(assets/Graphik-Medium-Web.woff2);
+}
+@font-face {
+    font-family:"etsy-light";
+    src :url(assets/Guardian-EgypTT-Light.woff2);
+}
+.header-mb{
+    display: flex;
+    flex-direction: column;
+    padding-inline:6px;
+    width:100%;
+    padding:11px;
+}
+.head1 {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.sign {
+    display: flex;
+    flex-direction: row;
+    white-space:nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top:-8px;
+}
+.sign img {
+    padding: 12px;
+}
+.sign span {
+    font-size:13px;
+    font-family:"etsy-medium";
+    color:#222222;
+    padding:9px 10px;
+    margin-inline:5px
+}
+.sign span:hover {
+    border-radius:35%;
+    background-color:#e9e4e4;
+}
+.head2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+ input {
+    border:0;
+    background-color:rgba(34,34,34,0) ;
+    font-size:15px;
+    font-family:"etsy-regular";
+    color:#5e5b5b;
+    display: block;
+    line-height:28px;
+    min-width:0;
+    padding-block:9px;
+    padding-inline:17px;
+    width:100%;
+    box-shadow:1px 2px 4px 0 rgb(34 34 34 / 10%) inset;
+}
+.btn {
+    background-color:rgba(34,34,34,.07) ;
+    width:100%;
+    display: flex;
+    text-align:left;
+    align-items: center;
+    justify-content:space-between;
+    border-radius:96px;
+    border:2px solid #333;
+    padding-right:8px;
+   
+}
+.head2 img{
+    padding:10px;
+    margin-left:-12px;
+}
+.header-dt {
+    display:none;
+}
+.collections{
+    display: none;
+}
+.discover ul{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-top:-240px;
+    margin-bottom:60px;
+    margin-right:12px;
+}
+.bg{
+    background-color: #d7e6f5;
+    height:200px;
+}
+.discover h2{
+    font-size:20px;
+    font-family:"etsy-light";
+    background-color: #d7e6f5;
+    font-weight:300;
+    padding-block: 18px;
+    padding-inline: 12px;
+    color:#222222;
+    line-height: 32px;
+    text-align: center;
+}
+.discover img{
+    border-radius:50%;
+    overflow: hidden;
+    height:87.28px;
+    width:87.28px;
+    margin-bottom: 10px;
+}
+.discover li:hover img{
+    width:125px;
+    height:125px;
+}
+.discover li:hover  {
+    border-bottom:2px solid #8d8787;
+}
+.discover li:hover p{
+    opacity:0.8;
+}
+.discover li{
+    list-style-type:none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    align-items: center;
+}
+.discover p{
+    font-size:13px;
+    font-family:"etsy-regular";
+    color:#222222;
+    font-weight:600;
+
+}
+.deals{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding-inline:7px;
+  max-width:1400px;
+  margin-inline:auto;
+}
+.deals h2{
+  font-size: 24px;
+  color:#222222;
+  font-family: "etsy-regular";
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+.deals a{
+    text-decoration: none;
+    color:#222222;
+    font-size: 13px;
+    font-family:"etsy-medium";
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: center;
+    padding-top:9px;
+    padding-left:9px;
+}
+.deals img {
+    width:24px;
+    height:24px;
+}
+.items{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:12px;
+    margin-inline: 12px;
+    padding-block:20px;
+}
+.item-one img{
+    height:85%;
+    width:100%;
+    border-top-left-radius:12px;
+    border-top-right-radius:12px ;
+}
+.item-one{
+    display: flex;
+    flex-direction:column;
+    padding-bottom: 24px;
+    border:1px solid #c0bcbc;
+    border-radius:12px;
+    cursor:pointer;
+}
+.item-one:hover {
+    box-shadow:0 4px 8px rgb(0 0 0 /20%);
+}
+.item-one span {
+    font-size:14px;
+    font-family:"etsy-regular";
+    padding-left:10px;
+    padding-top:10px;
+}
+.item-one p{
+    font-size:16px;
+    font-family:"etsy-medium";
+    padding-left:10px;
+    padding-top:10px;
+    width:30%;
+}
+.popular h2{
+    font-size:18px;
+    font-family:"etsy-regular";
+    color:#222222;
+    text-align: center;
+}
+.gift-popular{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:12px;
+    margin-inline: 12px;
+    padding-block:20px;
+}
+.gift-img{
+    width:43vw;
+    height:36vw;
+    position: relative;
+}
+.gift-img img{
+    width:100%;
+    height:100%;
+    border-radius:12px;
+}
+.vdo-btn {
+    background-color: #fff;
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    z-index:2;
+    position: absolute;
+    padding:5px;
+    bottom:14px;
+     right:10px;
+}
+.wish-btn {
+    position: absolute;
+    top:10px;
+    right:10px;
+    z-index:20;
+    display:none;
+    background-color: #fff;
+    padding:5px;
+    border-radius:50%;
+}
+.gift-img:hover .wish-btn{
+    display:flex;
+}
+.gift p{
+    position:absolute;
+    display:none;
+    font-family:"etsy-regular";
+    font-size:13px;
+    background-color:#ffffff;
+    border:2px solid #111;
+    padding:4px;
+    z-index:20;
+    width:700px;
+    z-index: 100;
+}
+.gift:hover p{
+    display:flex;
+}
+.red-wish{
+    position:absolute;
+    top:10px;
+    right:10px;
+    z-index:20;
+    background-color: #fff;
+    padding:5px;
+    border-radius:50%;
+    display:none;
+}
+.gift-img:active .red-wish{
+    display:flex;
+}
+
+.gift{
+    display: flex;
+    flex-direction:column;
+    padding-bottom: 24px;
+    position: relative; 
+    cursor:pointer;
+}
+.gift:hover {
+    box-shadow:0 4px 8px rgb(0 0 0 /20%);
+    border-radius:15px;
+}
+.gift-vdo{
+    display:none;
+}
+.gift-vdo video{
+    border-top-right-radius: 12px;
+    border-top-left-radius:12px;
+    object-fit: cover;
+    height:auto;
+    width:100%;
+}
+.gift:hover .gift-vdo{
+    display:flex;
+    position:absolute;
+    top:0;
+    z-index:10;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.gift-text{
+    padding-left:10px;
+}
+.gift-text h3{
+    font-size:13px;
+    color:#222222;
+    font-family:"etsy-regular";
+    display:-webkit-box;
+    -webkit-line-clamp:1;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    font-weight:700;
+   letter-spacing: .1px;
+    margin-block:3px;
+    line-height:18px;
+}
+.gift-text span img{
+    width:12.45px;
+    height:12.45px;
+    margin-right:-4px
+}
+.gift-text span{
+    white-space:nowrap;
+}
+.price{
+    display:flex;
+    flex-direction:column;
+    padding-left:12px;
+}
+ .ofr-price{
+    font-size: 16px;
+    font-weight:700;
+    font-family:"etsy-regular";
+}
+.org-price{
+    font-size:13px;
+    font-family:"etsy-regular";
+    color:#258635;
+    text-decoration: line-through;
+}
+.off{
+    font-size:13px;
+    font-family:"etsy-regular";
+    color:#258635;
+}
+.gift-text span{
+    font-size:13px;
+    color:#595959;
+}
+.filter-price{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border:2px solid #c0bcbc;
+    border-radius: 30px;
+    width:250px;
+    max-width:1400px;
+    margin-inline:auto;
+    margin-top:20px;
+}
+.filter-price input{
+    width:100px;
+    border:none;
+    font-weight:bold;
+}
+.filter-price input:focus{
+    outline: none;
+}
+.filter-price button{
+    width:56px;
+    height: 35px;
+    background-color: #fff;
+    border:none;
+    margin-right:10px;
+    background-color: #258635;
+    color: #fff;
+    border-radius:30px;
+}
+.free {
+    font-size:11px;
+    font-family: "etsy-regular";
+    background-color:#D4E9D7;
+    padding:3px 6px;
+    font-weight:bold;
+    min-width:17px;
+    border-radius:15px;
+    text-align:center;
+    width:86px;
+    margin-top:6px;
+    margin-left:8px;
+}
+.footer-one svg {
+    height: 100px;
+    width:100%;
+}
+.footer-one{
+    background-color:#fdebd2;
+    padding-bottom:100px;
+}
+.community-text h2{
+    font-size:32px;
+    font-family:"etsy-light";
+    margin-bottom:6px;
+    font-weight: 300;
+}
+.community-text {
+    text-align:center;
+    color:#222222;
+}
+.community-text a{
+    color:#000;
+    font-size:14px;
+    font-family:"etsy-light"
+}
+.container{
+    padding:36px 30px;
+}
+.support{
+    padding-bottom:30px;
+    text-align: center;
+}
+.support h3{
+    font-size:24px;
+    margin-bottom:18px;
+    font-family: "etsy-regular";
+
+}
+.support p{
+    line-height:28px;
+    font-size:16px;
+    font-weight:400;
+    font-family:"etsy-light";
+}
+.support span{
+    text-decoration:underline;
+    text-decoration-style: dashed;
+    text-underline-position:under;
+}
+.help{
+    text-align: center;
+    margin-inline:22px;
+}
+
+.help h4{
+    font-size:18px;
+    line-height:28px;
+    font-family:"etsy-regular";
+    margin-bottom:22px;
+}
+.help a{
+    padding:12px 18px;
+    border:2px solid #222222;
+    color:#222222;
+    border-radius:24px;
+    font-size:16px;
+    font-family:"etsy-regular";
+    text-decoration:none;
+}
+.help a:hover {
+      box-shadow:2px 4px 10px  rgb(0 0 0/40%);
+}
+.footer-two{
+    background-color:#D7E6F5;
+    position:relative;
+    padding-bottom: 36px;
+}
+.footer-two svg{
+    position: absolute;
+    z-index: 10;
+    top:-30px;
+}
+.send{
+    text-align: center;
+    padding-top:18px;
+    padding-inline:24px;
+}
+.send p{
+   color:#222222;
+   font-size:16px;
+   font-family: "etsy-regular";
+   margin-bottom:12px;
+}
+.mail{
+    display: flex;
+    border-radius: 96px;
+    box-shadow:1px 2px 4px 0 rgb(34 34 34/10%);
+    background-color: #fff;
+    max-width:640px;
+    margin-inline: auto;
+}
+.mail button{
+    border:0;
+    padding-right:21px;
+    padding-left:15px;
+    padding-block:12px;
+    color:#222;
+    font-weight:bold;
+    font-size:16px;
+    white-space:nowrap;
+    border-bottom-right-radius:96px;
+    border-top-right-radius: 96px;
+    background-color: #fff;
+}
+.electricity{
+    background-color: #4D6BC6;
+    margin-top:-51px;
+    display:flex;
+    flex-direction: column;
+    padding-top:50px;
+    padding-bottom:20px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-three {
+    overflow: hidden;
+}
+.footer-three svg{
+    width:100%;
+}
+.electricity img{
+    width:36px;
+    height: 36px;
+    margin-bottom:6px;
+}
+.electricity p{
+    color:#fff;
+    margin-inline:12px;
+    font-size:16px;
+    text-align: center;
+    font-family:"etsy-regular";
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-position:under;
+}
+.drop-down button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    padding:18px;
+    margin-bottom:12px;
+    background-color: #2f466c;
+    border:0;
+    font-size:16px;
+    font-family:"etsy-regular";
+    color:#fff;
+    border-radius: 20px;
+}
+.dropdown{
+    display:flex;
+}
+.drop-down button:active {
+    background-color: #365481;
+}
+.drop-down button:hover {
+    background-color: #365481;
+}
+.footer-four{
+    background-color: #2f466c;
+    color:#fff;
+    font-weight:400;
+    font-size:13px;
+    line-height:18px;
+    padding:12px;
+}
+.drop-content li{
+    list-style-type: none;
+    padding-inline:22px;
+    font-size:13px;
+    font-family:"etsy-regular";
+    padding-top:6px;
+    padding-bottom:12px;
+}
+.drop-content li:hover {
+    text-decoration:underline;
+}
+.help center{
+    display:flex;
+}
+.drop-content-help li{
+    list-style-type: none;
+    padding-inline:22px;
+    font-size:13px;
+    font-family:"etsy-regular";
+    padding-top:6px;
+    padding-bottom:12px;
+}
+.drop-content-help li:hover {
+    text-decoration:underline;
+}
+.social-mb{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social-mb button{
+    background-color: #2f466c;
+    border:1px solid #fff;
+    color:#fff;
+    border-radius:30px;
+    display:flex;
+    padding:10px;
+    margin-top:25px;
+    align-items: center;
+}
+.social-mb button img{
+    padding-right:10px;
+}
+.social{
+    margin-top:16px;
+}
+.social img{
+    padding:6px;
+}
+.footer-dt{
+    display:none;
+}
+.footer-last{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 3, 43);
+    color:#fff;
+    padding:18px 24px;
+}
+.footer-last a{
+    color:#fff;
+    text-decoration:underline;
+    padding-right:12px;
+    text-align:center;
+    font-size:13px;
+    font-family:"etsy-regular";
+}
+.terms-and-privacy{
+    margin-inline:auto;
+    margin-top:16px;
+}
+.copyright{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-top:10px;
+    font-size: 13px;
+}
+.india img{
+    transform: translateY(6px);
+    padding-right:5px;
+}
+.india span{
+    font-size:13px;
+    font-family:"etsy-regular";
+    margin-inline:4px;
+    font-weight:700;
+}
+.footer-last-section{
+    background-color:rgb(3, 3, 43);
+}
+.dropdown{
+    position: absolute;
+    transition:all 0.1s cubic-bezier(0.16, 1, 0.5,1);
+    transform: translateY(0.5rem);
+    visibility:hidden;
+    opacity:0;
+}
+.show{
+    display:none;
+}
+.arrow{
+    transform:rotate(180deg);
+    transition:0.2s ease;
+}
+
+.content-add h2{
+    font-size:18px;
+    font-family:"etsy-regular";
+    text-align: center;
+}
+.content-add i{
+    margin-left:5px;
+    transform: scale(0.6);
+}
+.fresh-blog{
+    display:flex;
+    flex-direction:row;
+    margin-block:20px;
+    margin-inline:10px;
+    width:96%;
+    border:1px solid #d4d0d0;
+    border-radius:12px;
+    cursor:pointer;
+}
+.fresh-blog:hover{
+    box-shadow:0 4px 8px rgb(0 0 0 /20%);
+}
+.fresh-blog img{
+    width:45vw;
+    height:50vw;
+    margin-right:10px;
+   border-bottom-left-radius:12px;
+   border-top-left-radius:12px;
+}
+.add-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:6px;
+}
+.add-text span{
+    font-size:13px;
+    line-height:18px;
+    font-weight:400;
+    font-family:"etsy-regular";
+}
+.add-text h3{
+    font-weight:700;
+    font-size:16px;
+    line-height:20px;
+    font-family:"etsy-regular";
+    padding-block:12px;
+}
+.add-text p{
+    display:none;
+}
+@media screen and (min-width:480px){
+    .items{
+        grid-template-columns:1fr 1fr 1fr;
+    }
+    .price{
+        display: flex;
+        flex-direction: row;
+    }
+    .offr{
+        padding-left:5px;
+    }
+    .offr p{
+        transform: translate(-54px);
+    }
+    .copyright{
+        display:flex;
+        flex-direction:row;
+    }
+    .terms-and-privacy{
+        margin-top:0;
+        margin-left:14px;
+    }
+}
+@media screen and (min-width:640px){
+    .discover ul{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+        max-width:900px;
+        margin-inline: auto;
+    }
+   .bg{
+    height:75px;
+   }
+   .discover ul{
+    margin-top:-101px;
+    margin-right:24px;
+   }
+   .popular h2{
+    font-size:28px;
+    text-align: left;
+    padding-left:24px;
+    font-family:"etsy-regular";
+   }   
+   .gift-popular{
+    grid-template-columns:1fr 1fr 1fr;
+   }
+   .gift-img{
+    width:31vw;
+    height:30vw;
+}
+.gift-text{
+    font-size:16px;
+    padding-top:8px;
+}
+.electricity{
+    flex-direction:row;
+}
+.footer-four{
+    display:none;
+}
+.footer-dt{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:24px;
+    background-color:#2f466c;
+    color:#fff;
+    font-family:"etsy-regular";
+    font-size:13px;
+    font-weight:400;
+    line-height:18px;
+    padding-top:36px;
+    padding-inline:24px;
+    padding-bottom:24px;
+    max-width:1400px;
+    margin-inline:auto;
+}
+.footer-four-dt{
+    background-color:#2f466c;
+}
+.list-one h3{
+    margin-bottom:12px;
+    font-size:16px;
+    font-family:"etsy-regular";
+}
+.list-one a{
+    text-decoration:none;
+    color: #fff;
+    display:flex;
+    flex-direction: column;
+    padding-block:6px;
+    font-size:13px;
+    font-family:"etsy-regular"
+}
+.list-one button{
+    background-color: #2f466c;
+    border:2px solid #fff;
+    color:#fff;
+    border-radius:35px;
+    display:flex;
+    padding:8px;
+    margin-top:25px;
+    display:flex;
+    align-items: center;
+}
+.list-one button:hover {
+    padding:9px;
+    border:2.9px solid #fff;
+}
+.list-one button img{
+    padding-right:10px;
+}
+.social{
+    margin-top:20px;
+    width:-1%;
+}
+.social img{
+     padding-inline:4px;
+}
+.social img:hover {
+      border-radius: 50%;
+      background-color:#506487;
+    
+}
+.content-add{
+    max-width:1400px;
+    margin-inline: auto;
+}
+.content-add h2{
+    font-size:28px;
+    text-align: left;
+    padding-left:18px;
+}
+.fresh-blog{
+    display:flex;
+    flex-direction:column;
+}
+.add-card{
+    display: flex;
+    flex-direction:row;
+}
+.fresh-blog img{
+    width:100%;
+    height:100%;
+    margin-right:0;
+    border-top-right-radius:12px;
+    border-top-left-radius:12px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.add-text span{
+    margin-top:16px;
+}
+.add-text p{
+    display:block;
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    margin-bottom:50px;
+    margin-top:10px;
+}
+}
+@media screen and (min-width:900px) {
+   .header-mb{
+    display:none;
+   }
+   .header-dt{
+    display: flex;
+    flex-direction: row;
+    margin-inline:8px;
+    padding:12px 36px;
+    max-width:1400px;
+    margin-inline:auto;
+   }
+   .header-dt img{
+    padding:8px;
+   }
+   .header-dt img:hover {
+    background-color:#eae2e2;
+    border-radius: 50%;
+   }
+   .collections{
+    display: flex;
+    align-items: center;;
+    justify-content:space-between;
+    margin-left:72px;
+    margin-right:72px;
+    padding-inline:36px;
+    max-width:1400px;
+    margin-inline:auto;
+   }
+   .collections ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width:100%;
+   }
+   .collections li {
+    list-style-type:none;
+    margin-top:4px;
+    margin-right:12px;
+    padding-bottom:12px;
+    font-size:13px;
+    font-family:"etsy-regular";
+   }
+   .collections li:hover {
+      border-bottom: 2px solid #111;
+   }
+   .discover p{
+    font-size:16px;
+    margin-block:14px;
+    width: 115px;
+   }
+   .discover img{
+    width:115px;
+    height:115px;
+   }
+   .deals {
+    padding-inline:30px;
+   }
+   .items{
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-inline:34px;
+    max-width:1400px;
+    gap:20px;
+    margin-inline:auto;
+    padding-top: 20px;
+   }
+   .popular h2{
+    padding-left:24px;
+    max-width:1400px;
+    margin-inline:auto;
+   }
+   .gift-popular{
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    padding-inline:24px;
+    max-width:1400px;
+    gap:20px;
+    margin-inline:auto;
+   }
+   .gift-img{
+    width:100%;
+    height:100%;
+    position:relative;
+   }
+   .gift:nth-child(6) {
+    display: none;
+   }
+   .container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:24px;
+    max-width:1400px;
+    margin-inline:auto;
+   }
+   .support{
+    text-align: left;
+   }
+   .footer-last{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin-inline:auto;
+   }
+}
+@media screen and (min-width:977px) {
+    .discover h2{
+        font-size: 32px;
+    }
+    .discover ul{
+        margin-top:-128px;
+        max-width: 1200px;
+        margin-inline:auto;
+    }
+    .bg {
+        height:112px;
+    }
+}
+@media screen and (min-width:1400px){
+    .vdo-btn{
+        bottom:30px;
+    }
+}
