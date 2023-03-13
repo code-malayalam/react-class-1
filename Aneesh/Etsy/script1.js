@@ -7,10 +7,12 @@ import jsonDataToObj from "./fetch.js";
 
 import {categoryListIdName, popularGiftImgContainerClassName, popularGiftCardClassName, discoverCategoryContainerClassName,dealsContainerClassName, footerDropDownBtns, fullStar, halfStar} from './constants.js'
 
-const URL =
-  "https://raw.githubusercontent.com/anmh265/JSON-Etsy/main/Data.json";
+const URL = "https://raw.githubusercontent.com/anmh265/JSON-Etsy/main/Data.json";
 
-jsonDataToObj(URL);
+jsonDataToObj(URL)
+.then(data => {
+  callFunctions(data)
+})
 
 function callFunctions(data) {
   createCategoryList(data.categoriesData, categoryListIdName);
