@@ -1,50 +1,91 @@
 import {
-  categorylistItteration,
-  deaOfDay,
-  discoverListItteration,
-  popularGiftCardSingle,
-  selectionItemsFn,
+  category,
+  discoverItems,
+  dealsCard,
+  sinlgeCard,
+  totalContainer,
+  dropdown,
+  toatlSection,
+  svgHalfRating,
+  svgFullRating,
+} from "./constant.js";
+import { forFetchApi } from "./api.js";
+import {
+  categorylistItterationHtml,
+  discoverListItterationHtml,
+  dealOfDayHtml,
+  popularGiftCardSingleHtml,
+  selectionItemsHtml,
 } from "./templates.js";
 
-import { dropdown } from "./constant.js";
+forFetchApi(
+  "https://raw.githubusercontent.com/1hisham/traing-oct/main/server/categorylist.json"
+).then((items) => {
+  categorylistItteration(items);
+});
 
-(function () {
-  fetch(
-    "https://raw.githubusercontent.com/1hisham/traing-oct/main/server/categorylist.json"
-  )
-    .then((response) => response.json())
-    .then((categorylist) => {
-      categorylistItteration(categorylist);
-    });
-})();
+export function categorylistItteration(items) {
+  let totalcards = items.map((item) => {
+    return categorylistItterationHtml(item);
+  });
+  category.innerHTML = totalcards.join("");
+}
 
-// second section
+forFetchApi(
+  "https://raw.githubusercontent.com/1hisham/traing-oct/main/server/discoverlist.json"
+).then((discoverlist) => {
+  discoverListItteration(discoverlist);
+});
+export function discoverListItteration(items) {
+  const totalCards = items.map((item) => {
+    return discoverListItterationHtml(item);
+  });
+  discoverItems.innerHTML = totalCards.join(" ");
+}
 
-(function () {
-  fetch(
-    "https://raw.githubusercontent.com/1hisham/traing-oct/main/server/discoverlist.json"
-  )
-    .then((response) => response.json())
-    .then((discoverlist) => {
-      discoverListItteration(discoverlist);
-    });
-})();
+forFetchApi(
+  "https://raw.githubusercontent.com/1hisham/traing-oct/main/server/imageCardsItems.json"
+).then((items) => {
+  dealOfDay(items);
+});
+export function dealOfDay(items) {
+  const totalCards = items.map((item) => {
+    return dealOfDayHtml(item);
+  });
+  dealsCard.innerHTML = totalCards.join(" ");
+}
 
+forFetchApi(
+  "https://raw.githubusercontent.com/1hisham/traing-oct/main/server/popularGiftsNow.json"
+).then((items) => {
+  calculationDiscount(items);
+  popularGiftCardSingle(items);
+});
 
-(function () {
-  fetch(
-    "https://raw.githubusercontent.com/1hisham/traing-oct/main/server/imageCardsItems.json"
-  )
-    .then((response) => response.json())
-    .then((imgaeCardsItems) => {
-      deaOfDay(imgaeCardsItems);
-    });
-})();
+export function popularGiftCardSingle(items) {
+  const totalCards = items.map((item) => {
+    return popularGiftCardSingleHtml(item);
+  });
+  sinlgeCard.innerHTML = totalCards.join(" ");
+}
+
+forFetchApi(
+  "https://raw.githubusercontent.com/1hisham/traing-oct/main/server/selectionItems.json"
+).then((data) => {
+  selectionItems(data);
+});
+
+export function selectionItems(items) {
+  const totalCards = items.map((item) => {
+    return selectionItemsHtml(item);
+  });
+  totalContainer.innerHTML = totalCards.join(" ");
+}
 
 //Popular gift right now functions
 //  DISCOUNT PRICE
 
-export function calculationDiscount(products) {
+function calculationDiscount(products) {
   let discountPrice = 0;
   let price = 0;
   let priceArray = [];
@@ -60,20 +101,14 @@ export function calculationDiscount(products) {
 // STAR RATING
 
 export function starRatingAmount(key) {
-  let svgHalf = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="3 3 18 18" aria-hidden="true" focusable="false"><path class="foreground" d="M12 4c-.224 0-.42.15-.48.366l-1.67 5.642H4.5c-.218.002-.41.145-.472.354-.064.208.014.433.193.557l4.307 3.07-1.5 5.33c-.08.202-.02.433.15.57.17.14.41.15.59.03L12 16.98V4z"></path></svg>`;
-  let svg = `<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="3 3 18 18" aria-hidden="true" focusable="false" width="18" height="18"><path d="M19.985,10.36a0.5,0.5,0,0,0-.477-0.352H14.157L12.488,4.366a0.5,0.5,0,0,0-.962,0l-1.67,5.642H4.5a0.5,0.5,0,0,0-.279.911L8.53,13.991l-1.5,5.328a0.5,0.5,0,0,0,.741.6l4.231-2.935,4.215,2.935a0.5,0.5,0,0,0,.743-0.6l-1.484-5.328,4.306-3.074A0.5,0.5,0,0,0,19.985,10.36Z" fill="#222222"></path></svg>`;
-  svg = "";
-
+  let svg = "";
   for (let i = 1; i <= key; i++) {
-    svg =
-      svg +
-      `<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="3 3 18 18" aria-hidden="true" focusable="false" width="18" height="18"><path d="M19.985,10.36a0.5,0.5,0,0,0-.477-0.352H14.157L12.488,4.366a0.5,0.5,0,0,0-.962,0l-1.67,5.642H4.5a0.5,0.5,0,0,0-.279.911L8.53,13.991l-1.5,5.328a0.5,0.5,0,0,0,.741.6l4.231-2.935,4.215,2.935a0.5,0.5,0,0,0,.743-0.6l-1.484-5.328,4.306-3.074A0.5,0.5,0,0,0,19.985,10.36Z" fill="#222222"></path></svg>`;
+    svg = svg + svgFullRating;
   }
   if (key % 1 !== 0) {
-    svg = svg + svgHalf;
+    svg = svg + svgHalfRating;
     return svg;
   }
-
   return svg;
 }
 
@@ -86,28 +121,6 @@ export function freeDeliveryAvaliability(key) {
     return "no-delivery";
   }
 }
-
-(function () {
-  fetch(
-    "https://raw.githubusercontent.com/1hisham/traing-oct/main/server/popularGiftsNow.json"
-  )
-    .then((response) => response.json())
-    .then((popularGiftsNow) => {
-      calculationDiscount(popularGiftsNow);
-
-      popularGiftCardSingle(popularGiftsNow);
-    });
-})();
-
-// POPULAR-GIFT
-
-fetch(
-  "https://raw.githubusercontent.com/1hisham/traing-oct/main/server/selectionItems.json"
-)
-  .then((response) => response.json())
-  .then((selectionItems) => {
-    selectionItemsFn(selectionItems);
-  });
 
 function footerFaq() {
   dropdown.forEach((btn, i) => {
