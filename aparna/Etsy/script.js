@@ -1,16 +1,31 @@
 "use strict";
-import { createDealContainer } from "./deal.js";
-import { generatePopularContainer } from "./popular.js";
-import { createDiscoverContainer } from "./discover.js";
-import { generateAboutEtsy } from "./about.js";
-import { mainInnerHTML } from "./main.js";
-import { whatIsEtsyInnerHTML } from "./what.js";
-import { createFooterHTML } from "./footer.js";
-import { createNavBar, clearPopularContainer,createDropdowns,toFilterPrice,createSocialIcons } from "./functions.js";
-// constants and configurations
+// import { createDealContainer } from "./deal.js";
+// import { generatePopularContainer } from "./popular.js";
+// import { createDiscoverContainer } from "./discover.js";
+// import { generateAboutEtsy } from "./about.js";
+// import { mainInnerHTML } from "./main.js";
+// import { whatIsEtsyInnerHTML } from "./what.js";
+// import { createFooterHTML } from "./footer.js";
+import {
+  createNavBar,
+  clearPopularContainer,
+  createDropdowns,
+  toFilterPrice,
+  createSocialIcons,
+} from "./functions.js";
+
+import {
+  generateAboutEtsy,
+  createDealContainer,
+  createDiscoverContainer,
+  createFooterHTML,
+  mainInnerHTML,
+  generatePopularContainer,
+  whatIsEtsyInnerHTML,
+} from "./templates.js";
+
 
 const navDivID = "#categories";
-
 
 mainInnerHTML();
 whatIsEtsyInnerHTML();
@@ -24,17 +39,17 @@ const generateHomePage = fetch(
 )
   .then((response) => response.json())
   .then((generateHomePage) => {
-  
-    createNavBar(navDivID,generateHomePage.categoryList,"li","category-list");
+    createNavBar(
+      navDivID,
+      generateHomePage.categoryList,
+      "li",
+      "category-list"
+    );
     createDiscoverContainer(generateHomePage.discoverItems);
     createDealContainer(generateHomePage.clothCategory);
     generatePopularContainer(generateHomePage.popularItems);
     generateAboutEtsy(generateHomePage.whatEtsyDo);
     createSocialIcons(generateHomePage.socialIcons);
-    createDropdowns()
+    createDropdowns();
     toFilterPrice(generateHomePage.popularItems);
   });
-
-
-
-  
