@@ -6,13 +6,25 @@ const starSVG =
 const halfStar =
   '<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="3 3 18 18" aria-hidden="true" focusable="false" width="18" height="18"><path class="background" d="M12.007 16.97l4.21 2.95c.182.12.422.11.592-.027.17-.138.23-.37.15-.574l-1.484-5.33 4.306-3.073c.182-.12.265-.347.203-.557-.065-.21-.258-.352-.477-.352h-5.35l-1.67-5.642c-.06-.215-.257-.363-.48-.363-.225 0-.42.148-.482.363v12.94l.48-.335z" fill="#E1E3DF"></path><path class="foreground" d="M12 4c-.224 0-.42.15-.48.366l-1.67 5.642H4.5c-.218.002-.41.145-.472.354-.064.208.014.433.193.557l4.307 3.07-1.5 5.33c-.08.202-.02.433.15.57.17.14.41.15.59.03L12 16.98V4z" fill="#222222"></path></svg>';
 
+const giftSVG = `<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 5 22 12" width="16" height="12" aria-hidden="true" focusable="false"><path d="M5,6A1,1,0,0,0,4,7v3H5v9a1,1,0,0,0,1,1h5V6H5Z"></path><path d="M19,6H13.007A4.245,4.245,0,0,0,14.97,3.744a1.614,1.614,0,0,0-2.65-1.375,1.757,1.757,0,0,0-.315.324,1.753,1.753,0,0,0-.315-0.324A1.615,1.615,0,0,0,9.042,3.746,4.257,4.257,0,0,0,11.006,6H13V20h5a1,1,0,0,0,1-1V10h1V7A1,1,0,0,0,19,6Z"></path></svg> `;
+
+export function navBarTemplate(item) {
+  const { img, title } = item;
+  const html = `
+    <li class='list'>${img === '' && img !== giftSVG ? title : img + title}<li>
+    `;
+
+  return html;
+}
+
 export function overviewTemplate(item) {
+  const { url, name } = item;
   const html = `
     <li>
       <div class="overview-img">
-      <img src="${item.url}"/>
+      <img src="${url}"/>
       </div>
-      <p>${item.name}</p>
+      <p>${name}</p>
     </li>
     `;
 
@@ -20,12 +32,13 @@ export function overviewTemplate(item) {
 }
 
 export function dealsTemplate(item) {
+  const { url, discount, category } = item;
   const html = `
        <li>
-         <div class="deals-img"><img src="${item.url}"</div>
+         <div class="deals-img"><img src="${url}"</div>
          <div class="deals-txt">
-           <span>${item.discount}</span>
-           <p>${item.category}</p>
+           <span>${discount}</span>
+           <p>${category}</p>
          </div>
        </li>
     `;
@@ -34,32 +47,31 @@ export function dealsTemplate(item) {
 }
 
 export function giftsTemplate(item, idx) {
-  // console.log(item)
+  const { url, video, name, rating, currencySymbol, actualprice, discount } =
+    item;
   const html = `
     <div class="gift-items">
     <div class="gift-img">
-       <video poster="${item.url}" class="video" loop="true" src="${
-    item.video
-  }"></video>
+       <video poster="${url}" class="video" loop="true" src="${video}"></video>
       <div class="like-gift">${likedImageSVG}</div>
       ${playButton(item, idx)}
     </div>
     <div class="gift-txt">
-      <h3>${item.name}</h3>
+      <h3>${name}</h3>
       <div class="rating">
         <div class="star-rating">${starRating(item)}</div>
-        <p>(${item.rating})</p>
+        <p>(${rating})</p>
       </div>
       <div class="price">
-        <p class="priceActual">${item.currencySymbol}${discountPercentage(
-    item.actualprice,
-    item.discount
+        <p class="priceActual">${currencySymbol}${discountPercentage(
+    actualprice,
+    discount
   )}</p>
-        <span>${item.currencySymbol}${item.actualprice}</span>
-        <a href="">(${item.discount}% off)</a>
+        <span>${currencySymbol}${actualprice}</span>
+        <a href="">(${discount}% off)</a>
       </div>
     </div>
-    <div class="gift-name">${item.name}</div>
+    <div class="gift-name">${name}</div>
     ${createDeliveryIcon(item, idx)}
     </div>
     `;
@@ -68,11 +80,7 @@ export function giftsTemplate(item, idx) {
 
 function createDeliveryIcon(data, idx) {
   if (data.actualprice > 2000) {
-    const deliveryElement = document.createElement('div');
-    deliveryElement.classList.add('delivery');
-    deliveryElement.innerHTML = 'FREE Delivery';
-
-    return deliveryElement.outerHTML;
+    return `<div class='delivery'>Free Delivery</div>`;
   } else {
     return '';
   }
@@ -81,18 +89,13 @@ function createDeliveryIcon(data, idx) {
 function playButton(data, idx) {
   // console.log(data)
   if (data.urlType === 'Video') {
-    const playButtonTab = document.createElement('div');
-    playButtonTab.classList.add('play-btn');
-    playButtonTab.innerHTML = playButtonSVG;
-
-    return playButtonTab.outerHTML;
+    return `<div class='play-btn'>${playButtonSVG}</div>`;
   } else {
     return '';
   }
 }
 
 function starRating(data) {
-  // console.log(data);
   let x = '';
 
   for (let i = 0; i < data.ratingStar; i++) {
