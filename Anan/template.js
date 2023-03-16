@@ -9,16 +9,24 @@ const halfStar =
 const giftSVG = `<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 5 22 12" width="16" height="12" aria-hidden="true" focusable="false"><path d="M5,6A1,1,0,0,0,4,7v3H5v9a1,1,0,0,0,1,1h5V6H5Z"></path><path d="M19,6H13.007A4.245,4.245,0,0,0,14.97,3.744a1.614,1.614,0,0,0-2.65-1.375,1.757,1.757,0,0,0-.315.324,1.753,1.753,0,0,0-.315-0.324A1.615,1.615,0,0,0,9.042,3.746,4.257,4.257,0,0,0,11.006,6H13V20h5a1,1,0,0,0,1-1V10h1V7A1,1,0,0,0,19,6Z"></path></svg> `;
 
 export function navBarTemplate(item) {
-  const { img, title } = item;
+  const {
+        img, 
+        title
+        } = item;
   const html = `
-    <li class='list'>${img === '' && img !== giftSVG ? title : img + title}<li>
+    <li class='list'>
+    ${img === '' && img !== giftSVG ? title : img + title}
+    <li>
     `;
 
   return html;
 }
 
 export function overviewTemplate(item) {
-  const { url, name } = item;
+  const {
+         url, 
+         name 
+        } = item;
   const html = `
     <li>
       <div class="overview-img">
@@ -32,7 +40,11 @@ export function overviewTemplate(item) {
 }
 
 export function dealsTemplate(item) {
-  const { url, discount, category } = item;
+  const {
+         url, 
+         discount, 
+         category 
+        } = item;
   const html = `
        <li>
          <div class="deals-img"><img src="${url}"</div>
@@ -47,8 +59,15 @@ export function dealsTemplate(item) {
 }
 
 export function giftsTemplate(item, idx) {
-  const { url, video, name, rating, currencySymbol, actualprice, discount } =
-    item;
+  const { 
+         url, 
+         video, 
+         name, 
+         rating, 
+         currencySymbol, 
+         actualprice, 
+         discount 
+        } = item;
   const html = `
     <div class="gift-items">
     <div class="gift-img">
@@ -87,7 +106,6 @@ function createDeliveryIcon(data, idx) {
 }
 
 function playButton(data, idx) {
-  // console.log(data)
   if (data.urlType === 'Video') {
     return `<div class='play-btn'>${playButtonSVG}</div>`;
   } else {
