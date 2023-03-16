@@ -1,75 +1,102 @@
 import { playButton } from "./script.js"
-import { rating } from "./script.js"
+import { ratingStars } from "./script.js"
 import { calculateActualPrice } from "./script.js"
 import { popularDelivery } from "./script.js"
 import { wishlistHover } from "./script.js"
 import { athenusNewPrice } from "./script.js"
+import { etsyJson } from "./response.js"
+
 
 function discoverCards(element) {
+    const {
+        url,
+        name
+    } = element
     return `<div class="discover_card">
             <div class="discover_card_img">
-            <img src="${element.url}">
+            <img src="${url}">
             </div>
-            <div class="discover_card_name">${element.name}
+            <div class="discover_card_name">${name}
             </div>
         </div>
         `
 }
 
 function createdealCards(element) {
+
+    const {
+        url,
+        offer,
+        name
+    } = element
     return `
         <div class="deal_card">
         <div class="deal_image">
-        <img src="${element.url}">
+        <img src="${url}">
         </div>
-        <div class="deals_off">${element.offer}</div>
-        <div class="deals_name">${element.name}</div>
+        <div class="deals_off">${offer}</div>
+        <div class="deals_name">${name}</div>
         
         </div>
         `
 }
 
 function popularcardList(element) {
+    const {
+        url,
+        button,
+        videoURL,
+        name,
+        rating,
+        raters,
+        symbol,
+        oldPrice,
+        offer,
+        delivery,
+        wishlist,
+        activewishlist,
+        detail
+    } = element
     return `
     <div class="popular_card">
         <div class="popular_image">
-            <img src=${element.url}>
-            ${playButton(element.button, element.videoURL)}
+            <img src=${url}>
+            ${playButton(button, videoURL)}
         </div>
        
       
         <div class="popular_name">
-            ${element.name}
+            ${name}
         </div>
 
         <div class="popular_ratings">
             
-                ${rating(element.rating)}
+                ${ratingStars(rating)}
             <div class="rated">
-                (${element.raters})
+                (${raters})
             </div>
         </div>
         <div class="popular_amount">
         <div class="popular_price">
-            ${element.symbol}${(calculateActualPrice(element.oldPrice, element.offer))}
+            ${symbol}${(calculateActualPrice(oldPrice, offer))}
         </div>
         <div class="popular_offer">
             <div class="popular_oldprice">
-                ${element.symbol}${element.oldPrice}
+                ${symbol}${oldPrice}
             </div>
             <div class="new_offer">
-            ${element.offer}% off on
+            ${offer}% off on
             </div>
         </div>                                                                                    
-         ${popularDelivery(element.delivery)}
+         ${popularDelivery(delivery)}
          </div>
          <div class="wishlist_items">
             <button class="wishlist_hover">
-                ${wishlistHover(element.wishlist, element.activewishlist)}
+                ${wishlistHover(wishlist, activewishlist)}
             </button>
          </div>
          <div class="popular_detail">
-         ${element.detail}
+         ${detail}
          </div>
 
     </div>
@@ -77,16 +104,22 @@ function popularcardList(element) {
 `
 }
 function athenusCardslistItem(element){
+    const {
+        url,
+        currencySymbol,
+        newPrice,
+        oldPrice
+    } = element
     return `
     <div class="athenus_card">
         <div class="athenus_card_img">
-            <img src= ${element.url}>
+            <img src= ${url}>
         </div>
         <div class="price">
             <div class="new_price">
-                ${element.currencySymbol}${element.newPrice}
+                ${currencySymbol}${newPrice}
              </div>
-            ${athenusNewPrice(element.oldPrice, element.currencySymbol)}
+            ${athenusNewPrice(oldPrice, currencySymbol)}
         </div>
     </div>
     `
