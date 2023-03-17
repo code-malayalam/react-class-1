@@ -1,0 +1,1023 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "etsy-light";
+  src: url(assets/font/Guardian-EgypTT-Light.woff2);
+}
+@font-face {
+  font-family: "etsy-regular";
+  src: url(assets/font/Graphik-Regular-Web.woff2);
+}
+@font-face {
+  font-family: "etsy-medium";
+  src: url(assets/font/Graphik-Medium-Web.woff2);
+}
+body {
+  color: #222;
+}
+.header {
+  padding: 7px 12px 10px 9px;
+}
+.mob_header {
+  display: flex;
+  justify-content: space-between;
+}
+.header_icons {
+  display: flex;
+  /* padding-bottom: 7px */
+}
+.mob_signin {
+  font-size: 13px;
+  font-family: "etsy-medium";
+  padding: 9px 19px 9px 15px;
+  letter-spacing: 0.03;
+}
+.mob_like {
+  padding: 4px 10px 12px 12px;
+}
+.mob_basket {
+  padding: 4px 12px 12px 12px;
+}
+.mob_header_search_bar {
+  display: flex;
+  align-items: center;
+}
+
+.mob_hamburger {
+  padding-right: 12px;
+  margin: 7px 0px 12px 3px;
+}
+.mob_nav_search_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #222222;
+  height: 26px;
+  border-radius: 32px;
+  background-color: rgb(243, 243, 243);
+  padding: 9px 20px 9px 0px;
+  margin-top: -8px;
+  flex-basis: 100%;
+}
+.mob_search {
+  border: none;
+  background-color: transparent;
+  height: 30px;
+  padding: 9px 42px 9px 18px;
+  font-size: 16px;
+  width: 70%;
+  overflow: hidden;
+}
+.mob_search_button {
+  border: none;
+  background-color: transparent;
+  padding: 2px 2px 0px;
+}
+.nav_header {
+  display: none;
+}
+.seller_items {
+  display: none;
+}
+.seller_items {
+  max-width: 1400px;
+  margin-inline: auto;
+}
+.seller_items ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "etsy-regular";
+  font-size: 13px;
+  padding: 0px 36px;
+  margin: 0px 20px 0px 20px;
+}
+.seller_items li:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #000;
+}
+.seller_items li {
+  list-style-type: none;
+  gap: 10px;
+  margin: 3px 10px 0px 0px;
+  padding: 0px 0px 12px;
+}
+/* .seller_items li svg {
+  padding: 2px 3px 0px 0px;
+} */
+.discover_heading {
+  padding: 20px 12px 14px;
+  letter-spacing: 0.36px;
+  font-size: 20px;
+  font-family: "etsy-light";
+  font-weight: 100;
+  line-height: 32px;
+  background-color: #d7e6f5;
+  text-align: center;
+  margin-top: -2px;
+}
+.discover_background {
+  background-color: #dfe6f5;
+  height: 200px;
+  width: 100%;
+}
+.discover_cards {
+  display: grid;
+  font-family: "etsy-medium";
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5.5%;
+  margin-top: -197px;
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.discover_card_img img {
+  width: 100%;
+  border-radius: 100px;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+}
+.discover_card_name {
+  font-size: 13px;
+  margin-bottom: 20px;
+  line-height: 18px;
+}
+.discover_card_img {
+  width: 85.29px;
+  margin: 0px 0px 3px;
+}
+.discover_card:hover {
+  width: 98px;
+  color: #222222;
+  border-bottom: 2px solid #222222;
+}
+.discover_card_img:hover {
+  width: 110px;
+}
+
+.deals_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: "etsy-medium";
+}
+.deals_day {
+  font-size: 24px;
+  flex-wrap: nowrap;
+}
+.shop_deals {
+  font-size: 13px;
+  white-space: nowrap;
+}
+.deals {
+  padding: 32px 12px 0px;
+}
+.deals_header {
+  margin-bottom: 10px;
+}
+.deals_cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 14px 0px;
+}
+.deal_card {
+  height: 100%;
+  margin-top: 7px;
+  border-radius: 12px;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+}
+.deal_card:hover {
+  box-shadow: 0px 8px 10px rgba(54, 49, 49, 0.15);
+}
+.deal_image img {
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.deals_off {
+  line-height: 16px;
+  font-size: 13px;
+  font-family: "etsy-regular";
+  padding: 7px 12px 0px;
+}
+.deals_name {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "etsy-medium";
+  padding: 6px 12px 24px;
+}
+.popular {
+  font-family: "etsy-regular";
+}
+.popular_card_section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px;
+}
+.popular_filter_button{
+  position: relative;
+}
+.popular_filter {
+  border: 1px solid #000;
+  border-radius: 12px;
+  height: 20px;
+  padding: 0px 5px ;
+  font-size: 10px;
+  cursor: pointer;
+  
+}
+.popular_filter::-webkit-inner-spin-button, 
+.popular_filter::-webkit-outer-spin-button{
+  display: none;
+}
+.popular_button{
+position: absolute;
+right: 10px;
+top: 8px;
+background-color: transparent;
+border: none;
+width: 20px;
+}
+.popular_heading {
+  padding: 24px 0px 18px;
+  font-family: "etsy-medium";
+  font-size: 18px;
+  text-align: center;
+}
+.popular_cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+/* .popular_card {
+  position: relative;
+} */
+.popular_image{
+  position: relative;
+}
+.popular_image img {
+  width: 100%;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  
+}
+
+.popular_name {
+  font-family: "etsy-medium";
+  font-size: 13px;
+  line-height: 18px;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  margin-bottom: 3px;
+  overflow: hidden;
+}
+.popular_ratings {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3px;
+}
+.popular_offer {
+  display: flex;
+}
+.rated {
+  font-size: 13px;
+}
+.popular_offer {
+  font-size: 13px;
+  color: #258635;
+  margin-bottom: 3px;
+}
+.new_offer{
+  margin-left: 5px;
+}
+.popular_price {
+  font-family: "etsy-medium";
+}
+.popular_delivery {
+  font-family: "etsy-medium";
+  font-size: 11px;
+  background-color: #d4e9d7;
+  border-radius: 15px;
+  width: fit-content;
+  padding: 3px 6px;
+}
+.popular_oldprice {
+  text-decoration: line-through;
+}
+.play_button svg {
+  width: 100%;
+}
+.play_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 100%;
+  padding: 5px;
+  position: absolute;
+  bottom: 25px;
+  right: 10px;
+}
+.popular_detail {
+  display: none;
+}
+.popular_card:hover .popular_detail {
+  display: flex;
+  background-color: #222222;
+  font-family: "etsy-regular";
+  font-size: 13px;
+  color: #fff;
+  padding: 2px 5px;
+  position: absolute;
+  top: 100px;
+  left: 25px;
+  width: 700px;
+  overflow: auto;
+  z-index: 3;
+  border: 1px solid #fff;
+}
+.play_video {
+  display: none;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.play_video video {
+  max-width: 431px;
+
+  object-fit: cover;
+}
+
+.popular_image:hover .play_video {
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+}
+.popular_card:hover {
+  border: 1px solid #fff;
+  box-shadow: 0px 2px 25px 3px rgba(85, 128, 146, 0.15);
+  border-radius: 12px;
+
+}
+
+.athenus {
+  margin: 30px 0px 42px 0px;
+}
+.athenus_heading {
+  text-align: center;
+}
+.athenus_header {
+  font-family: "etsy-medium";
+  font-size: 16px;
+}
+.athenus_subheading {
+  font-family: "etsy-regular";
+  font-size: 13px;
+  color: #595959;
+  padding: 15px;
+}
+.athenus_subheading case {
+  text-decoration: underline;
+}
+.athenus_cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 6px;
+}
+.athenus_card_img img {
+  width: 100%;
+}
+.athenus_card {
+  position: relative;
+}
+.athenus_card:hover {
+  box-shadow: 0px 6px 10px 4px rgba(54, 49, 49, 0.15);
+}
+.wishlist_hover {
+  display: none;
+}
+.wishlist_hover.hide {
+  display: none;
+}
+.wishlist_clicked {
+  display: none;
+  background: none;
+  border: none;
+}
+.athenus_card:hover,
+.popular_card:hover {
+  cursor: pointer;
+}
+.athenus_card:hover .wishlist_hover,
+.popular_card:hover .wishlist_hover {
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 100px;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+  z-index: 100;
+}
+.athenus_card:active .wishlist_clicked,
+.popular_card:active .wishlist_clicked {
+  display: flex;
+  position: absolute;
+  right: 21px;
+  top: 21px;
+  z-index: 1;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 6px 9px;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+  gap: 5px;
+}
+.new_price {
+  font-family: "etsy-medium";
+  font-size: 13px;
+}
+.old_price {
+  font-family: "etsy-regular";
+  font-size: 13px;
+  text-decoration: line-through;
+}
+.footer_etsy {
+  background-color: #fdebd2;
+  width: 100vw;
+  overflow: hidden;
+}
+.etsy {
+  padding: 36px 30px;
+  color: #222222;
+  text-align: center;
+}
+.footer_etsy_header p {
+  font-family: "etsy-light";
+  font-size: 32px;
+  margin: 0px 0px 6px;
+}
+.footer_etsy_header a {
+  color: #222222;
+  font-size: 14px;
+  font-family: "etsy-regular";
+}
+.etsy_main_content h4 {
+  padding-top: 36px;
+  margin: 0px 0px 18px;
+  line-height: 32px;
+  font-family: "etsy-regular";
+  font-size: 24px;
+}
+.etsy_main_content p {
+  font-family: "etsy-regular";
+  font-size: 16px;
+  line-height: 28px;
+}
+.etsy_community p case {
+  text-decoration: underline dotted;
+}
+.etsy_community p case:hover {
+  cursor: help;
+}
+.etsy_question {
+  font-family: "etsy-medium";
+  font-size: 18px;
+  margin-top: 36px;
+  text-align: center;
+}
+.etsy_question p {
+  line-height: 24px;
+}
+.help_center {
+  font-family: "etsy-medium";
+  font-size: 16px;
+  border-radius: 50px;
+  border: 2px solid #000;
+  background-color: transparent;
+  margin: 12px 0px 0px;
+  padding: 12px 18px;
+}
+.offer_svg {
+  margin-top: -30px;
+  transform: translateX(-10%);
+  overflow: hidden;
+  width: 100%;
+}
+.offers {
+  background-color: #d7e6f5;
+  margin-top: -5px;
+  padding: 18px 24px 36px 24px;
+}
+.offers p {
+  text-align: center;
+  font-family: "etsy-medium";
+  font-size: 16px;
+  margin: 0px 0px 12px;
+  line-height: 1.4;
+}
+.offer_input_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 1.4;
+  background-color: #fff;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+  border-radius: 24px;
+  margin-inline: auto;
+  max-width: 480px;
+}
+.offers .email {
+  padding: 9px 12px 9px 18px;
+  border-radius: 24px;
+  border: none;
+  /* width: fit-content; */
+  font-family: "etsy-regular";
+  font-size: 16px;
+}
+.offers .subscribe {
+  font-family: "etsy-medium";
+  font-size: 16px;
+  padding: 12px 21px 12px 15px;
+  margin-left: -50px;
+  background-color: #fff;
+  border-radius: 24px;
+  border: none;
+}
+.etsy_poweredby {
+  background-color: #4d6bc6;
+  /* margin-top: -50px; */
+}
+.etsy_poweredby_svg_bg {
+  background-color: #4d6bc6;
+  overflow: hidden;
+}
+.etsy_poweredby svg {
+  width: 100%;
+  height: 43.11px;
+}
+.etsy_poweredby p {
+  padding: 12px 0px;
+  margin: 0px 12px;
+  font-family: "etsy-medium";
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffff;
+  text-decoration: dashed underline;
+  text-align: center;
+}
+.footer_main_section {
+  background-color: #2f466c;
+  color: #fff;
+  padding: 12px 24px;
+}
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-family: "etsy-medium";
+  font-size: 16px;
+  border-radius: 24px;
+  padding: 12px 5px;
+  margin: 0px 0px 6px;
+}
+.btn i {
+  font-size: 24px;
+  /* margin-top: -10px; */
+}
+.btn:active {
+  background-color: #566e94;
+}
+.dropdown_list li {
+  list-style-type: none;
+  padding: 6px 20px 12px;
+}
+.dropdown_list li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "etsy-regular";
+  font-size: 16px;
+}
+.drop_down {
+  display: none;
+  background-color: #2f466c;
+  width: 100%;
+}
+.show {
+  display: flex;
+}
+.arrow {
+  transform: rotate(180deg);
+  transition: 0.2s ease;
+}
+.download {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 24px;
+  padding: 4px 15px;
+  margin-top: 24px;
+  margin-inline: auto;
+  font-family: "etsy-medium";
+  font-size: 13px;
+}
+.download p {
+  padding: 0px 0px 0px 6px;
+}
+.etsy_dowwnload {
+  margin: 12px 0px 0px;
+}
+.etsy_medias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+}
+.etsy_medias svg {
+  padding: 6px;
+}
+.about_etsy {
+  background-color: #232347;
+  color: #fff;
+  padding: 18px 24px;
+}
+.etsy_countries svg {
+  width: 18px;
+}
+.etsy_countries {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  font-family: "etsy-medium";
+  font-size: 13px;
+  padding: 9px 15px 24px;
+  margin-inline: auto;
+}
+.etsy_copyright {
+  font-family: "etsy-regular";
+  font-size: 13px;
+  margin: 0px 0px 12px;
+  text-align: center;
+}
+.etsy_privacy {
+  text-align: center;
+  margin-left: 2px;
+  margin-inline: auto;
+}
+.etsy_privacy a {
+  color: #fff;
+  margin-left: 12px;
+  white-space: nowrap;
+  font-family: "etsy-regular";
+  font-size: 13px;
+}
+
+@media screen and (min-width: 480px) {
+  .discover_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .deals_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 16px 0px;
+  }
+}
+@media screen and (min-width: 505px) {
+  .etsy_terms {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .etsy_privacy {
+    margin-inline: unset;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .discover_background {
+    height: 92px;
+  }
+  .discover_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin-top: -89px;
+  }
+  .discover_card {
+    padding: 9px 7px 9px 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    font-family: "etsy-medium";
+  }
+
+  .discover_card_name {
+    font-size: 13px;
+    text-align: center;
+  }
+  .popular {
+    padding: 0px 24px 60px;
+  }
+  .popular_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .popular_name {
+    -webkit-line-clamp: 2;
+  }
+  .popular_heading {
+    text-align: left;
+    font-size: 28px;
+  }
+  .athenus_cards {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 12px;
+    padding: 0px 24px 0px 24px;
+    margin-inline: auto;
+    max-width: 1440px;
+  }
+  .athenus_card_img img {
+    border-radius: 6px;
+  }
+  .btn i {
+    display: none;
+  }
+  .drop_down {
+    display: flex;
+  }
+  .dropdown_list li {
+    padding: 6px 20px 12px 0px;
+  }
+  .dropdown_list li a {
+    font-size: 13px;
+  }
+  
+  .footer_main_section_dropdown {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-inline: auto;
+    max-width: 1440px;
+  }
+  .etsy_medias {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .discover_card {
+    padding: 9px 20px 9px 20px;
+  }
+  .deals_day {
+    padding: 0px 5px;
+  }
+  .deals {
+    padding: 0px 26px;
+    margin-top: 30px;
+  }
+  .deals_day {
+    font-size: 28px;
+  }
+  .deal_card {
+    margin: 3px;
+    height: 100%;
+    border: 1px solid rgba(34, 34, 34, 0.15);
+  }
+  .deals_cards {
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .header {
+    display: none;
+  }
+  .nav_header {
+    display: flex;
+    padding: 12px 56px 10px 36px;
+    margin: 0px 23px 0px 20px;
+    /* box-shadow: 0px 4px 20px rgb(34 34 34 / 15%); */
+    border-bottom: none;
+    background-color: #ffff;
+    margin-inline: auto;
+    max-width: 1400px;
+  }
+  .nav_name {
+    padding: 8px 9px 0px 17px;
+    margin-top: -3px;
+  }
+  .nav_name svg {
+    width: 80px;
+    height: 40px;
+  }
+  .nav_search_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #222222;
+    height: 26px;
+    border-radius: 32px;
+    background-color: rgb(243, 243, 243);
+    padding: 9px 20px 9px 8px;
+    margin-right: 18px;
+    flex-basis: 90%;
+  }
+  .search_button {
+    padding: 13px 2px 10px 15px;
+    border: none;
+    background: none;
+  }
+  .nav_search {
+    padding: 9px 0px 9px 10px;
+    font-size: 15.75px;
+    font-family: "etsy-regular";
+    color: grey;
+    letter-spacing: 0.14px;
+    background-color: rgb(243, 243, 243);
+    border: none;
+  }
+  .nav_search:focus {
+    outline: none;
+  }
+  .sign_in {
+    white-space: nowrap;
+    margin: 0px 6px 0px 0px;
+    padding: 16px 15px;
+    font-size: 13px;
+    font-family: "etsy-medium";
+  }
+  .like {
+    padding: 11px 12px;
+  }
+  .nav_basket {
+    padding: 11px 12px;
+  }
+
+  .seller_items {
+    display: flex;
+    margin: 0;
+    /* gap: 50px */
+  }
+  .seller_items ul {
+    gap: 35px;
+    margin: 0;
+    padding: 0px 16px 0px 56px;
+  }
+  .categories {
+    font-family: "etsy-regular";
+    font-size: 13px;
+    padding: 0px 36px;
+    margin: 0px 20px 0px 20px;
+  }
+  .seller_items li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #000;
+  }
+  .categories li {
+    list-style-type: none;
+    gap: 10px;
+    margin: 3px 10px 0px 0px;
+    padding: 0px 0px 12px;
+  }
+  /* .seller_items li svg {
+    padding: 2px 3px 0px 0px;
+  } */
+
+  .discover_heading {
+    padding: 26px 18px 18px 18px;
+    font-size: 32px;
+  }
+  .discover_card_img {
+    width: 113px;
+    height: 114px;
+    margin: 0px 0px 12px;
+  }
+  .discover_cards {
+    max-width: 1400px;
+    margin-inline: auto;
+  }
+  .discover_card {
+    padding: 9px 30px 9px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "etsy-medium";
+  }
+  .discover_card_name {
+    font-size: 16px;
+  }
+  .deals_cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .popular_cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .popular_card:nth-child(6) {
+    display: none;
+  }
+  
+  .popular {
+    max-width: 1440px;
+    margin-inline: auto;
+  }
+  .popular_filter{
+    font-size: 18px;
+      border: 1px solid #000;
+      border-radius: 6px;
+      height: 30px;
+      /* width: 50px; */
+      padding: 0px 5px ;
+      
+    
+  }
+  .etsy {
+    padding: 36px 54px 36px 54px;
+    text-align: left;
+  }
+  .etsy_main_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-inline: auto;
+    max-width: 1440px;
+  }
+  .etsy_main_content h4 {
+    font-size: 28px;
+  }
+  .footer_etsy_header {
+    text-align: center;
+  }
+  .footer_etsy_header p {
+    font-size: 44px;
+  }
+  .etsy_question {
+    font-size: 20px;
+  }
+  .more_about_etsy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin-inline: auto;
+  }
+  .etsy_countries {
+    margin-inline: unset;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .deals {
+    margin: 46px 20px 60px;
+    padding: 0px 33px;
+    margin-inline: auto;
+    max-width: 1440px;
+  }
+  .deal_card {
+    height: 100%;
+  }
+  .seller_items {
+    width: 100%;
+    margin-inline: auto;
+  }
+ 
+}
