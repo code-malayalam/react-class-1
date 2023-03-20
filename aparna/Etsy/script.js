@@ -1,29 +1,26 @@
 "use strict";
-// import { createDealContainer } from "./deal.js";
-// import { generatePopularContainer } from "./popular.js";
-// import { createDiscoverContainer } from "./discover.js";
-// import { generateAboutEtsy } from "./about.js";
-// import { mainInnerHTML } from "./main.js";
-// import { whatIsEtsyInnerHTML } from "./what.js";
-// import { createFooterHTML } from "./footer.js";
-import {
-  createNavBar,
-  clearPopularContainer,
-  createDropdowns,
-  toFilterPrice,
-  createSocialIcons,
-} from "./functions.js";
 
-import {
-  generateAboutEtsy,
-  createDealContainer,
-  createDiscoverContainer,
-  createFooterHTML,
-  mainInnerHTML,
-  generatePopularContainer,
-  whatIsEtsyInnerHTML,
-} from "./templates.js";
+import React, {useEffect, useState} from 'react'
 
+// import {
+//   createNavBar,
+//   clearPopularContainer,
+//   createDropdowns,
+//   toFilterPrice,
+//   createSocialIcons,
+// } from "./functions.js";
+
+// import {
+//   generateAboutEtsy,
+//   createDealContainer,
+//   createDiscoverContainer,
+//   createFooterHTML,
+//   mainInnerHTML,
+//   generatePopularContainer,
+//   whatIsEtsyInnerHTML,
+// } from "./templates.js";
+
+// import GenerateTemplates from "../etsy_react/src/template.js";
 
 const navDivID = "#categories";
 
@@ -52,4 +49,5 @@ const generateHomePage = fetch(
     createSocialIcons(generateHomePage.socialIcons);
     createDropdowns();
     toFilterPrice(generateHomePage.popularItems);
+    // <GenerateTemplates />
   });
