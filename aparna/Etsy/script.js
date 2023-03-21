@@ -1,24 +1,23 @@
 "use strict";
 
-import React, {useEffect, useState} from 'react'
+import {
+  createNavBar,
+  clearPopularContainer,
+  createDropdowns,
+  toFilterPrice,
+  createSocialIcons,
+} from "./functions.js";
 
-// import {
-//   createNavBar,
-//   clearPopularContainer,
-//   createDropdowns,
-//   toFilterPrice,
-//   createSocialIcons,
-// } from "./functions.js";
-
-// import {
-//   generateAboutEtsy,
-//   createDealContainer,
-//   createDiscoverContainer,
-//   createFooterHTML,
-//   mainInnerHTML,
-//   generatePopularContainer,
-//   whatIsEtsyInnerHTML,
-// } from "./templates.js";
+import {
+  generateAboutEtsy,
+   
+  createDealContainer,
+  createDiscoverContainer,
+  createFooterHTML,
+  mainInnerHTML,
+  generatePopularContainer,
+  whatIsEtsyInnerHTML,
+} from "./templates.js";
 
 // import GenerateTemplates from "../etsy_react/src/template.js";
 

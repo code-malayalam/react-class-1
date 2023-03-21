@@ -33,15 +33,7 @@ body{
     display: none;
   }
   .categories{
-   display: none;
-  }
-
-  .category-list {
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 18px;
-    list-style-type: none;
-    text-align: left;
+    display: none;
   }
   .xl-logo{
     display: none;
@@ -1487,12 +1479,10 @@ body{
   color: #222;
   cursor: pointer;
 }
- .categories{
-   display: flex;
-  justify-content: space-between; 
-
- }
-
+.categories{
+  display: flex;
+  justify-content: space-between;
+}
 .categories li{
   font-family: Regular-font;
   font-weight: 400;
@@ -1601,7 +1591,7 @@ body{
 }
 
 .arrow{
-  width:12px;
+  width:24px;
   height:24px;
   border:none;
   margin-top: 3px;

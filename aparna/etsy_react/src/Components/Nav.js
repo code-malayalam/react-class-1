@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import NavItems from "./NavItems";
 
 function CreateNav() {
   return (
@@ -113,8 +114,8 @@ function CreateNav() {
         </ul>
       </div>
       
-      <ul className="categories" id="sub-category">
-        {/* <!-- <li className="listOfCategory">Seller's Sales Hub</li> --> */}
+        <NavItems/>
+      <ul className="categories" id="sub-categories">
       </ul>
     </nav>
   );
