@@ -516,9 +516,9 @@ body{
     right: 10px;
     bottom: 20px;
   }
-  .play-button.remove{
+  /* .play-button.remove{
     display: none;
-  }
+  } */
   .heart-button svg{
     width: 12px;
     height: 24px;
@@ -854,6 +854,9 @@ body{
   }
   .icons-list svg{
     margin-right: 12px;
+    fill: #fff;
+    width: 36px;
+    height: 36px;
   }
   .terms-policies{
     background-color: #232347;    
@@ -1710,7 +1713,7 @@ img.arrow{
   transform: scale(1.1);
 }
 .icons-list:hover{
-  background-color: black;
+  background-color: #efefef;
   border-radius: 48%;
 }
 

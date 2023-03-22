@@ -508,12 +508,15 @@ body{
     right: 10px;
     bottom: 20px;
   }
-  .play-button.remove{
+  /* .play-button.remove{
     display: none;
-  }
+  } */
   .heart-button svg{
     width: 12px;
     height: 24px;
+    height: 18px;
+    width: 18px;
+    transform: translateY(1px);
   }
   .style-heart{
     cursor: pointer;
@@ -522,8 +525,25 @@ body{
   }
   .heart-button{
     display: none;
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    padding: 6px;
+    border: 1px solid rgba(334,34,34,.15);
+    min-height: 30px;
+    min-width: 30px;
+    background: #fff;
+    border-radius: 50%;
   }
   
+  .popular-img-container:hover .heart-button{
+    display: flex;
+  }
+
+  .popular-img-container:hover .play-button{
+    display: none;
+  }
+
    .toggle-icon{
     border-radius: 50%;
     border: none;
@@ -846,6 +866,7 @@ body{
   }
   .icons-list svg{
     margin-right: 12px;
+    transform: translate3d(0, -1px, 0)
   }
   .terms-policies{
     background-color: #232347;    
@@ -943,10 +964,14 @@ body{
   .filter{
     width: 50px;
     /* height: 20px; */
-    padding: 13px 0;
+    padding: 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: transparent;
+    background-color: #1e3042;
+    color: #fff;
+    font-weight: bold;
   }
 }
 @media screen and (min-width:768px) {
@@ -1700,8 +1725,8 @@ img.arrow{
   transform: scale(1.1);
 }
 .icons-list:hover{
-  background-color: black;
-  border-radius: 48%;
+  background-color: #727272;
+  border-radius: 100%;
 }
 
 .price-input{

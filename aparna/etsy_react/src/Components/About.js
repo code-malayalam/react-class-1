@@ -1,6 +1,7 @@
 import React from "react";
+import CommunityItems from "./Community";
 
-export function AboutEtsy() {
+ export function AboutEtsy() {
   return (
     <div className="aboutContainer">
       <span className="about-image">
@@ -21,7 +22,7 @@ export function AboutEtsy() {
         <a className="wierd-story" href="#">
           Read our wonderfully wierd story
         </a>
-        <div className="what-we-do"></div>
+        <CommunityItems />
         <div className="question-box">
           <h4 className="question">         
             Have a question? Well, we've got some answers.
@@ -32,3 +33,4 @@ export function AboutEtsy() {
     </div>
   );
 }
+

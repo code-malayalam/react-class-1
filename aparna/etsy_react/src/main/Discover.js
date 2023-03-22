@@ -28,7 +28,7 @@ function DiscoverItems() {
       <ul className="bubbleList">
       {dItems.map((item) => {
         return (
-              <li className="shopping-list">
+              <li className="shopping-list" key={item.text}>
               <img src={item.url} className="imgCategories"></img>
               <p className="title">{item.text}</p>
               </li>
