@@ -15,7 +15,7 @@ function App() {
       <DiscoverItems />
       <DealItems/>
       <PopularItems/>
-     <AboutEtsy/>
+      <AboutEtsy/>
      {/* <CommunityItems/> */}
       <GenerateFooter/>
     </div>

@@ -25,7 +25,9 @@ function DisplayIcons(){
             // <li key={item.icon} className="icons-list">
             //   <Social item = {item}/>
             // </li>
+            <div key={item.id}>
             <Social item = {item}/>
+            </div>
           )
         })
       }
@@ -39,7 +41,7 @@ function DisplayIcons(){
     } = props.item
 
     const sIcon = icon
-    return (<li key={id} className="icons-list"  dangerouslySetInnerHTML={{__html: sIcon} }/>)
+    return (<li  className="icons-list"  dangerouslySetInnerHTML={{__html: sIcon} }/>)
   }
 
 }
