@@ -398,9 +398,14 @@ body{
     border-radius: 6px;
     margin-bottom: 6px;
   }
-  .popular-img-container.hide{
+
+  /* .video-active{
     display: none;
-  }
+  } */
+
+  /* .popular-img-container.hide{
+    display: none;
+  } */
   .video-container{
     position: relative;
     display: none;
@@ -408,7 +413,7 @@ body{
   .video-container.show{
     display: block;
   }
-  .video-container .video{
+  .video{
     object-fit: cover;
     height: 100%;
     width: 100%;

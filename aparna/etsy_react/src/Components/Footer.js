@@ -1,8 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import "./style.css"
 import DisplayIcons from "./Icons"
 
+
+
 export function GenerateFooter() {
+ 
   return (
       <footer>
         <div className="footer-container">
@@ -52,10 +55,10 @@ export function GenerateFooter() {
             <div className="contain">
             <span className="drop-down-title">Shop</span>
             <button className="chevron-icon">
-              <i className="fa fa-chevron-down" aria-hidden="true"></i>
+              <i className="fa fa-chevron-down" aria-hidden="true" ></i>
             </button>
           </div>
-            <div className="dropBox">
+            <div className='dropBox'>
               <p className="help-centre">Gift cards</p>
               <p className="help-centre">Sitemap</p>
               <p className="help-centre">Etsy blog</p>
@@ -157,10 +160,9 @@ export function GenerateFooter() {
       </div>
     </footer>
   )
+
 }
 
   
 
 
-{/* 
-                */}

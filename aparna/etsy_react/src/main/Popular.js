@@ -1,5 +1,6 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./style.css";
+
 
 const FiveStars = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="3 3 18 18" aria-hidden="true" focusable="false"><path d="M19.985,10.36a0.5,0.5,0,0,0-.477-0.352H14.157L12.488,4.366a0.5,0.5,0,0,0-.962,0l-1.67,5.642H4.5a0.5,0.5,0,0,0-.279.911L8.53,13.991l-1.5,5.328a0.5,0.5,0,0,0,.741.6l4.231-2.935,4.215,2.935a0.5,0.5,0,0,0,.743-0.6l-1.484-5.328,4.306-3.074A0.5,0.5,0,0,0,19.985,10.36Z"></path></svg>`;
 
@@ -32,28 +33,11 @@ const playButton = (
 function PopularItems() {
   const [pItems, setPitems] = useState([]);
   const [active, setActive] = useState(false);
-  // const [url, setUrl] = useState()
-  // const [isActive, setIsActive] = useState(false)
-  // const [img, setImage] = useState(Heart)
+  const [image, setImage]   = useState('') 
 
-  // const toggleClass = () => {
-  //   setIsActive(!isActive)
-  // }
-
-
-
-
-
-
-
-
-
- 
     
  let changeColor = (item) => {
   setActive(!active)
-    console.log(item.heartButton);
-    console.log(active)
     if(!active){
       return (Heart = <svg Xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="#a61a2e"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg>)
     }if(active){
@@ -72,11 +56,13 @@ function PopularItems() {
     }
   }
 
-
-
-
-
-
+const handleFilter = () => {
+  const inputValue = document.querySelector('.price-input')
+  console.log(pItems)
+  const newPriceArray = pItems.filter((price) => ((Math.floor(price.actualPrice - price.actualPrice * (price.discount / 100))) >= +inputValue.value))
+  setPitems(newPriceArray)
+  console.log(newPriceArray)
+}
   
   useEffect(() => {
     fetch("./data1.json")
@@ -90,21 +76,24 @@ function PopularItems() {
   }, []);
 
   return (
+
     <div className="popular-container">
       <div className="popular-header">
         <h2 className="popular-heading-name">Popular gifts right now</h2>
       </div>
       <div className="price-filter">
         <input className="price-input" type="number"></input>
-        <button className="filter">filter</button>
+        <button className="filter" onClick={() => handleFilter()}>filter</button>
       </div>
       <ul className="popular-sub-container">
         {pItems.map((item) => {
           return (
             <div key={item.url} className="popular-inner">
               <li className="giftList"></li>
-              <div className="popular-img-container">
-                <img src={item.url} className="imagePop"></img>
+              <div className="popular-img-container" >
+              <VideoMaker item={item}>
+                </VideoMaker>
+                {/* <img src={item.url} className="imagePop"></img> */}
                 <div className="tooltip-container">{item.tooltipText}</div>
                 <button
                   className="heart-button "
@@ -118,11 +107,6 @@ function PopularItems() {
                 <GeneratePlayButton item={item}/>
               </div>
 
-              <div className="video-container" onMouseEnter={handleVideoPlay} onMouseLeave={handleStopVideo}>
-                <VideoMaker item={item}>
-                </VideoMaker>
-                <GeneratePlayButton item={item}/>
-              </div>
               <div className="content-container">
                 <p className="content-title">{item.title}</p>
                 <div className="rating-container">
@@ -139,9 +123,10 @@ function PopularItems() {
                     <p className="discount-percent">{item.discount} % off</p>
                   </div>
                 </div>
+                    <div className="delivery-text">{item.delivery !== "" ? <div className="delivery-offer">{item.delivery}</div> : ""}</div>
               </div>
             </div>
-          );
+          )
         })}
       </ul>
     </div>
@@ -150,28 +135,46 @@ function PopularItems() {
 
 function VideoMaker(item) {
   const{
-    videoURL
+    videoURL,
+    url
   }=item.item
+
+  function foo(url){
+    return url
+  }
+  // console.log(url)
+
   if (videoURL !== "") {
     return <video 
     className="video" 
     src={videoURL} 
     muted={true}
-    autoPlay={true}
+    autoPlay={false}
+    onMouseEnter={handlePlay}
+    width="100%"
+    height="100%"
+    onMouseLeave={handlePause}
+    poster={url}
+    
     ></video>;
-  } else {
-    return <video className="video" src="" muted="muted" width="100%" ></video>;
+  } else{
+    return <video 
+    className="video" 
+    width="100%"
+    height="100%"
+    poster={url}
+    ></video>
   }
 }
 
-function handleVideoPlay(e){
-console.log("enter")
+function handlePlay(evnt){
+  evnt.target.play()
 }
 
-function handleStopVideo(e){
-  
+function handlePause(evnt){
+  evnt.target.pause()
+  evnt.target.load()
 }
-// console.log(VideoMaker())
 
 function StarGenerator(props) {
   const { star } = props.item;
@@ -202,5 +205,6 @@ function GeneratePlayButton(item) {
     return ""
   }
 }
+
 
 export default PopularItems;
