@@ -200,5 +200,77 @@
       "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\" width=\"24\" height=\"24\"><path d=\"M20,12c0,5.664,0,5.664-8,5.664s-8,0-8-5.664,0-5.664,8-5.664S20,6.333,20,12Zm-5,0L10,9v6Z\"></path></svg>",
       "id":5
     }
+  ],
+
+  "fashionEtsy" : [
+    {
+      "imgURL" : "https://i.etsystatic.com/25748515/c/1200/953/0/0/il/a9379f/4616788916/il_680x540.4616788916_4ja4.jpg",
+      "playButton" : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><polygon points=\"4 4 4 20 20 12 4 4\"></polygon></svg>",
+      "cross"  : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"></svg>",
+      "video": "https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/trim.56C3DA93-B2EB-4964-9148-15715E86D876_mivitf.mp4",
+      "symbol" :"₹",
+      "price"  : 852,
+      "heartButton" : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z\"></path></svg>",
+      "tooltipText" : "Free size top/ Block printed top/Cotton top/Handmade/ Made in India",
+      "id" : 1
+    },
+    {
+      "imgURL" : "https://i.etsystatic.com/9264714/r/il/3e155f/4599382054/il_680x540.4599382054_olyr.jpg",
+      "playButton": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><polygon points=\"4 4 4 20 20 12 4 4\"></polygon></svg>",
+      "cross"  : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"></svg>",
+      "video":"https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/file_afv0pd.mp4",
+      "symbol" :"₹",
+      "price"  : 3580,
+      "heartButton" :"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z\"></path></svg>",
+      "tooltipText" : "Custom made cotton kalamkari jacket /birthable Jacker/natural  fibre",
+      "id" : 2
+    },
+    {
+      "imgURL" : "https://i.etsystatic.com/21551417/c/2000/1589/0/11…/960325/3114351222/il_680x540.3114351222_diwh.jpg",
+      "playButton": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><polygon points=\"4 4 4 20 20 12 4 4\"></polygon></svg>",
+      "cross"  : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"></svg>",
+      "video":"",
+      "symbol" :"₹",
+      "price"  : 5965,
+      "heartButton" : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z\"></path></svg>",
+      "tooltipText": "Sleeveless Women Dress, Indian Cotton Maxi Dress, Polka dot midi Dress Frock, Indian party Dress, indian pink short Dress, women clothing",
+      "id": 3
+    },
+    {
+      "imgURL" : "https://i.etsystatic.com/9446534/c/2156/1713/0/525…/70c11a/3749970633/il_680x540.3749970633_3c7z.jpg",
+      "playButton": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><polygon points=\"4 4 4 20 20 12 4 4\"></polygon></svg>",
+      "cross"  : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"></svg>",
+      "video":"https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/MVI_7630_vpwowh.mp4",
+      "symbol" :"₹",
+      "price"  : 5114,
+      "heartButton" : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z\"></path></svg>",
+      "tooltipText": "Jaiput traditona rounded bottom printed long maxi dress-crew neckline with buttons Indian maxi dress - 3/4th sleeve with button dress",
+      "id": 4
+    },
+    
+
+    {
+      "imgURL" : "https://i.etsystatic.com/25748515/c/2000/1589/0/59…/d529f7/4241571242/il_680x540.4241571242_ji2t.jpg",
+      "playButton": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><polygon points=\"4 4 4 20 20 12 4 4\"></polygon></svg>",
+      "cross"  : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"></svg>",
+      "video":"https://v-cg.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/trim.3F919BC2-E1C4-426C-9AEF-07D655513815_z08evi.mp4",
+      "symbol" :"₹",
+      "price"  : 2499,
+      "heartButton" : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z\"></path></svg>",
+      "tooltipText": "Hand Block Printed Dress|Block print dress|Summer Dress|Fall Dress|Gifts for her | Coot  ",
+      "id": 5
+    },
+    {
+      "imgURL" : "https://i.etsystatic.com/9446534/c/1806/1435/146/3…/8a6ee0/4386259094/il_680x540.4386259094_n86j.jpg",
+      "playButton": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><polygon points=\"4 4 4 20 20 12 4 4\"></polygon></svg>",
+      "cross"  : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"></svg>",
+      "video":"",
+      "symbol" :"₹",
+      "price"  : 4688,
+      "heartButton" : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z\"></path></svg>",
+      "tooltipText": "mix color floral printed cotton long maxi dress -v neckline cotton maxi dress - 3/4th sleeve with button maxi dress",
+      "id": 6
+    }
+    
   ]
 }

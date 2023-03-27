@@ -6,7 +6,7 @@ import { AboutEtsy } from './Components/About';
 import DiscoverItems from './main/Discover';
 import DealItems from './main/Deal';
 import PopularItems from './main/Popular';
-// import CommunityItems from './Components/Community';
+import FashionContainer from './main/Fashion';
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
       <DiscoverItems />
       <DealItems/>
       <PopularItems/>
+      {/* <FashionContainer/> */}
       <AboutEtsy/>
-     {/* <CommunityItems/> */}
       <GenerateFooter/>
     </div>
   );
