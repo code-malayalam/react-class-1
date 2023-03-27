@@ -6,7 +6,7 @@ import { AboutEtsy } from './Components/About';
 import DiscoverItems from './main/Discover';
 import DealItems from './main/Deal';
 import PopularItems from './main/Popular';
-import FashionContainer from './main/Fashion';
+
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
       <DiscoverItems />
       <DealItems/>
       <PopularItems/>
-      {/* <FashionContainer/> */}
       <AboutEtsy/>
       <GenerateFooter/>
     </div>

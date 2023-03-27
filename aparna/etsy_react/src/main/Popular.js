@@ -4,7 +4,6 @@ import { VideoMaker } from "./PlayVideo";
 import { StarGenerator } from "./Star";
 import { WishList } from "./Wishlist";
 
-
 const playButton = (
   <svg
     Xmlns="http://www.w3.org/2000/svg"
@@ -23,16 +22,15 @@ function PopularItems() {
     const inputValue = document.querySelector(".price-input");
     const newPriceArray = pItems.filter(
       (price) =>
-      Math.floor(
-        price.actualPrice - price.actualPrice * (price.discount / 100)
+        Math.floor(
+          price.actualPrice - price.actualPrice * (price.discount / 100)
         ) >= +inputValue.value
-        );
-        setPitems(newPriceArray);
-        
-      };
-    
-      const dataFunction=()=>{
-        fetch("./data1.json")
+    );
+    setPitems(newPriceArray);
+  };
+
+  const dataFunction = () => {
+    fetch("./data1.json")
       .then((data) => {
         return data.json();
       })
@@ -40,14 +38,11 @@ function PopularItems() {
         // console.log(data)
         setPitems(data.popularItems);
       });
-      }
-   
-  
+  };
 
   useEffect(() => {
-    dataFunction()
+    dataFunction();
   }, []);
-
 
   return (
     <div className="popular-container">
@@ -55,7 +50,11 @@ function PopularItems() {
         <h2 className="popular-heading-name">Popular gifts right now</h2>
       </div>
       <div className="price-filter">
-        <input className="price-input" type="number" onChange={dataFunction}></input>
+        <input
+          className="price-input"
+          type="number"
+          onChange={dataFunction}
+        ></input>
         <button className="filter" onClick={() => handleFilter()}>
           filter
         </button>
@@ -69,7 +68,7 @@ function PopularItems() {
                 <VideoMaker item={item}></VideoMaker>
                 {/* <img src={item.url} className="imagePop"></img> */}
                 <div className="tooltip-container">{item.tooltipText}</div>
-               <WishList/>
+                <WishList />
                 {item.playButton !== "" ? (
                   <button className="play-button">{playButton}</button>
                 ) : (
