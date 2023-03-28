@@ -1,0 +1,280 @@
+.valentine_container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 6px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.valentine_content {
+  padding: 0 6px;
+  flex-grow: 1;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+.valentine_items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+  width: 100%;
+}
+.valentine_heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-self: center;
+  text-align: center;
+  flex-basis: 100%;
+}
+.valentine_heading p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #595959;
+}
+.valentine_heading h1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-bottom: 18px;
+}
+.valentine_heading_link {
+  display: none;
+}
+.valentine_item {
+  padding-right: 12px;
+  margin-bottom: 12px;
+  flex-grow: 1;
+  flex-basis: 33.3333333333%;
+  max-width: 33.3333333333%;
+  min-height: 98.5px;
+  cursor: pointer;
+}
+.valentine_item:hover .like_btn {
+  display: flex;
+  animation: like 300ms cubic-bezier(0.175, 0.745, 0.425, 1.11);
+}
+.valentine_item_container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.valentine_item_container img {
+  border-radius: 6px;
+  object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+.valentine_item_container:hover video {
+  display: flex;
+}
+.valentine_item_container:hover .play_btn {
+  display: none;
+}
+.video_container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.video_container video {
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  object-fit: cover;
+}
+.play_btn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play_btn img {
+  margin-left: 2px;
+  width: 18px;
+  height: 18px;
+}
+.like_btn {
+  background-color: #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  border: none;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: none;
+  transition: 5s ease;
+}
+.like_btn img {
+  transform: translate(3px, 3px);
+  width: 24px;
+  height: 24px;
+}
+
+.see_more {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+}
+.see_more a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #222;
+  text-decoration: none;
+}
+.see_more img {
+  margin-left: 9px;
+  transform: translateY(7px);
+}
+
+.valentine_text_container {
+  display: none;
+}
+.valentine_price {
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50px;
+  background-color: #fff;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  display: none;
+}
+.valentine_item:hover .valentine_price {
+  display: flex;
+  animation: like 300ms cubic-bezier(0.175, 0.745, 0.425, 1.11);
+}
+
+@media screen and (min-width: 640px) {
+  .valentine_heading {
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-basis: 37.5%;
+    max-width: 37.5%;
+    padding-right: 18px;
+    margin-bottom: 18px;
+  }
+  .valentine_heading h1 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: left;
+    padding-bottom: 24px;
+  }
+  .valentine_heading_link {
+    display: flex;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans",
+      "Segoe UI", "Helvetica", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+  }
+  .valentine_heading_link:hover .arrow {
+    transform: translateX(5px);
+  }
+  .valentine_heading_link .arrow {
+    margin-left: 8px;
+    margin-top: -3px;
+  }
+  .valentine_item {
+    padding-right: 18px;
+    margin-bottom: 18px;
+  }
+  .valentine_item:nth-child(2) {
+    flex-grow: 1;
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .valentine_item:nth-child(3),
+  .valentine_item:nth-child(4),
+  .valentine_item:nth-child(5),
+  .valentine_item:nth-child(6) {
+    flex-grow: 1;
+    flex-basis: 18.75%;
+    max-width: 18.75%;
+  }
+  .valentine_item:nth-child(4) {
+    padding-right: 0;
+  }
+
+  .valentine_item:nth-child(7) {
+    flex-grow: 1;
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .see_more {
+    display: none;
+  }
+  .valentine_text_container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 37.5%;
+    max-width: 37.5%;
+  }
+  .valentine_text_container p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 900px) {
+  .valentine_container {
+    padding: 0 18px;
+  }
+  .valentine_content {
+    padding: 0 18px;
+  }
+  .valentine_heading {
+    padding-right: 24px;
+    margin-bottom: 24px;
+    flex-grow: 1;
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  .valentine_item {
+    padding-right: 24px;
+    margin-bottom: 24px;
+  }
+  .valentine_item:nth-child(2),
+  .valentine_item:nth-child(4),
+  .valentine_item:nth-child(6),
+  .valentine_text_container {
+    flex-grow: 1;
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .valentine_item:nth-child(3),
+  .valentine_item:nth-child(7) {
+    flex-grow: 1;
+    flex-basis: 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  .valentine_item:nth-child(5) {
+    flex-grow: 1;
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  .price {
+    white-space: nowrap;
+  }
+}

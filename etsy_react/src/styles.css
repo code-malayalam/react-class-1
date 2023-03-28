@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Guardian";
+  src: url(https://www.etsy.com/assets/type/Guardian-EgypTT-Light.woff2?v=220104);
+}
+@font-face {
+  font-family: "Graphik";
+  src: url(https://www.etsy.com/assets/type/Graphik-Regular-Web.woff2?v=220104);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url(https://www.etsy.com/assets/type/Graphik-Medium-Web.woff2?v=220104);
+  font-weight: 500;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-family: "Graphik";
+  font-size: 14px;
+  line-height: 1.4;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+input:focus {
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
