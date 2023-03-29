@@ -22,10 +22,7 @@ function DealItems() {
           {" "}
           Shop all deals
           <div className="shop">
-            <img
-              className="arrow"
-              src="data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2F….3,16.7,11.3,12.7,11.3,12.7z%22%2F%3E%3C%2Fsvg%3E"
-            ></img>
+            <i class="fa-solid fa-arrow-right arrow"></i>
           </div>
         </div>
       </div>

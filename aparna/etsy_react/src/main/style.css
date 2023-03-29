@@ -426,9 +426,12 @@ body {
   }
   .rating-container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 10px;
+    margin-left: 15px;
   }
+
   .reviews {
     font-size: 13px;
     line-height: 1.6;
@@ -436,7 +439,13 @@ body {
     font-weight: 400;
     color: #595959;
   }
-  .star-container svg {
+
+  .star-container{
+    display: flex;
+    align-items: center;
+  }
+
+  .star-container img {
     width: 12px;
     height: 24px;
   }
@@ -1615,7 +1624,6 @@ body {
     font-weight: bold;
     font-family: Regular-font;
     display: flex;
-    align-items: center;
     gap: 8px;
   }
 
@@ -1705,8 +1713,8 @@ body {
 .shopDeals {
   cursor: pointer;
 }
-.shopDeals:hover img.arrow {
-  transform: translateX(10px);
+.shopDeals:hover .arrow {
+  transform: translateX(8px);
 }
 .popular-inner:hover {
   cursor: pointer;

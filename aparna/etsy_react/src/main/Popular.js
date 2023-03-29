@@ -6,6 +6,7 @@ import { WishList } from "./Wishlist";
 import playButton from "../Assets/playButton.svg";
 
 
+
 function PopularItems() {
   const [pItems, setPitems] = useState([]);
 
@@ -57,7 +58,7 @@ function PopularItems() {
               <li className="giftList"></li>
               <div className="popular-img-container">
                 <VideoMaker item={item}></VideoMaker>
-                <div className="tooltip-container">{item.tooltipText}</div>
+                {item.tooltipText !== "" ? <div className="tooltip-container">{item.tooltipText}</div> : null}
                 <WishList />
                 {item.playButton !== "" ? (
                   <button className="play-button">
@@ -73,6 +74,7 @@ function PopularItems() {
                 <div className="rating-container">
                   <div className="star-container">
                     <StarGenerator item={item} />
+                    
                     <p className="reviews">{item.reviews}</p>
                   </div>
                   <div className="price-container">
