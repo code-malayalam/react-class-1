@@ -1,0 +1,84 @@
+.discover-categories-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 33.33%;
+  max-width: 33.33%;
+  padding-inline: 2.5%;
+  max-width: fit-content;
+  text-align: center;
+  margin-top: -1px;
+  margin-bottom: 2px;
+}
+.card-img{
+    max-width: 96px;
+    margin: 12px 0 2px;
+}
+.card-img img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid rgba(34, 34, 34, 0.15);
+}
+.discover-categories-card .card-text {
+    font-family: font-med;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    margin-bottom: 6px;
+    /* margin-top: 1px; */
+    margin-inline: auto;
+  }
+
+@media screen and (min-width: 640px) {
+  .discover-categories-card {
+    flex-basis: unset;
+    max-width: min-content;
+    flex-wrap: nowrap;
+    padding: unset;
+  }
+  .card-img{
+    max-width: 84px;
+    width: 84px;
+  }
+  .discover-categories-card .card-text{
+    margin-top: 7px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .discover-categories-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: unset;
+    max-width: min-content;
+    text-align: center;
+    cursor: pointer;
+  }
+  .card-img{
+    max-width: 114px;
+    width: 114px;
+    border-radius: 50%;
+    margin-block: 12px;
+    transition: all 0.3s ease-in-out;
+  }
+  .discover-categories-card:hover .card-img{
+    transform: scale(1.1)
+  }
+  .discover-categories-card .card-text{
+    font-family: font-med;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -3px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+    .discover-categories-card{
+        padding: 9px 30px;
+    }
+}

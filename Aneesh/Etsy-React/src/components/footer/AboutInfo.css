@@ -1,0 +1,63 @@
+.about-info {
+  padding-top: 36px;
+  margin-bottom: 6px;
+}
+.footer-about-header {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: font-reg;
+  margin-bottom: 18px;
+}
+.about-desc {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: font-reg;
+}
+.about-desc .about-desc-underline {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+  cursor: help;
+}
+.help-section {
+  margin-top: 30px;
+}
+.help-section p {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: font-med;
+}
+.help-center-btn {
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 10px 18px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: font-med;
+  line-height: 1.5;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 640px) {
+  .footer-about-header {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .help-section p{
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .about-info {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    text-align: left;
+  }
+  .footer-about-header {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}

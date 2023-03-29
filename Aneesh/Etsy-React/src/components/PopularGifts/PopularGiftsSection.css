@@ -1,0 +1,73 @@
+.popular-gifts-container {
+  margin-top: 30px;
+  padding-inline: 12px;
+  margin-bottom: 60px;
+  max-width: 1400px;
+  margin-inline: auto;
+}
+.popular-gifts-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popular-gifts-container h2 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: font-reg;
+  padding-bottom: 18px;
+}
+.popular-gift-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.filter-form {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.popular-gift-filter {
+  padding: 5px;
+}
+.popular-gift-filter:focus {
+  outline: none;
+}
+.popular-gift-filter {
+  border: none;
+}
+.popular-gift-filter::-webkit-outer-spin-button,
+.popular-gift-filter::-webkit-inner-spin-button {
+  display: none;
+}
+.submit-btn {
+  cursor: pointer;
+  border: none;
+  height: 100%;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+@media screen and (min-width: 640px) {
+  .popular-gifts-container {
+    margin-block: 60px;
+    padding-inline: 24px;
+  }
+  .popular-gifts-container h2 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: left;
+  }
+  .popular-gift-card-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 900px) {
+    .popular-gift-card-container{
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

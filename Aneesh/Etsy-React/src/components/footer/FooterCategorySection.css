@@ -1,0 +1,154 @@
+.footer-category-list-bg{
+    background-color: #2f466c;
+}
+.footer-category-list{
+    padding: 12px 24px 18px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1400px;
+    margin-inline: auto;
+}
+.footer-shop-category{
+    width: 100%;
+    transition: all 0.3s linear;
+}
+.footer-shop-category.show{
+    transition: all 0.3s linear;
+}
+.footer-shop-category .shop-btn{
+    border: none;
+    width: calc(100% + 2 * 18px);
+    color: #fff;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #2f466c;
+    padding: 12px 17px;
+    margin-inline: -18px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: font-med;
+    transition: all 0.3s linear;
+}
+.footer-shop-category:last-child .shop-btn{
+    margin-bottom: 6px;
+}
+.shop-btn:focus{
+    background-color: #3f5d8b;
+    border-radius: 96px;
+}
+.chevron-down-btn{
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s linear;
+}
+.footer-shop-category .shop-list{
+    list-style: none;
+    padding-inline: 6px;
+    display: none;
+    transition: display 0.3s linear;
+}
+.footer-shop-category.show .shop-list{
+    display: block;
+}
+.shop-list li{
+    padding: 6px 0 12px;
+}
+.footer-shop-category ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: font-reg;
+}
+.footer-shop-category ul li a:hover{
+    text-decoration: underline;
+}
+.etsy-social{
+    margin-top: 35px;
+    text-align: center;
+}
+.etsy-download{
+    border: 2px solid #fff;
+    margin-inline: auto;
+    padding: 4px 14px;
+    font-family: font-reg;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+}
+.etsy-download-logo img{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.etsy-download-text{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-family: font-med;
+    line-height: 1.4;
+    margin-left: 6px;
+    text-align: left;
+}
+.etsy-social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 18px;
+}
+.etsy-social-logo{
+    margin-right: 6px;
+    padding: 6px;
+}
+.etsy-social-logo img{
+    height: 36px;
+    width: 36px;
+    display: inline-block;
+}
+
+@media screen and (min-width: 640px) {
+    .footer-category-list{
+        flex-direction: row;
+        align-items: unset;
+        padding: 24px;
+    }
+    .footer-shop-category{
+        margin-bottom: 0;
+    }
+    .footer-shop-category .shop-btn{
+        margin-bottom: 0;
+    }
+    .footer-shop-category .shop-list{
+        display: block;
+        padding-left: 0;
+    }
+    .shop-btn .chevron-down-btn{
+        display: none;
+    }
+    .shop-list li{
+        padding-block: 6px;
+    }
+    .shop-list li a{
+        font-size: 13px;
+    }
+    .etsy-social-icons{
+        justify-content: unset;
+    }
+    .etsy-social-logo{
+        margin-right: unset;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .etsy-social{
+        text-align: left;
+    }
+}

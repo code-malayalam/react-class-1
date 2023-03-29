@@ -1,0 +1,90 @@
+.discover-section h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    font-family: font-light;
+    letter-spacing: 0.35px;
+    padding-top: 20px;
+    padding-inline: 12px;
+    margin-top: 12px;
+    background-color: #dfe6f5;
+}
+.discover-categories{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 6px 6px 0;
+    row-gap: 1px;
+}
+.discover-categories-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    background-color: #d7e6f5;
+    z-index: -1;
+}
+
+@media screen and (min-width: 425px) {
+    .discover-categories{
+        column-gap: 21px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .discover-categories{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .discover-section h1{
+        font-size: 26px;
+        line-height: 42px;
+    }
+    .discover-categories{
+        padding-inline: 24px;
+        padding-top: 0;
+        justify-content: space-between;
+        column-gap: unset;
+    }
+    .discover-categories-bg{
+        height: 50%;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .discover-section{
+        margin-top: -3px;
+    }
+    .discover-section h1{
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 36px;
+        font-family: font-light;
+        letter-spacing: 0.5px;
+        padding: 24px 18px 18px 18px;
+        background-color: #d7e6f5;
+        margin-top: 0;
+    }
+    .discover-categories{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+        padding-inline: 36px;
+        margin-top: -2px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .discover-categories{
+        justify-content: center;
+        margin-top: -11px;
+    }
+}

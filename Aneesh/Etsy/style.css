@@ -1,0 +1,1447 @@
+@font-face {
+  font-family: font-med;
+  src: url("https://www.etsy.com/assets/type/Graphik-Medium-Web.woff2?v=220104");
+}
+@font-face {
+  font-family: font-reg;
+  src: url("https://www.etsy.com/assets/type/Graphik-Regular-Web.woff2?v=220104");
+}
+@font-face {
+  font-family: font-light;
+  src: url("https://www.etsy.com/assets/type/Guardian-EgypTT-Light.woff2?v=220104");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+body {
+  color: #222;
+}
+
+.website {
+  display: none;
+}
+
+.mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-inline: 12px;
+}
+
+.etsy-logo {
+  width: 60px;
+  height: 30px;
+  fill: #f1641e;
+  transform: translate(-3px, -2px);
+}
+
+.login-wishlist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 1.4;
+  transform: translateX(2px);
+}
+
+.login-wishlist .sign-in {
+  display: inline-block;
+  text-decoration: none;
+  color: #222;
+  font-family: font-med;
+  margin-right: 5px;
+  padding: 9px 15px;
+  transform: translateX(1px);
+  border-radius: 50px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.login-wishlist .sign-in:hover {
+  background-color: rgba(66, 65, 65, 0.1);
+}
+
+.login-wishlist .wishlist,
+.login-wishlist .basket {
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+
+.login-wishlist .wishlist::after, .login-wishlist .basket::after{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.login-wishlist .wishlist:hover::after,
+.login-wishlist .basket:hover::after{
+    background-color: rgba(66, 65, 65, 0.1);
+}
+
+.login-wishlist .wishlist {
+  transform: translateY(-1px);
+}
+
+.login-wishlist .basket {
+  transform: translate(-2px, -1px);
+}
+
+.login-wishlist .wishlist svg,
+.login-wishlist .basket svg {
+  height: 24px;
+  width: 24px;
+  display: block;
+}
+
+.mobile-search-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.search-menu {
+  margin-right: 12px;
+  margin-top: 3px;
+}
+
+.search-menu svg,
+.search-icon svg {
+  width: 100%;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 2px solid #222;
+  border-radius: 96px;
+  background-color: #2222220d;
+}
+
+.search input {
+  border: none;
+  font-size: 16px;
+  line-height: 28px;
+  padding-block: 8px;
+  padding-left: 18px;
+  background-color: transparent;
+}
+
+.categories {
+  display: none;
+}
+
+.search-icon {
+  border: none;
+  background-color: transparent;
+  margin-right: 22px;
+  margin-top: 2px;
+}
+
+.discover-section h1 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  font-family: font-light;
+  letter-spacing: 0.35px;
+  padding-top: 20px;
+  padding-inline: 12px;
+  margin-top: 12px;
+  background-color: #d7e6f5;
+}
+
+.discover-categories {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 6px 6px 0;
+  row-gap: 1px;
+}
+
+.discover-categories-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 33.33%;
+  max-width: 33.33%;
+  padding-inline: 2.5%;
+  max-width: fit-content;
+  text-align: center;
+  margin-bottom: 2px;
+  margin-top: -1px;
+}
+
+.card-img {
+  max-width: 96px;
+  margin: 12px 0 2px;
+}
+
+.card-img img {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+}
+
+.discover-categories-card .card-text {
+  font-family: font-med;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  margin-bottom: 6px;
+  margin-top: -1px;
+  /* max-width: 96px; */
+  margin-inline: auto;
+}
+
+.discover-categories-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75%;
+  background-color: #d7e6f5;
+  z-index: -1;
+}
+
+.deals-container {
+  margin-top: 45px;
+  padding-inline: 12px;
+  color: #222;
+  max-width: 1400px;
+  margin-inline: auto;
+}
+
+.deals-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.deals-header h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: font-reg;
+  margin-top: -3px;
+}
+
+.deals-header a {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: font-med;
+  color: #222;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: -2px;
+}
+
+.right-arrow {
+  height: 24px;
+  width: 12px;
+  margin-left: 9px;
+  margin-top: -1px;
+  transform: translateX(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.deals-header a:hover .right-arrow{
+  transform: translateX(4px);
+}
+
+.dress-category {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 12px;
+  row-gap: 19px;
+}
+
+.dress-card {
+  border: 1px solid rgba(3.4, 34, 34, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.dress-card:hover {
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.15);
+}
+
+.dress-card-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.dress-card-text {
+  padding: 7px 12px 12px;
+}
+
+.dress-card-text-off {
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(34, 34, 34);
+  font-family: font-reg;
+}
+
+.dress-card-type {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: font-med;
+  padding-top: 6px;
+  margin-bottom: 10px;
+}
+
+.popular-gifts-container {
+  margin-top: 30px;
+  padding-inline: 12px;
+  margin-bottom: 60px;
+  max-width: 1400px;
+  margin-inline: auto;
+}
+
+.popular-gifts-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular-gifts-container h2 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: font-reg;
+  padding-bottom: 18px;
+}
+
+.popular-gift-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+#filter-form{
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.popular-gift-filter{
+  padding: 5px;
+}
+
+.popular-gift-filter:focus{
+  outline: none;
+}
+
+.popular-gift-filter{
+  border: none;
+}
+
+.popular-gift-filter::-webkit-outer-spin-button, 
+.popular-gift-filter::-webkit-inner-spin-button{
+  display: none;
+}
+
+.submit-btn{
+  cursor: pointer;
+  border: none;
+  height: 100%;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.popular-gift-card {
+  cursor: pointer;
+  padding: 6px;
+  transition: box-shadow 0.2s ease-in-out;
+  position: relative;
+  max-height: 100%;
+}
+
+.popular-gift-card:hover {
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.tool-tip{
+    position: absolute;
+    z-index: 10;
+    background-color: #222;
+    font-size: 13px;
+    font-family: font-reg;
+    width: 700px;
+    color: white;
+    display: none;
+    border: 1px solid white;
+    padding: 2px;
+}
+
+.popular-gift-card:hover .tool-tip{
+    display: block;
+}
+
+.popular-gifts-img {
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.popular-gifts-img img,
+.popular-gifts-img video {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.popular-gifts-img video {
+  max-height: 197px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.play-btn {
+  position: absolute;
+  z-index: 5;
+  bottom: 12px;
+  right: 12px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.play-btn svg {
+  display: block;
+  height: 18px;
+  width: 18px;
+}
+
+.popular-gifts-img .wishlist-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #fff;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 10;
+  opacity: 0;
+  transition: transform 0.2s linear;
+}
+
+.popular-gift-card:hover .wishlist-btn {
+  transform: translateY(-12px);
+  opacity: 1;
+}
+
+.popular-gifts-img .wishlist-btn svg {
+  height: 18px;
+  width: 18px;
+}
+
+.popular-gifts-text-heading {
+  padding-top: 2px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  font-family: font-med;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.star-rating {
+  display: flex;
+}
+
+.star-rating span {
+  height: 14px;
+  width: 14px;
+  display: block;
+}
+
+.star-rating span svg {
+  width: 100%;
+}
+
+.rating .customer-rating {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #595959;
+  font-family: font-reg;
+  display: block;
+  margin-top: 3px;
+  margin-left: 4px;
+}
+
+.popular-gifts-price .currency-symbol,
+.popular-gifts-price .actual-price {
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+  display: inline-block;
+  font-family: font-med;
+}
+
+.popular-gifts-discount-section {
+  font-size: 13px;
+  line-height: 1.6;
+  font-family: font-reg;
+  color: #258635;
+}
+
+.popular-gift-strikeout {
+  text-decoration: line-through;
+}
+
+.discount {
+  margin-left: 3px;
+}
+
+.free-delivery {
+  font-size: 11px;
+  font-family: font-med;
+  padding: 3px 6px;
+  background-color: #d4e9d7;
+  color: #222;
+  max-width: fit-content;
+  border-radius: 20px;
+  display: none;
+}
+
+.active {
+  display: flex;
+}
+
+.about-bg {
+  background-color: #fdebd2;
+}
+
+.about {
+  padding: 64px 30px 48px;
+  position: relative;
+  text-align: center;
+  color: #222;
+  max-width: 1400px;
+  margin-inline: auto;
+}
+
+.about-span-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  vertical-align: middle;
+  height: 24px;
+  transform: scale(1);
+  height: 24px;
+  overflow: hidden;
+}
+
+.about-span-svg svg {
+  fill: #fff;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.about-header h2 {
+  font-size: 32px;
+  line-height: 36px;
+  font-family: font-light;
+  font-weight: 300;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.about-header a {
+  color: #222;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: font-reg;
+}
+
+.about-info {
+  padding-top: 36px;
+  margin-bottom: 6px;
+}
+
+.footer-about-header {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: font-reg;
+  margin-bottom: 18px;
+}
+
+.about-desc {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: font-reg;
+}
+
+.about-desc .about-desc-underline {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+  cursor: help;
+}
+
+.help-section {
+  margin-top: 30px;
+}
+
+.help-section p {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: font-med;
+}
+
+.help-center-btn {
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 10px 18px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: font-med;
+  line-height: 1.5;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.subscription-section {
+  padding: 18px 24px 68px;
+  position: relative;
+  background-color: #d7e6f5;
+  text-align: center;
+}
+
+.subscription-span-svg {
+  height: 30px;
+  transform: rotate(180deg);
+  position: absolute;
+  top: -20px;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.subscription-span-svg svg {
+  width: 100%;
+  fill: #d7e6f5;
+  display: block;
+  overflow: hidden;
+}
+
+.subscription-text {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: font-med;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.subscribe-input {
+  border-radius: 50px;
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  overflow: hidden;
+  width: 100%;
+  margin-inline: auto;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+}
+
+.subscribe-input .email {
+  border: none;
+  padding: 9px 12px 9px 18px;
+  font-size: 16px;
+  line-height: 18px;
+  width: 100%;
+}
+
+.subscribe-input .email:focus{
+  outline: none;
+}
+
+.subscribe-input .subscribe-btn {
+  border: none;
+  text-align: left;
+  height: 48px;
+  padding: 12px 21px 12px 15px;
+  font-size: 16px;
+  font-family: font-med;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.subscribe-input .subscribe-btn:hover{
+  background-color: rgb(245, 242, 242);
+}
+
+.footer-powered {
+  padding-block: 12px;
+  position: relative;
+  background-color: #4d6bc6;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-powered-svg {
+  position: absolute;
+  top: -20px;
+  transform: rotate(180deg);
+  height: 24px;
+  width: 100%;
+}
+
+.footer-powered-svg svg {
+  fill: #4d6bc6;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-powered-logo {
+  height: 36px;
+  width: 36px;
+  margin-inline: auto;
+  margin-bottom: 6px;
+}
+
+.footer-powered-logo svg {
+  fill: #fff;
+}
+
+.footer-powered-text {
+  margin-inline: 12px;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: font-reg;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-offset: 3px;
+}
+
+.footer-category-list-bg {
+  background-color: #2f466c;
+}
+
+.footer-category-list {
+  padding: 12px 24px 18px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1400px;
+  margin-inline: auto;
+}
+
+.footer-shop-category {
+  width: 100%;
+  transition: all 0.3s linear;
+}
+
+.footer-shop-category.show {
+  transition: all 0.3s linear;
+}
+
+.footer-shop-category .shop-btn {
+  border: none;
+  width: calc(100% + 2 * 18px);
+  color: #fff;
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #2f466c;
+  padding: 12px 17px;
+  margin-inline: -18px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: font-med;
+  transition: all 0.3s linear;
+}
+
+.footer-shop-category:last-child .shop-btn {
+  margin-bottom: 6px;
+}
+
+.shop-btn:focus {
+  background-color: #3f5d8b;
+  border-radius: 96px;
+}
+
+.chevron-down-btn {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s linear;
+}
+
+.footer-shop-category.show .chevron-down-btn {
+  transform: rotate(180deg);
+}
+
+.footer-shop-category .shop-list {
+  list-style: none;
+  padding-inline: 6px;
+  display: none;
+  transition: display 0.3s linear;
+}
+
+.footer-shop-category.show .shop-list {
+  display: block;
+}
+
+.shop-list li {
+  padding: 6px 0 12px;
+}
+
+.footer-shop-category ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: font-reg;
+}
+
+.footer-shop-category ul li a:hover{
+  text-decoration: underline;
+}
+
+.etsy-social {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.etsy-download {
+  border: 2px solid #fff;
+  margin-inline: auto;
+  padding: 4px 14px;
+  font-family: font-reg;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.etsy-download-logo svg {
+  fill: #fff;
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.etsy-download-text {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-family: font-med;
+  line-height: 1.4;
+  margin-left: 6px;
+  text-align: left;
+}
+
+.etsy-social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.etsy-social-logo {
+  margin-right: 6px;
+  padding: 6px;
+}
+
+.etsy-social-logo svg {
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+  fill: #fff;
+}
+
+.footer-final-section-bg {
+  background-color: #232347;
+}
+
+.footer-final-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 24px;
+  color: #fff;
+}
+
+.footer-regions {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 9px 15px;
+  display: flex;
+  align-items: center;
+  font-family: font-med;
+  margin-bottom: 12px;
+  border-radius: 50px;
+  transform: scale(1.04);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.footer-regions:hover{
+  background-color: #373753;
+}
+
+.world-logo {
+  width: 18px;
+  height: 18px;
+}
+
+.world-logo svg {
+  fill: #fff;
+}
+
+.region-text {
+  margin-left: 2px;
+  /* font-size: 13px; */
+}
+
+.footer-policies {
+  /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  text-align: center;
+}
+
+.etsy-inc {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: font-reg;
+  margin-bottom: 12px;
+}
+
+.footer-terms-list {
+  list-style: none;
+  display: inline-block;
+}
+
+.footer-terms-list li {
+  margin-right: 12px;
+  display: inline-block;
+}
+
+.footer-terms-list li a {
+  color: #fff;
+  font-size: 13px;
+  font-family: font-reg;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 425px) {
+  .discover-categories {
+    column-gap: 21px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .mobile {
+    margin-top: 5px;
+  }
+  .etsy-logo {
+    width: 80px;
+    height: 40px;
+  }
+  .login-wishlist .sign-in {
+    transform: translate(-3px, -3px);
+  }
+  .login-wishlist .wishlist {
+    transform: translate(-2px, -4px);
+  }
+  .login-wishlist .basket {
+    transform: translate(-2px, -4px);
+  }
+  .mobile-search-section {
+    margin-top: -1px;
+  }
+  .discover-categories {
+    justify-content: space-around;
+  }
+  .discover-categories-bg {
+    height: 75%;
+  }
+  .dress-category {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .discover-section h1 {
+    font-size: 26px;
+    line-height: 42px;
+  }
+  .discover-categories {
+    padding-inline: 24px;
+    padding-top: 0;
+    justify-content: space-between;
+    /* margin-top: -6px; */
+    column-gap: unset;
+  }
+  .card-img {
+    max-width: 84px;
+    width: 84px;
+  }
+  .discover-categories-card {
+    flex-basis: unset;
+    max-width: min-content;
+    flex-wrap: nowrap;
+    padding: unset;
+  }
+  .discover-categories-card .card-text {
+    margin-top: 5px;
+  }
+  .discover-categories-bg {
+    height: 50%;
+  }
+  .deals-header h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .deals-container {
+    padding-inline: 30px;
+  }
+  .dress-category {
+    column-gap: 18px;
+    row-gap: 25px;
+  }
+  .dress-card-type {
+    margin-bottom: 11px;
+  }
+  .popular-gifts-container {
+    margin-block: 60px;
+    padding-inline: 24px;
+  }
+  .popular-gifts-container h2 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: left;
+  }
+  .popular-gift-card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .popular-gifts-text-heading {
+    -webkit-line-clamp: 2;
+  }
+  .about-header h2 {
+    font-size: 44px;
+    line-height: 48px;
+  }
+  .footer-about-header {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .help-section p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .footer-powered {
+    flex-direction: row;
+  }
+  .footer-powered-logo {
+    margin-inline: unset;
+  }
+  .footer-category-list {
+    flex-direction: row;
+    align-items: unset;
+    padding: 24px 24px 24px;
+  }
+  .footer-shop-category {
+    flex-basis: 25%;
+    max-width: 25%;
+    flex: 1;
+  }
+  .footer-shop-category .shop-btn {
+    margin-bottom: 0;
+  }
+  .footer-shop-category .shop-list {
+    display: block;
+    padding-left: 0;
+  }
+  .shop-btn .chevron-down-btn {
+    display: none;
+  }
+  .shop-list li {
+    padding-block: 6px;
+  }
+  .shop-list li a {
+    font-size: 13px;
+  }
+  .etsy-social-icons {
+    justify-content: unset;
+  }
+  .etsy-social-logo {
+    margin-right: unset;
+  }
+  .footer-policies {
+    display: flex;
+  }
+  .etsy-inc {
+    margin-right: 12px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .mobile {
+    display: none;
+  }
+  .website {
+    padding: 11px 36px;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin-inline: auto;
+  }
+
+  .etsy-logo {
+    width: 86px;
+    height: 42px;
+    padding-right: 6px;
+    transform: unset;
+    margin-top: 7px;
+    transform: translate(-3px, -1px);
+  }
+
+  .etsy-logo svg {
+    fill: #f1641e;
+  }
+
+  .web-search-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #222;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    flex: 1 1;
+    overflow: hidden;
+    margin-right: 18px;
+  }
+
+  .web-search-section .web-search {
+    width: 100%;
+    padding: 8px 42px 8px 18px;
+    border: none;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: font-reg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(1px);
+  }
+
+  .web-search-section .web-search:focus{
+    outline: none;
+  }
+
+  .web-search-btn {
+    border: none;
+    padding: 8px 21px 7px 13px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 2px;
+    margin-right: 1px;
+  }
+
+  .web-search-btn:hover {
+    background-color: rgba(34, 34, 34, 0.05);
+  }
+
+  .web-search-section svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .login-wishlist {
+    display: flex;
+    align-items: center;
+    transform: unset;
+  }
+
+  .login-wishlist .sign-in {
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 9px 15px;
+    margin-right: 6px;
+    text-decoration: none;
+    font-family: font-med;
+    color: #222;
+    transform: translateY(1px);
+  }
+
+  .login-wishlist .wishlist,
+  .login-wishlist .basket {
+    display: inline-block;    
+    transform: translate(1px, -1px);
+  }
+
+  .login-wishlist .wishlist svg,
+  .login-wishlist .basket svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .categories {
+    max-width: 1400px;
+    margin-inline: auto;
+    padding-inline: 36px;
+    display: block;
+    margin-top: -1px;
+  }
+
+  .categories ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .categories ul li {
+    margin-top: 4px;
+    margin-right: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-family: font-reg;
+    line-height: 18px;
+    position: relative;
+  }
+
+  .categories ul li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #222;
+    transition: all 0.3s linear;
+  }
+
+  .categories ul li:hover::after {
+    left: 0;
+    width: 100%;
+  }
+
+  .categories ul li a,
+  .categories ul .gift-text {
+    text-decoration: none;
+    color: #222;
+  }
+
+  .categories ul .gift-svg {
+    margin-top: 1px;
+  }
+
+  .categories ul .gift-text {
+    margin-left: 2px;
+    margin-bottom: 1px;
+  }
+
+  .discover-section {
+    margin-top: -3px;
+  }
+
+  .discover-section h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 36px;
+    font-family: font-light;
+    letter-spacing: 0.5px;
+    padding: 24px 18px 18px 18px;
+    background-color: #d7e6f5;
+    margin-top: 0;
+  }
+
+  .discover-categories {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    padding-inline: 36px;
+    margin-top: -2px;
+  }
+
+  .discover-categories-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: unset;
+    max-width: min-content;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .card-img {
+    max-width: 114px;
+    width: 114px;
+    border-radius: 50%;
+    margin-block: 12px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .card-img img {
+    width: 100%;
+  }
+
+  .discover-categories-card:hover .card-img {
+    transform: scale(1.1);
+  }
+
+  .discover-categories-card .card-text {
+    font-family: font-med;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -5px;
+    position: relative;
+  }
+
+  .discover-categories-card:hover .card-text::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #222;
+  }
+
+  .discover-categories-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #d7e6f5;
+    z-index: -1;
+  }
+  .deals-container {
+    padding-inline: 36px;
+  }
+  .dress-category {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .popular-gift-card-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .popular-gift-card:last-child {
+    display: none;
+  }
+  .about {
+    padding-inline: 54px;
+  }
+  .about-header h2 {
+    font-size: 44px;
+    line-height: 48px;
+  }
+  .about-span-svg {
+    transform: scale(1);
+  }
+  .about-info-container {
+    display: flex;
+    column-gap: 36px;
+  }
+  .about-info {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    text-align: left;
+  }
+  .footer-about-header {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .etsy-social {
+    text-align: left;
+  }
+  .footer-final-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .discover-categories {
+    justify-content: center;
+    margin-top: -11px;
+  }
+  .discover-categories-card {
+    padding: 9px 30px;
+  }
+  .deals-container {
+    margin-top: 36px;
+  }
+  .about {
+    padding-inline: 54px;
+    padding-bottom: 96px;
+  }
+  .about-info-container {
+    display: flex;
+  }
+}
