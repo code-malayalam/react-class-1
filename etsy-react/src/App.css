@@ -456,6 +456,10 @@
 .filter-price input:focus{
     outline: none;
 }
+.filter-price ::-webkit-inner-spin-button,
+.filter-price ::-webkit-outer-spin-button{
+    display:none;
+}
 .filter-price button{
     width:56px;
     height: 35px;

@@ -2,13 +2,13 @@ import React, { useEffect, useState } from "react";
 import gift from "../Assets/gift.svg"
 
 function NavBar() {
-  const [nav, setdData] = useState([]);
+  const [nav,setNav] = useState([]);
 
   useEffect(() => {
     fetch("./data.json")
       .then((data) => data.json())
       .then((data) => {
-        setdData(data);
+      setNav(data);
       });
   }, []);
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function Deals() {
-  const [deal, setData] = useState([]);
+  const [deal,setDeal] = useState([]);
 
   useEffect(() => {
     fetch("./Deals.json")
@@ -9,7 +9,7 @@ function Deals() {
         return data.json();
       })
       .then((data) => {
-        setData(data);
+        setDeal(data);
       });
   }, []);
 

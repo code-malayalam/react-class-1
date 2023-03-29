@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { halfSVG, starSVG, btnSVG, redWish, whiteWish } from "./Constant";
 
 function Gifts() {
-  const [gift, setData] = useState([]);
+  const [gift, setGift] = useState([]);
   
 
   useEffect(() => {
@@ -11,7 +11,7 @@ function Gifts() {
         return data.json();
       })
       .then((data) => {
-        setData(data);
+        setGift(data);
       });
   }, []);
 
@@ -23,7 +23,7 @@ function Gifts() {
     const filteredVal = gift.filter(
       (item) => newPrice(item.old, item.offer) > filterVal
     );
-    setData(filteredVal);
+    setGift(filteredVal);
   }
 
   //--------------function for wish button------------------

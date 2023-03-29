@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function Blog() {
-  const [freshBlog, setData] = useState([]);
+  const [blog,setBlog] = useState([]);
 
   useEffect(() => {
     fetch("./Blog.json")
@@ -9,7 +9,7 @@ function Blog() {
         return data.json();
       })
       .then((data) => {
-        setData(data);
+      setBlog(data);
       });
   }, []);
 
@@ -20,7 +20,7 @@ function Blog() {
         <i className="fa-solid fa-arrow-right"></i>
       </div>
       <div className="add-card">
-        {freshBlog.map((item) => {
+        {blog.map((item) => {
           return (
             <div className="fresh-blog" key={item.img}>
               <img src={item.img} />
