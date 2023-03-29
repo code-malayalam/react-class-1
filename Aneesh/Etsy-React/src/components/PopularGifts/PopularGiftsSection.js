@@ -7,22 +7,23 @@ import "./PopularGiftsSection.css";
 function PopularGiftSection() {
   const [data, setData] = useState([]);
   const [filterData, setFilter] = useState([]);
-  const inputRef = useRef();
+  const [inputVal, setInputVal] = useState("");
 
-    useEffect(() => {
-      async function fetchData(){
-          const dataObj = await FetchData('https://raw.githubusercontent.com/anmh265/JSON-Etsy/main/Data.json')
-          setData(dataObj.popularGiftData)
-          setFilter(dataObj.popularGiftData)
-      }
-      fetchData()
+  useEffect(() => {
+    async function fetchData() {
+      const dataObj = await FetchData(
+        "https://raw.githubusercontent.com/anmh265/JSON-Etsy/main/Data.json"
+      );
+      setData(dataObj.popularGiftData);
+      setFilter(dataObj.popularGiftData);
+    }
+    fetchData();
   }, []);
 
   function handleFilter(e) {
     e.preventDefault();
-    const filterVal = +inputRef.current.value;
     const filterDataList = filterData.filter(
-      (item) => calculatePrice(item.actualPrice, item.discount) >= filterVal
+      (item) => calculatePrice(item.actualPrice, item.discount) >= inputVal
     );
     setData(filterDataList);
   }
@@ -36,7 +37,7 @@ function PopularGiftSection() {
             type="number"
             className="popular-gift-filter"
             placeholder="Enter filter amount"
-            ref={inputRef}
+            onChange={(e) => setInputVal(+e.target.value)}
           />
           <input type="submit" className="submit-btn" value="filter" />
         </form>

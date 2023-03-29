@@ -13,8 +13,6 @@ function Deals() {
       const dataObj = await FetchData(
         "https://raw.githubusercontent.com/anmh265/JSON-Etsy/main/Data.json"
       );
-
-      console.log(dataObj)
       setData(dataObj.dealsData);
     }
     getData();
