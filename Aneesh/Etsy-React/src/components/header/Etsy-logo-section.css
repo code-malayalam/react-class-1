@@ -1,0 +1,24 @@
+.etsy-logo {
+  width: 60px;
+  height: 30px;
+  fill: #f1641e;
+  transform: translate(-3px, -2px);
+}
+
+@media screen and (min-width: 480px) {
+  .etsy-logo {
+    width: 80px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .etsy-logo {
+    width: 86px;
+    height: 42px;
+    padding-right: 6px;
+    fill: #f1641e;
+    margin-top: 7px;
+    transform: translate(-3px, -1px);
+  }
+}

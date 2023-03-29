@@ -1,0 +1,73 @@
+.footer-final-section-bg{
+    background-color: #232347;
+}
+.footer-final-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 24px;
+    color: #fff;
+}
+.footer-regions{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 9px 15px;
+    display: flex;
+    align-items: center;
+    font-family: font-med;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    transform: scale(1.04);
+    transition: background-color 0.2s ease-in-out;
+}
+.footer-regions:hover{
+    background-color: #373753;
+}
+.world-logo{
+    width: 18px;
+    height: 18px;
+}
+.world-logo svg{
+    fill: #fff;
+}
+.region-text{
+    margin-left: 2px;
+}
+.footer-policies{
+    text-align: center;
+}
+.etsy-inc{
+    font-size: 13px;
+    line-height: 18px;
+    font-family: font-reg;
+    margin-bottom: 12px;
+}
+.footer-terms-list li{
+    margin-right: 12px;
+    display: inline-block;
+}
+.footer-terms-list li a{
+    color: #fff;
+    font-size: 13px;
+    font-family: font-reg;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 640px) {
+    .footer-policies{
+        display: flex;
+    }
+    .etsy-inc{
+        margin-right: 12px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .footer-final-section{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

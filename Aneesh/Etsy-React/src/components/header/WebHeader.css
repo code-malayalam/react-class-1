@@ -1,0 +1,15 @@
+.website{
+    display: none;
+}
+
+@media screen and (min-width: 900px) {
+    .website {
+      padding: 11px 36px;
+      margin-bottom: 1px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1400px;
+      margin-inline: auto;
+    }
+}

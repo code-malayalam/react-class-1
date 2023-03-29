@@ -1,0 +1,19 @@
+.mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-inline: 12px;
+}
+
+@media screen and (min-width:480px) {
+    .mobile{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .mobile{
+        display: none;
+    }
+}

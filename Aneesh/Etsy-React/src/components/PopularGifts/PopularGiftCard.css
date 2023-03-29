@@ -1,0 +1,164 @@
+.popular-gift-card {
+  cursor: pointer;
+  padding: 6px;
+  transition: box-shadow 0.2s ease-in-out;
+  position: relative;
+  max-height: 100%;
+}
+.popular-gift-card:hover {
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.tool-tip {
+  position: absolute;
+  z-index: 10;
+  background-color: #222;
+  font-size: 13px;
+  font-family: font-reg;
+  width: 700px;
+  color: white;
+  display: none;
+  border: 1px solid white;
+  padding: 2px;
+}
+.popular-gift-card:hover .tool-tip {
+  display: block;
+}
+.popular-gifts-img {
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+.popular-gifts-img img,
+.popular-gifts-img video {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.popular-gifts-img video {
+  max-height: 160px;
+  object-fit: cover;
+  object-position: center center;
+}
+.play-btn {
+  position: absolute;
+  z-index: 5;
+  bottom: 12px;
+  right: 12px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.play-btn img {
+  display: block;
+  height: 18px;
+  width: 18px;
+}
+.popular-gifts-img .wishlist-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #fff;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 10;
+  opacity: 0;
+  transition: transform 0.2s linear;
+}
+.popular-gift-card:hover .wishlist-btn {
+  transform: translateY(-12px);
+  opacity: 1;
+}
+.popular-gifts-img .wishlist-btn img {
+  height: 18px;
+  width: 18px;
+}
+.popular-gifts-text {
+  text-align: left;
+}
+.popular-gifts-text-heading {
+  padding-top: 2px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  font-family: font-med;
+}
+.rating {
+  display: flex;
+  align-items: center;
+}
+.star-rating {
+  display: flex;
+}
+.star-rating span {
+  height: 14px;
+  width: 14px;
+  display: block;
+}
+.star-rating span svg {
+  width: 100%;
+}
+.rating .customer-rating {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #595959;
+  font-family: font-reg;
+  display: block;
+  margin-top: 3px;
+  margin-left: 4px;
+}
+.popular-gifts-price .currency-symbol,
+.popular-gifts-price .actual-price {
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+  display: inline-block;
+  font-family: font-med;
+}
+.popular-gifts-discount-section {
+  font-size: 13px;
+  line-height: 1.6;
+  font-family: font-reg;
+  color: #258635;
+}
+.popular-gift-strikeout {
+  text-decoration: line-through;
+}
+.discount {
+  margin-left: 3px;
+}
+.free-delivery {
+  font-size: 11px;
+  font-family: font-med;
+  padding: 3px 6px;
+  background-color: #d4e9d7;
+  color: #222;
+  max-width: fit-content;
+  border-radius: 20px;
+  display: none;
+}
+.active{
+    display: flex;
+}
+
+
+@media screen and (min-width: 900px) {
+    .popular-gift-card:last-child{
+        display: none;
+    }
+}

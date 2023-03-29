@@ -1,0 +1,57 @@
+.categories {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  .categories {
+    max-width: 1400px;
+    margin-inline: auto;
+    padding-inline: 36px;
+    display: block;
+    margin-top: -1px;
+  }
+  .categories ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .categories ul li {
+    margin-top: 4px;
+    margin-right: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-family: font-reg;
+    line-height: 18px;
+    position: relative;
+  }
+  .categories ul li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #222;
+    transition: all 0.3s linear;
+  }
+  .categories ul li:hover::after {
+    left: 0;
+    width: 100%;
+  }
+  .categories ul li a,
+  .categories ul .gift-text {
+    text-decoration: none;
+    color: #222;
+    text-align: left;
+  }
+  .categories ul .gift-svg {
+    margin-top: 1px;
+  }
+  .categories ul .gift-text {
+    margin-left: 2px;
+    margin-bottom: 1px;
+  }
+}
