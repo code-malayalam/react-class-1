@@ -16,20 +16,20 @@ function Header() {
           </div>
           <div className="sign">
             <span>Sign in</span>
-            <img src={like}></img>
-            <img src={bascket}></img>
+            <img src={like} />
+            <img src={bascket} />
           </div>
         </div>
         <div className="head2">
-          <img src={hamburger}></img>
+          <img src={hamburger}/>
           <div className="btn">
             <input type="text" placeholder="Search for anything" />
-            <img src={search}></img>
+            <img src={search}/>
           </div>
         </div>
       </div>
       <div className="header-dt">
-       <img src={icon}></img>
+       <img src={icon}/>
         <div className="btn">
           <input type="text" placeholder="Search for anything" />
           <img src={search}></img>
