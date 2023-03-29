@@ -1,0 +1,182 @@
+.deals_of_the_day {
+  max-width: 1328px;
+  margin-inline: auto;
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 12px;
+}
+.deals {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: graphik_medium;
+  color: rgba(0, 0, 0, 0.9);
+}
+.shop img {
+  width: 12px;
+  height: 24px;
+}
+.shop {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 13px;
+  font-family: graphik_medium;
+  margin-top: 12px;
+  color: #222;
+}
+.deals_container {
+  margin: 10px 6px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.deals_card {
+  max-width: 50%;
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+.deal_items {
+  margin: 6px 6px 12px 6px;
+}
+.deal_item_container:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.deal_img {
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+  border-radius: 12px;
+}
+.deal_img img {
+  border-radius: 12px 10px 0 0;
+  width: 100%;
+}
+.deals_text{
+  padding: 10px 12px 23px 12px;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+  border-top: 0;
+  border-radius: 0 0 012px 12px;
+}
+.deals_text span{
+  font-size:13px;
+  font-family:graphik_regular;
+  line-height: 16px;
+  color:rgba(0,0,0,0.8);
+}
+.deals_text p{
+  font-size: 16px;
+  line-height: 20px;
+  font-family: graphik_medium;
+  margin-top: 5px;
+  color:rgba(0,0,0,0.8);
+}
+
+@media screen and (min-width: 768px) {
+  .deals_of_the_day {
+    padding-inline: 30px;
+    margin-top: 54px;
+  }
+  .deals {
+    font-size: 28px;
+  }
+  .shop {
+    margin-top: 13px;
+  }
+  .deals_container {
+    padding: 8px 21px;
+    margin: 0 0 35px 0;
+  }
+  .deals_card {
+    max-width: 33.33333%;
+    flex-grow: 1;
+    flex-basis: 33.33333%;
+    margin-bottom: 6px;
+  }
+  .deal_items {
+    margin: 9px;
+    padding: 0px;
+    height: 100%;
+  }
+  .deal_item_container {
+    height: 94%;
+    border: 1px solid rgba(34, 34, 34, 0.15);
+    border-radius: 12px;
+    border-top: 0;
+  }
+  .deal_img {
+    border: 0;
+  }
+  .deals_text{
+    border:0;
+    border-radius: 0;
+    padding: 11px 12px 25px 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .deals_of_the_day {
+    margin-top: 40px;
+    padding-inline: 36px;
+  }
+  .deals_container {
+    padding: 8px 27px;
+  }
+  .deals_card {
+    max-width: 16.666666667%;
+    flex-grow: 1;
+    flex-basis: 16.666666667%;
+    margin-bottom: 6px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .deals_of_the_day {
+    margin-top: 0;
+    padding: 0;
+  }
+  .shop {
+    margin-top: 13px;
+  }
+  .deals_container {
+    padding: 8px 47px;
+    max-width: 1347px;
+    margin: 0 auto;
+  }
+  .deal_items {
+    border-radius: 12px;
+    padding-bottom: 13px;
+    width: 204.33px;
+    border: 0;
+  }
+  .deal_img{
+    width: 204.33px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .deal_img img{
+    border-radius: 12px 10px 0 0;
+    width: 204.33px;
+  }
+  .deals_text{
+    padding: 11px 12px;
+  }
+  .deals_text span{
+    font-size: 13px;
+    font-family: graphik_regular;
+    line-height:16px;
+    color: rgba(0,0,0,0.8);
+  }
+  .deals_text p{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: graphik_medium;
+    margin-top: 5px;
+    color:rgba(0,0,0,0.8);
+  }
+}

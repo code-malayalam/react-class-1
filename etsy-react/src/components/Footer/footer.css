@@ -1,0 +1,345 @@
+.etsy_overview_svg {
+  background-color: #fdebd2;
+}
+.etsy_overview_svg img {
+  transform: scale(1);
+  width: 100%;
+  height: 24px;
+}
+.etsy_overview {
+  text-align: center;
+  padding: 36px 30px;
+  background-color: #fdebd2;
+}
+.etsy_overview_heading {
+  font-family: guardian;
+  font-size: 32px;
+  line-height: 36px;
+  color: #222;
+  margin-bottom: 6px;
+}
+.etsy_story_head {
+  font-size: 14px;
+  color: #222;
+  font-family: graphik_regular;
+  letter-spacing: -0.9999px;
+}
+.etsy_overview_container {
+  padding-top: 36px;
+}
+.etsy_overview_svg.lightblue img {
+  height: 30px;
+}
+.etsy_overview_svg.lightblue {
+  height: 30px;
+}
+.etsy_overview_svg.blue {
+  background-color: #d7e6f5;
+  height: 24px;
+  transform: rotate(180deg);
+}
+.etsy_overview_card {
+  margin-bottom: 30px;
+}
+.etsy_overview_card p {
+  font-size: 24px;
+  margin-bottom: 18px;
+  font-family: graphik_medium;
+  color: #222;
+}
+.etsy_overview_card span {
+  font-size: 16px;
+  font-family: graphik_regular;
+  color: #222;
+  line-height: 28px;
+}
+.have_question {
+  font-size: 18px;
+  font-family: graphik_medium;
+}
+.help_center {
+  margin-top: 12px;
+  padding: 12px 18px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 24px;
+  font-size: 16px;
+  font-family: graphik_medium;
+  line-height: 1.5px;
+  text-align: center;
+  min-height: 48px;
+  border: 2px solid #222;
+}
+.subscription {
+  background-color: #d7e6f5;
+  padding: 18px 24px 36px 24px;
+  text-align: center;
+  color: #222;
+}
+.subscription p {
+  font-size: 16px;
+  font-family: graphik_regular;
+  margin-bottom: 12px;
+  line-height: 20px;
+}
+.enter_mail {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 480px;
+  margin: 0 auto;
+  height: 48px;
+  box-shadow: 1px 2px 4px 0 rgb(34 34 34 / 10%) inset;
+  border-radius: 96px;
+}
+.enter_mail input {
+  padding: 9px 0 9px 12px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+}
+.enter_mail button {
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  padding: 12px 21px 12px 0;
+  font-family: graphik_medium;
+}
+.text_underlined {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-position: under;
+}
+.powered_by {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #4d6bc6;
+  padding: 12px 12px;
+}
+.powered_by img {
+  width: 36px;
+  height: 36px;
+}
+.powered_by .text_underlined {
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  font-family: graphik_regular;
+}
+.footer_list_items_container {
+  background-color: #2f466c;
+}
+.footer_list_items {
+  color: #fff;
+  padding: 12px 0;
+  max-width: 1347px;
+  margin: 0 auto;
+}
+.list_item ul li {
+  list-style-type: none;
+  font-size: 16px;
+  font-family: graphik_regular;
+  padding: 6px 24px 12px 24px;
+}
+.list_item {
+  font-size: 16px;
+  max-width: 1347px;
+  margin: 0 auto;
+}
+.arrow_up {
+  display: block;
+  transform: rotate(180deg);
+}
+.arrow_down {
+  display: block;
+  transform: rotate(360deg);
+}
+.unactive {
+  display: none;
+}
+.active {
+  display: block;
+}
+.social_media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 36px;
+}
+.download_etsy {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 6px 15px;
+  color: #fff;
+  font-family: graphik_medium;
+}
+.social_media_icons {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 12px;
+}
+.terms_and_policy_container {
+  background-color: #232347;
+}
+.terms_policies {
+  padding: 27px 24px 18px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-family: graphik_regular;
+  font-size: 13px;
+  text-align: center;
+}
+.terms_policies a {
+  color: #fff;
+  font-family: graphik_regular;
+  margin-right: 12px;
+}
+.countries {
+  display: flex;
+  padding-bottom: 21px;
+}
+.etsy_inc {
+  font-family: graphik_regular;
+  margin-bottom: 12px;
+}
+.terms_of_use {
+  line-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .etsy_overview_heading {
+    font-size: 44px;
+  }
+  .have_question {
+    font-size: 20px;
+  }
+  .etsy_overview_card {
+    font-size: 28px;
+  }
+  .footer_list_items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 104px;
+    padding-inline: 24px;
+  }
+  .list_item:nth-child(1),
+  .list_item:nth-child(2),
+  .list_item:nth-child(3) {
+    grid-row: 1/3;
+  }
+  .list_item ul li {
+    font-size: 13px;
+    padding-bottom: 6px;
+  }
+  .item,
+  .list_item ul li {
+    padding-left: 0;
+  }
+  .list_item {
+    width: 100%;
+  }
+  .item img {
+    width: 24px;
+    height: 24px;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    margin-bottom: 6px;
+  }
+  .item p {
+    font-size: 16px;
+    font-family: graphik_medium;
+  }
+  .unactive {
+    display: block;
+  }
+  .arrow_down {
+    display: none;
+  }
+  .arrow_up {
+    display: none;
+  }
+  .powered_by {
+    flex-direction: row;
+  }
+  .social_media {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    align-items: flex-start;
+  }
+  .download_etsy {
+    width: fit-content;
+    text-align: left;
+  }
+  .social_media_icons {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0;
+  }
+  .social_media_icons img {
+    margin-right: 12px;
+    margin-bottom: 5px;
+  }
+  .footer_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .etsy_inc {
+    margin: 0;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .etsy_overview {
+    padding: 36px 54px;
+  }
+  .etsy_overview_container {
+    display: flex;
+    max-width: 1347px;
+    margin: 0 auto;
+  }
+  .etsy_overview_card {
+    flex: 1;
+    flex-basis: 33.33333%;
+    max-width: 33.333333%;
+    text-align: left;
+  }
+  .etsy_overview_card:nth-child(2) {
+    margin: 0 36px;
+  }
+  .terms_policies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .terms_policies {
+    max-width: 1347px;
+    margin: 0 auto;
+  }
+  .countries {
+    padding: 0;
+  }
+}

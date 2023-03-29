@@ -1,0 +1,160 @@
+.logo_searchbar {
+  padding: 0 9px;
+}
+.etsy_logo_sign_in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo svg {
+  width: 60px;
+  height: 30px;
+  transform: translateY(-1px);
+}
+.sign_in_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign_in_container .favorites {
+  padding: 0 7px;
+}
+.sign_in_container .basket {
+  padding: 11px 15px 10px 15px;
+}
+.sign_in_container .sign_in {
+  border: 0;
+  margin: 0 24px;
+  font-family: "Roboto", "Droid Sans", "Segoe UI", "Helvetica", Arial,
+    sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #222;
+  background: transparent;
+  transform: translateY(-1px);
+}
+.search_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.search_hamburger svg {
+  width: 24px;
+  height: 24px;
+}
+.search_hamburger {
+  margin: 0 12px 0 3px;
+  transform: translateY(-1px);
+}
+.search_bar {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  border: 2px solid;
+  background-color: rgba(34, 34, 34, 0.05);
+  border-radius: 96px;
+  box-shadow: 1px 2px 4px 0 rgba(34 34 34/10%) inset;
+  margin: 0 3px 0 0;
+  padding-left: 18px;
+  position: relative;
+  transform: translateY(-2px);
+}
+.search_bar input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+}
+.search_bar input:focus {
+  outline: none;
+}
+.search_bar svg {
+  position: absolute;
+  right: 22px;
+  top: 10px;
+}
+.sign_in_container_desktop{
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo_searchbar {
+    padding-top: 5px;
+  }
+  .etsy_logo_sign_in {
+    margin-bottom: 1px;
+  }
+  .logo svg {
+    width: 80px;
+    height: 40px;
+  }
+  .logo {
+    margin-top: 3px;
+  }
+  .sign_in_container {
+    transform: translateY(-1px);
+  }
+  .sign_in_container .basket {
+    padding-top: 8px;
+  }
+  .sign_in_container .favorites {
+    padding: 0 9px;
+    transform: translateY(-1px);
+  }
+  .sign_in_container .sign_in {
+    transform: translateY(-2px);
+  }
+  .search_bar input {
+    line-height: 1.4px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo_searchbar {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1328px;
+    margin-inline: auto;
+    padding: 12px 36px;
+  }
+  .etsy_logo_sign_in {
+    margin: 0;
+  }
+  .logo {
+    margin: 0 0 0 -3px;
+    padding-top: 5px;
+  }
+  .sign_in_container {
+    display: none;
+  }
+  .sign_in {
+    color: #222;
+    white-space: nowrap;
+    font-weight: 600;
+    background-color: #fff;
+    border: 0;
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 15px 21px;
+    height: 20px;
+  }
+  .favorites {
+    padding: 11px 12px 12px 12px;
+  }
+  .basket {
+    width: 24px;
+    height: 24px;
+    padding: 11px 12px 12px 12px;
+  }
+  .search_hamburger {
+    display: none;
+  }
+  .search_bar {
+    margin: 0 12px 0 9px;
+  }
+  .sign_in_container_desktop{
+    display: flex;
+  }
+}

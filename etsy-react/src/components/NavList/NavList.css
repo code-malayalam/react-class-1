@@ -1,0 +1,29 @@
+.categories {
+  display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .categories {
+    display: block;
+  }
+  .category_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1px;
+    list-style-type: none;
+    max-width: 1328px;
+    padding: 0 36px;
+    margin-inline: auto;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .category_list li {
+    margin: 0 12px 0 0;
+    font-family: graphik_regular;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 18px;
+  }
+}

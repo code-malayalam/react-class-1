@@ -1,0 +1,151 @@
+.heading {
+  font-size: 20px;
+  font-family: guardian;
+  margin-inline: auto;
+  text-align: center;
+  background-color: #d7e6f5;
+  padding: 20px 18px 12px 18px;
+  letter-spacing: 0.35px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 10px auto 0 auto;
+}
+.overviews {
+  height: 286px;
+  position: relative;
+}
+.overview_background {
+  height: 75%;
+  background-color: #d7e6f5;
+}
+.overview_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 18px;
+  position: absolute;
+  width: 100%;
+  top: 5px;
+  margin-left: -1px;
+  text-align: center;
+}
+.overview {
+  width: 103px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.overview:hover {
+  cursor: pointer;
+}
+.overview:hover .img_text {
+  border-bottom: 2px solid #222;
+  color: #595959;
+  line-height: 18.5px;
+}
+.overview:hover .img_container {
+  transform: scale(1.1);
+}
+.img_container {
+  width: 94px;
+  height: 94px;
+  margin-bottom: 8px;
+  transition-property: transform;
+}
+.img_container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+}
+.img_text {
+  font-family: graphik_medium;
+  line-height: 20px;
+  font-size: 13px;
+  margin-left: 2px;
+  color: rgba(0, 0, 0, 0.9);
+  letter-spacing: 0.1px;
+  line-height: 18px;
+  padding-bottom: 5px;
+}
+
+@media screen and (min-width: 425px) {
+  .overview_container {
+    column-gap: 34.5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 26px;
+    padding: 25px 18px 15px 18px;
+  }
+  .overviews {
+    height: 130px;
+  }
+  .overview_background {
+    height: 50%;
+  }
+  .overview_container {
+    column-gap: 24.3px;
+    top: 1px;
+  }
+  .img_container {
+    width: 82px;
+    height: 82px;
+  }
+  .img_text {
+    font-size: 13px;
+    color: #222;
+    padding-inline: 10px;
+    margin-top: 6px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .heading {
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+  }
+  .overviews {
+    height: 190px;
+    margin-bottom: 41px;
+  }
+  .overview_container {
+    flex-wrap: nowrap;
+    column-gap: 53.5px;
+    top: 14px;
+  }
+  .overview {
+    padding: 0;
+    width: 114px;
+    height: 186px;
+  }
+  .img_container {
+    width: 112px;
+    height: 112px;
+    margin-bottom: 12px;
+  }
+  .img_text {
+    font-size: 16px;
+    margin-top: 2px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .overview_container {
+    column-gap: 0;
+    top: 5px;
+  }
+  .overview {
+    padding: 9px 30px;
+    width: 114px;
+  }
+}

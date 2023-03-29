@@ -1,0 +1,153 @@
+#valentines_day_gifts_section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+.valentine_heading_container {
+  flex-grow: 1;
+  flex-basis: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+.valentine_heading_editors_pick {
+  font-family: graphik_regular;
+  font-size: 13px;
+  color: #595959;
+}
+.valentine_gifts_heading {
+  font-family: graphik_medium;
+  font-size: 18px;
+  color: #222222;
+  padding-bottom: 18px;
+}
+.valentine_shop_text {
+  display: none;
+}
+.valentines_arrow_right {
+  display: none;
+}
+.add_to_heart {
+  display: none;
+}
+.valentine_card {
+  flex-grow: 1;
+  flex-basis: 33.33333%;
+  max-width: 33.33333%;
+}
+.valentine_card_container {
+  margin: 6px;
+  position: relative;
+}
+.valentine_card_container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  #valentines_day_gifts_section {
+    margin: 0 6px 0 24px;
+  }
+  .valentine_heading_container {
+    max-width: 37.5%;
+    flex-basis: 37.5%;
+    text-align: left;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .valentine_gifts_heading {
+    font-size: 28px;
+    padding-right: 10px;
+  }
+  .valentine_shop_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: graphik_medium;
+    font-size: 16px;
+    color: #222222;
+  }
+  .valentines_arrow_right {
+    width: 12px;
+    height: 24px;
+  }
+  .add_to_heart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 37.5%;
+    max-width: 37.5%;
+    font-size: 16px;
+    font-family: graphik_regular;
+    color: #222222;
+    line-height: 24px;
+  }
+  .add_to_heart {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .add_to_heart_text {
+    padding-right: 55px;
+  }
+  .valentine_card:nth-child(2),
+  .valentine_card:nth-child(7) {
+    flex-grow: 1;
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .valentine_card:nth-child(3),
+  .valentine_card:nth-child(4),
+  .valentine_card:nth-child(5),
+  .valentine_card:nth-child(6) {
+    flex-grow: 1;
+    max-width: 18.75%;
+    flex-basis: 18.75%;
+  }
+  .valentine_card {
+    margin-bottom: 18px;
+  }
+  .valentine_card_container{
+    margin: 0;
+    height: 100%;
+    padding-right: 18px;
+  }
+  .valentine_card_container img{
+    object-fit: cover;
+  }  
+}
+
+@media screen and (min-width: 1024px) {
+  .valentine_heading_container {
+    max-width: 33.3333%;
+    flex-basis: 33.333333%;
+  }
+  .valentine_card:nth-child(5) {
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .valentine_card:nth-child(2),
+  .valentine_card:nth-child(4),
+  .valentine_card:nth-child(6) {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .valentine_card:nth-child(3),
+  .valentine_card:nth-child(7) {
+    flex-basis: 16.66667%;
+    max-width: 16.666667%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #valentines_day_gifts_section {
+    max-width: 1328px;
+    margin: 0 auto;
+  }
+}
