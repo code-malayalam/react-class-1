@@ -1,0 +1,35 @@
+.mob_header_search_bar {
+    display: flex;
+    align-items: center;
+}
+.mob_hamburger {
+    padding-right: 12px;
+    margin: 7px 0px 2px 3px;
+}
+.mob_nav_search_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #222222;
+    height: 26px;
+    border-radius: 32px;
+    background-color: rgb(243, 243, 243);
+    padding: 9px 20px 9px 0px;
+    margin-top: -8px;
+    flex-basis: 100%;
+}
+.mob_search {
+    border: none;
+    background-color: transparent;
+    height: 30px;
+    padding: 9px 42px 9px 18px;
+    font-size: 16px;
+    width: 70%;
+    overflow: hidden;
+}
+.mob_search_button {
+    border: none;
+    background-color: transparent;
+    padding: 2px 2px 0px;
+}

@@ -1,0 +1,15 @@
+.header_logo {
+  display: none;
+}
+@media screen and (min-width: 900px) {
+  .header_logo {
+    display: flex;
+    align-items: center;
+    padding: 12px 56px 10px 6px;
+    margin: 0px 23px 0px 20px;
+    border-bottom: none;
+    background-color: #fff;
+    margin-inline: auto;
+    max-width: 1400px;
+  }
+}

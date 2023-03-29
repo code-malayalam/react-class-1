@@ -1,0 +1,84 @@
+.footer_main_section_des {
+  display: none;
+}
+
+.drop_down_des {
+  background-color: #2f466c;
+}
+
+@media screen and (min-width: 640px) {
+  .footer_main_section_des {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #2f466c;
+    color: #fff;
+    padding: 12px 24px;
+  }
+
+  .drop_down_des {
+    background-color: #2f466c;
+    width: 100%;
+  }
+  .dropdown_list_des li {
+    list-style-type: none;
+    padding: 6px 20px 12px;
+  }
+  .dropdown_list_des li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "etsy-regular";
+    font-size: 16px;
+  }
+  .etsy_download_des {
+    margin: 12px 0px 0px;
+  }
+  .dropdown_section_des p {
+    text-align: center;
+    margin-right: 25px;
+  }
+  .download_des {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 24px;
+    padding: 4px 15px;
+    margin-top: 24px;
+    margin-inline: auto;
+    font-family: "etsy-regular";
+    font-size: 13px;
+  }
+  .download_des p {
+    padding: 0px 0px 0px 6px;
+  }
+  .etsy_medias_des {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+  }
+  .etsy-medias_des svg {
+    padding: 6px;
+  }
+
+  .footer_main_section_dropdown_des {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-inline: auto;
+    max-width: 1440px;
+  }
+
+  .drop_down_des {
+    display: flex;
+  }
+  .dropdown_list_des li a {
+    padding: 6px 20px 12px 0px;
+    list-style-type: none;
+    font-size: 13px;
+  }
+  .etsy_medias_des {
+    display: block;
+  }
+}

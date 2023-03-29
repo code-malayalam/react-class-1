@@ -1,0 +1,60 @@
+.about_etsy {
+  background-color: #232347;
+  color: #fff;
+  padding: 18px 24px;
+}
+.etsy_countries {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  font-family: "etsy-regular";
+  font-size: 13px;
+  padding: 9px 15px 24px;
+  margin-inline: auto;
+}
+.etsy_countries svg {
+  width: 18px;
+}
+.etsy_copyright {
+  font-family: "etsy-regular";
+  font-size: 13px;
+  margin: 0px 0px 12px;
+  text-align: center;
+}
+.etsy_privacy {
+  text-align: center;
+  margin-left: 2px;
+  margin-inline: auto;
+}
+.etsy_privacy a {
+  color: #fff;
+  margin-left: 12px;
+  white-space: nowrap;
+  font-family: "etsy-regular";
+  font-size: 13px;
+}
+
+@media screen and (min-width: 505px) {
+  .etsy_terms {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .etsy_privacy {
+    margin-inline: unset;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .more_about_etsy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin-inline: auto;
+  }
+  .etsy_countries {
+    margin-inline: unset;
+  }
+}

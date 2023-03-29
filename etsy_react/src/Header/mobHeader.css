@@ -1,0 +1,27 @@
+.mob_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_icons {
+    display: flex;
+    align-items: center;
+}
+.mob_signin {
+    font-size: 13px;
+    font-family: "etsy-regular";
+    padding: 9px 19px 9px 15px;
+    letter-spacing: 0.03;
+}
+.mob_like {
+    padding: 4px 10px 12px 12px;
+}
+.mob_basket {
+    padding: 4px 12px 12px 112px;
+}
+
+@media screen and (min-width: 900px) {
+    .mob_header {
+        display: none;
+    }
+}
