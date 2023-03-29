@@ -1,11 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 export function VideoMaker(item) {
   const { videoURL, url } = item.item;
-
-  function foo(url) {
-    return url;
-  }
 
   if (videoURL !== "") {
     return (

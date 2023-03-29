@@ -3,17 +3,8 @@ import "./style.css";
 import { VideoMaker } from "./PlayVideo";
 import { StarGenerator } from "./Star";
 import { WishList } from "./Wishlist";
+import playButton from "../Assets/playButton.svg";
 
-const playButton = (
-  <svg
-    Xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
-    aria-hidden="true"
-    focusable="false"
-  >
-    <polygon points="4 4 4 20 20 12 4 4"></polygon>
-  </svg>
-);
 
 function PopularItems() {
   const [pItems, setPitems] = useState([]);
@@ -66,11 +57,12 @@ function PopularItems() {
               <li className="giftList"></li>
               <div className="popular-img-container">
                 <VideoMaker item={item}></VideoMaker>
-                {/* <img src={item.url} className="imagePop"></img> */}
                 <div className="tooltip-container">{item.tooltipText}</div>
                 <WishList />
                 {item.playButton !== "" ? (
-                  <button className="play-button">{playButton}</button>
+                  <button className="play-button">
+                    <img src={playButton}/>
+                  </button>
                 ) : (
                   ""
                 )}

@@ -52,7 +52,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 28px; */
   }
   .listItems-mob .signIn a {
     font-size: 13px;
@@ -495,7 +494,7 @@ body {
     text-align: center;
   }
 
-  .play-button svg {
+  .play-button img {
     width: 12px;
     height: 24px;
   }
@@ -755,7 +754,7 @@ body {
   .logo-box {
     margin-bottom: 6px;
   }
-  .logo-box svg {
+  .logo-box img {
     width: 36px;
     height: 36px;
   }

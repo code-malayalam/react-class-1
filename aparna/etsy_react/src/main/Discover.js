@@ -10,7 +10,6 @@ function DiscoverItems() {
         return data.json();
       })
       .then((data) => {
-        // console.log(data)
         setDitems(data.discoverItems);
       });
   }, []);
