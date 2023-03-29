@@ -27,3 +27,4 @@ export {
   svgHalfRating,
   svgFullRating,
 };
+
