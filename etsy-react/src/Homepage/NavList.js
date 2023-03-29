@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import fetchData from "../functions/fetchData";
-import  giftSvg  from "/home/anushavs/Desktop/etsy_web_cloning_ams/etsy-react/src/svg/gift.svg";
+import giftSvg from "../svg/gift.svg";
 import '../components/NavList/NavList.css'
 
 function NavList() {
@@ -38,7 +38,7 @@ function List(props) {
     if (props.item.hasOwnProperty('img') && img !== "") {
         return (
             <>
-                <img src={giftSvg}/>
+                <img src={giftSvg} />
                 <li>
                     {title}
                 </li>
