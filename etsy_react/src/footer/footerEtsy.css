@@ -1,0 +1,81 @@
+.footer_etsy {
+    background-color: #fdebd2;
+    width: 100vw;
+    overflow: hidden;
+}
+.etsy {
+    padding: 36px 30px;
+    color: #222222;
+    text-align: center;
+}
+.footer_etsy_header p {
+    font-family: "etsy-light";
+    font-size: 32px;
+    margin: 0px 0px 6px;
+}
+.footer_etsy_header a {
+    color: #222222;
+    font-size: 14px;
+    font-family: 'etsy-regular';
+}
+.etsy_main_content h4 {
+    padding-top: 36px;
+    margin: 0px 0px 18px;
+    line-height: 32px;
+    font-size: 24px;
+}
+.etsy_main_content p {
+    font-family: "etsy-regular";
+    font-size: 16px;
+    line-height: 28px;
+}
+.etsy_communtiy p span {
+    text-decoration: underline dotted;
+}
+.etsy_community p span:hover {
+    cursor: help;
+}
+.etsy_question {
+    font-family: 'etsy-regular';
+    font-size: 18px;
+    margin-top: 36px;
+    text-align: center;
+}
+.etsy_question p{
+    line-height: 24px;
+}
+.help_center {
+    font-family: "etsy-medium";
+    font-size: 16px;
+    border-radius: 50px;
+    border: 2px solid #000;
+    background-color: transparent;
+    margin: 12px 0px 0px;
+    padding: 12px 18px;
+}
+
+@media screen and (min-width: 900px) {
+    .etsy {
+        padding: 36px 54px 36px 54px;
+        text-align: left;
+    }
+    .footr_etsy_header {
+        text-align: center;
+    }
+    .footer_etsy_header  p {
+        font-size: 44px;
+    }
+    .etsy_main_content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        margin-inline: auto;
+        max-width: 1440px;
+    }
+    .etsy_main_content h4 {
+        font-size: 28px;
+    }
+    .etsy_question {
+        font-size: 20px;
+    }
+}

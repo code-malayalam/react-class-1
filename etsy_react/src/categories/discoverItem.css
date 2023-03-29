@@ -1,0 +1,111 @@
+.discover_heading {
+    padding: 26px 18px 18px 18px;
+    letter-spacing: 0.36px;
+    font-size: 32px;
+    font-family: 'etsy-light';
+    font-weight: 100;
+    line-height: 32px;
+    background-color: #d7e675;
+    text-align: center;
+    margin-top: -2px;
+}
+.discover_background {
+    background-color: #dfe675;
+    height: 92px;
+    width: 100%;
+}
+.discover_cards {
+    display: grid;
+    font-family: "etsy-regular";
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5.5%;
+    margin-top: -130px;
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.discover_card_img img{
+    width: 100%;
+    border-radius: 100px;
+    border: 1px solid rgba(34, 34, 34, 0.15);
+}
+.discover_card_name {
+    font-size: 13px;
+    margin-bottom: 20px;
+    line-height: 18px;
+}
+.discover_card_img {
+    width: 85.29px;
+    margin: 0px 0px 3px;
+}
+.discover_card_img:hover .discover_card   {
+    width: 98px;
+    color: #222222;
+    border-bottom: 2px solid #222222;
+}
+.discover_card_img img:hover {
+    width: 110px;
+}
+@media screen and (min-width: 480px) {
+    .discover_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 640px) {
+    .discover_background {
+        height: 92px;
+    }
+    .discover_cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        margin-top: -92px;
+    }
+    .discover_card {
+        padding: 9px 7px 9px 11px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .discover_card_name {
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .discover_card {
+        padding: 9px 20px 9px 20px;
+    }
+}
+@media screen and (min-width: 900px) {
+    .discover_heading {
+        padding: 26px 18px 18px 18px;
+        font-size: 32px;
+    }
+    .discover_card_img{
+        width: 113px;
+        height: 114px;
+        margin: 0px 0px 12px;
+    }
+    .discover_cards {
+        max-width: 1400px;
+        margin-inline: auto;
+    }
+    .discover_card {
+        padding: 9px 30px 9px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .discover_card_name {
+        font-size: 16px;
+    }
+} 

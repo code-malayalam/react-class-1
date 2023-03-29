@@ -1,0 +1,30 @@
+.search_bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #222222;
+    height: 26px;
+    border-radius: 32px;
+    background-color: rgb(243, 243, 243);
+    padding: 9px 20px 9px 8px;
+    margin-right: 18px;
+    flex-basis: 90%;
+}
+.search {
+    padding: 9px 0px 9px 10px;
+    font-size: 15.75px;
+    font-family: 'etsy-regular';
+    color: grey;
+    letter-spacing: 0.14px;
+    background-color: rgb(243, 243, 243);
+    border: none;
+}
+.search:focus {
+    outline: none;
+}
+.search_button {
+    padding: 13px 2px 10px 15px;
+    border: none;
+    background: none;
+}

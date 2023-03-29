@@ -1,0 +1,103 @@
+.footer_main_section {
+    background-color: #2f466c;
+    color: #fff;
+    padding: 12px 24px;
+}
+
+.drop_down {
+    background-color: #2f466c;
+    width: 100%;
+}
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-family: "etsy-regular";
+    font-size: 16px;
+    border-radius: 24px;
+    padding: 12px 5px;
+    margin: 0px 0px 6px;
+}
+.btn i {
+    font-size: 24px;
+}
+.btn:active {
+    background-color: #566e94;
+}
+.dropdown_list li {
+    list-style-type: none;
+    padding: 6px 20px 12px;
+}
+.dropdown_list li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'etsy-regular';
+    font-size: 16px;
+}
+.etsy_download {
+    margin: 12px 0px 0px;
+}
+.download {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 24px;
+    padding: 4px 15px;
+    margin-top: 24px;
+    margin-inline: auto;
+    font-family: "etsy-regular";
+    font-size: 13px;
+}
+.download p {
+    padding: 0px 0px 0px 6px;
+}
+.etsy_medias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+}
+.etsy-medias svg {
+    padding: 6px;
+}
+@media screen and (min-width: 640px){
+    .footer_main_section {
+        display: none;
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+   
+    .footer_main_section_dropdown {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-inline: auto;
+        max-width: 1440px;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-left: -30px;
+    }
+    .btn i {
+        display: none;
+    }
+    .drop_down {
+        display: flex;
+    }
+    .dropdown_list li a {
+        padding: 6px 20px 12px 0px;
+    }
+    .dropdown_list li a {
+        font-size: 13px;
+    }
+    .etsy_medias {
+        display: block;
+    }
+}

@@ -1,0 +1,40 @@
+
+.seller_items{
+    display: none;
+}
+@media screen and (min-width: 900px){
+.seller_items {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    max-width: 1400px;
+    margin-inline: auto;
+}
+.seller_items ul {
+    gap: 35px;
+    margin: 0;
+    padding: 0px 16px 0px 56px;
+    list-style: none;
+}
+.seller_items li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #000;
+}
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'etsy-regular';
+    font-size: 13px;
+    padding: 0px 36px;
+    margin: 0px 20px 0px 20px;
+}
+.categories li {
+    /* list-style-type: none; */
+    gap: 10px;
+    margin: 3px 10px 0px 0px;
+    padding: 0px 0px 12px;
+    display: flex;
+}
+
+}

@@ -1,0 +1,8 @@
+.header_name {
+  padding: 8px 9px 0px 17px;
+  margin-top: -3px;
+}
+.header_name svg {
+  width: 80px;
+  height: 40px;
+}

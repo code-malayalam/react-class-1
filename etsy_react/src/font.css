@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "etsy-light";
+    src: url("https://www.etsy.com/assets/type/Graphik-Regular-Web.woff2?v=220104");
+  }
+  @font-face {
+    font-family: "etsy-regular";
+    src: url("https://www.etsy.com/assets/type/Graphik-Medium-Web.woff2?v=220104");
+  }
+  @font-face {
+    font-family: "etsy-medium";
+    src: url("https://www.etsy.com/assets/type/Guardian-EgypTT-Light.woff2?v=220104");
+  }

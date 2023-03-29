@@ -1,0 +1,99 @@
+.deals_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: "etsy-regular";
+}
+.deals_day {
+    font-size: 24px;
+    flex-wrap: nowrap;
+}
+.shop_deals{
+font-size: 16px;
+white-space: "nowrap";
+}
+.deals{
+    padding: 32px 12px 0px;
+}
+.deals_header {
+    margin-bottom: 10px;
+}
+.deals_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin: 14px 0px 20px;    
+}
+.deal_card {
+    height: 100%;
+    margin-top: 7px;
+    border-radius: 12px;
+    border: 1px solid rgba(34, 34, 0.15);
+}
+.deal_card:hover {
+    box-shadow: 0px 8px 10px rgba(54, 49, 49, 0.15);
+}
+.deal_image img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  .deals_off {
+    line-height: 16px;
+    font-size: 13px;
+    font-family: "etsy-regular";
+    padding: 7px 12px 0px;
+  }
+  .deals_name {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "etsy-regular";
+    font-weight: 300;
+    padding: 6px 12px 24px;
+  }
+  @media screen and (min-width: 480px) {
+    .deals_cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin: 16px 0px;
+      }
+  }
+  @media screen and (min-width: 768px) {
+    .deals_day {
+      padding: 0px 5px;
+    }
+    .deals {
+      padding: 0px 26px;
+      margin-top: 30px;
+    }
+    .deals_day {
+      font-size: 28px;
+    }
+    .deal_card {
+      margin: 3px;
+      height: 100%;
+      border: 1px solid rgba(34, 34, 34, 0.15);
+    }
+    .deals_cards {
+      padding: 0px;
+    }
+  }
+
+  @media screen and (min-width: 900px){
+    .deals_cards {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+      }
+  }
+  @media screen and (min-width: 1440px){
+    .deals {
+        margin: 46px 20px 60px;
+        padding: 0px 33px;
+        margin-inline: auto;
+        max-width: 1440px;
+      }
+      .deal_card {
+        height: 100%;
+      }
+  }
