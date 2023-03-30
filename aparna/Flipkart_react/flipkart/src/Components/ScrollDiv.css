@@ -1,0 +1,23 @@
+.scroll-container{
+  height: 65.0338px;
+  width: 1100px;
+  display: flex; 
+  align-items: stretch;
+  width: 375px;
+  overflow-x:scroll ;
+  padding-right: 22px;
+}
+
+.categories{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+
+.cImg{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  
+}
