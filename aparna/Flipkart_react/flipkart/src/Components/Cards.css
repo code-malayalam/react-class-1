@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.card-section{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.individual-card{
+  display: flex;
+  position: relative;
+  width: 125px;
+  height: 133.333px;
+  flex-direction: row;
+}
+

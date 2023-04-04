@@ -1,10 +1,18 @@
 import React, {useState, useEffect} from "react";
 import './ScrollDiv.css'
+import DesktopScrollCategories from "./DesktopScrollDiv";
 
 
 function ScrollCategories(){
   const [scrollData, setScrollData] = useState([])
+  const [matches, setMatches] = useState(window.matchMedia("(min-width:978px)").matches)
 
+  useEffect(() => {
+    window
+    .matchMedia("(min-width : 978px)")
+    .addEventListener('change', e => setMatches(e.matches))
+  }, [])
+  
   const fetchScroll = () => {
     fetch("./data.json")
     .then((data) => {
@@ -19,10 +27,14 @@ function ScrollCategories(){
     fetchScroll()
   }, [])
    
-  // console.log(scrollData)
+
+ 
 
   return(
-    <div className="scroll-container">
+    <>
+    {!matches && (
+      <>
+      <div className="scroll-container">
       {
         scrollData.map(items => {
           return(
@@ -32,8 +44,16 @@ function ScrollCategories(){
           )
         })
       }
-    </div>
+    </div></>
+    )}
+    {
+      matches && (<><DesktopScrollCategories/></>)
+    }
+    </>
   )
 }
 
 export default ScrollCategories
+
+ 
+

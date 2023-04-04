@@ -1,68 +1,263 @@
 {
-    "scrollSection" : [
-      {
-        "img": "https://rukminim1.flixcart.com/flap/150/150/image/033f3268031fa0ba.jpg?q=90",
-        "id" : 1
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/0f3d008be60995d4.jpg?q=90",
-        "id" : 2
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/42f9a853f9181279.jpg?q=90",
-        "id" : 3
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/cbcb478744635781.jpg?q=90",
-        "id" : 4
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/913e96c334d04395.jpg?q=90",
-        "id" : 5
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/1faac897db7fa1e8.jpg?q=90",
-        "id" : 6
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/4be8a679014497f0.png?q=90",
-        "id" : 7
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/6ecb75e51b607880.jpg?q=90",
-        "id" : 8
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/3e6d75f631ab6055.jpg?q=90",
-        "id" : 9
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/89d809684711712a.jpg?q=90",
-        "id" : 10
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/fk-p-flap/150/150/image/4b0a064d53b4ff28.jpg?q=90",
-        "id" : 11
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/aeb7da37a9e85209.jpg?q=90",
-        "id" : 12
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/ea3c3e826c117fea.jpg?q=90",
-        "id" : 13
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/356d37e9512c7fcb.jpg?q=90",
-        "id" : 14
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/222e7382a2c2bd72.jpg?q=90",
-        "id" : 15
-      },
-      {
-        "img":"https://rukminim1.flixcart.com/flap/150/150/image/818e0398f9dabd3e.JPG?q=90",   
-        "id" : 16
-      }
-    ]
+  "scrollSection": [
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/033f3268031fa0ba.jpg?q=90",
+      "id": 1
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/0f3d008be60995d4.jpg?q=90",
+      "id": 2
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/42f9a853f9181279.jpg?q=90",
+      "id": 3
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/cbcb478744635781.jpg?q=90",
+      "id": 4
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/913e96c334d04395.jpg?q=90",
+      "id": 5
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/1faac897db7fa1e8.jpg?q=90",
+      "id": 6
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/4be8a679014497f0.png?q=90",
+      "id": 7
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/6ecb75e51b607880.jpg?q=90",
+      "id": 8
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/3e6d75f631ab6055.jpg?q=90",
+      "id": 9
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/89d809684711712a.jpg?q=90",
+      "id": 10
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/150/150/image/4b0a064d53b4ff28.jpg?q=90",
+      "id": 11
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/aeb7da37a9e85209.jpg?q=90",
+      "id": 12
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/ea3c3e826c117fea.jpg?q=90",
+      "id": 13
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/356d37e9512c7fcb.jpg?q=90",
+      "id": 14
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/222e7382a2c2bd72.jpg?q=90",
+      "id": 15
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/818e0398f9dabd3e.JPG?q=90",
+      "id": 16
+    }
+  ],
+
+  "carouselItems": [
+    "https://rukminim1.flixcart.com/fk-p-flap/750/350/image/b9eb8df9caf1d1d5.jpeg?q=90",
+    "https://rukminim1.flixcart.com/fk-p-flap/750/350/image/379d9d55a7b84e6d.jpeg?q=90",
+    "https://rukminim1.flixcart.com/fk-p-flap/750/350/image/4a16d977da0ce903.jpeg?q=90",
+    "https://rukminim1.flixcart.com/fk-p-flap/750/350/image/79ca562c5dba12fc.jpeg?q=90",
+    "https://rukminim1.flixcart.com/fk-p-flap/750/350/image/4a6306b3134e3435.jpeg?q=20",
+    "https://rukminim1.flixcart.com/fk-p-flap/750/350/image/eb79575823eecd48.jpeg?q=90",
+    "https://rukminim1.flixcart.com/fk-p-flap/750/350/image/c32c4c9a6c7752d0.jpg?q=90"
+  ],
+
+  "desktopScrollSection": [
+    {
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100",
+      "title": "Grocery",
+      "chevron": "",
+      "id": 17
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100",
+      "title": "Mobiles",
+      "chevron": "",
+      "id": 18
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/d34810848b2895c9.png?q=100",
+      "title": "Fashion",
+      "chevron": true,
+      "id": 19
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100",
+      "title": "Electronics",
+      "chevron": true,
+      "id": 20
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100",
+      "title": "Home",
+      "chevron": true,
+      "id": 21
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100",
+      "title": "Appliances",
+      "chevron": "",
+      "id": 22
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100",
+      "title": "Travel",
+      "chevron": "",
+      "id": 23
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100",
+      "title": "Top Offers",
+      "chevron": "",
+      "id": 24
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100",
+      "title": "Beauty, Toys & More",
+      "chevron": true,
+      "id": 25
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100",
+      "title": "Two Wheelers",
+      "chevron": true,
+      "id": 26
+    }
+  ],
+
+  "DesktopCarouselItems": [
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/f827f8054dbd984a.jpg?q=50",
+      "id": 1
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/797a191301cde1fc.jpg?q=50",
+      "id": 2
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/74f1b7b7046999b2.jpg?q=50",
+      "id": 3
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/f827f8054dbd984a.jpg?q=50",
+      "id": 4
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/74f1b7b7046999b2.jpg?q=50",
+      "id": 5
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/74f1b7b7046999b2.jpg?q=50",
+      "id": 6
+    }
+  ],
+  "cardSection": [
+    "https://rukminim1.flixcart.com/fk-p-flap/250/300/image/263f00ba166305b6.jpg?q=90",
+    "https://rukminim1.flixcart.com/fk-p-flap/250/300/image/f2b4ff2bda2229e1.jpeg?q=90",
+    "https://rukminim1.flixcart.com/fk-p-flap/250/300/image/c7905c539a5f0899.jpeg?q=90"
+  ],
+  "bestDeals": [
+    {
+      "img": "https://rukminim1.flixcart.com/image/250/250/keekmfk0-0/shoe/b/p/k/bouncer-01cgryorng-6-asian-grey-original-imafv3h4hzjgvw2z.jpeg?q=90",
+      "caption": "Best Selling Footwear",
+      "deals": "From 199",
+      "id": 1
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/250/250/xif0q/electric-bike-scooter/f/u/z/-original-imaghc5cdcxthcfa.jpeg?q=90",
+      "caption": "Best Deals",
+      "deals": "Up to 10% Off",
+      "id": 2
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/250/250/keekmfk0-0/shoe/b/p/k/bouncer-01cgryorng-6-asian-grey-original-imafv3h4hzjgvw2z.jpeg?q=90",
+      "caption": "Best Selling Footwear",
+      "deals": "From 199",
+      "id": 3
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/250/250/xif0q/electric-bike-scooter/f/u/z/-original-imaghc5cdcxthcfa.jpeg?q=90",
+      "caption": "Best Deals",
+      "deals": "Up to 10% Off",
+      "id": 4
+    }
+  ],
+  "electronics": [
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/cases-covers/back-cover/j/i/6/mycas-black-vv-y35-qcase-original-imagj87uwxzarrzk.jpeg?q=70",
+      "title": "Plain Cases & Covers",
+      "price": "Under ₹169",
+      "description": "For All Top Models"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l0sgyvk0/cases-covers/back-cover/c/b/s/zapsa03tpu01691-zapcase-original-imagcgffegrnhh6x.jpeg?q=70",
+      "title": "Designer Cases & Covers",
+      "price": "Just ₹169",
+      "description": "Check out the latest designs"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q=70",
+      "title": "Top Mirrorless Cameras",
+      "price": "Shop Now!",
+      "description": "Canon, Sony, Fujifilm..."
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/monitor/r/9/b/va2215-h-full-hd-21-5-va2215-h-viewsonic-original-imaghevavzjwxfhm.jpeg?q=70",
+      "title": "ViewSonic Monitors",
+      "price": "From ₹8000",
+      "description": "Top Rated"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg?q=70",
+      "title": "Printers",
+      "price": "From ₹3999",
+      "description": "HP"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/power-bank/j/i/v/power-bank-dx09-20000-mah-20000-dx09-20k-callmate-original-imagn22tuac3hqnz.jpeg?q=70",
+      "title": "Premium PowerBanks",
+      "price": "Shop Now",
+      "description": "Mi, realme & more"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l5ld8y80/monitor/l/k/s/-original-imagg897ufhyvwqq.jpeg?q=70",
+      "title": "Monitors",
+      "price": "From ₹9999",
+      "description": "SAMSUNG"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/k4a7c7k0/printer/y/j/z/canon-e3370-original-imafn2wyyxjjvzd6.jpeg?q=70",
+      "title": "Printers",
+      "price": "From ₹2336",
+      "description": "Canon"
+    }
+  ],
+  "BeautyItems": [
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l111lzk0/cycle/m/r/e/xc-900-grey-lite-26-15-5-cradiac-21-gear-120-original-imagczuzpxeweczm.jpeg?q=70",
+      "title": "Geared Cycles",
+      "price": "From ₹3999",
+      "description": "Leader, Cradiac and More"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kx50gi80/pen/h/z/k/119766-flair-original-imag9nzubznagufg.jpeg?q=70",
+      "title": "Top Selling Stationary",
+      "price": "From ₹49",
+      "description": "Pens, Notebooks & more"
+    }
+  ]
 }

@@ -1,0 +1,140 @@
+.electronics-container{
+  display: flex;
+  align-items: stretch;
+  border-top: 1px solid rgb(234, 234, 234);
+  height: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+  padding: 0px 0px 10px;
+  max-width: 1680px;
+  margin: 0 auto;
+}
+
+.best-of-electronics{
+  background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90);
+  background-position: 0px bottom;
+  width: 230px;
+  background-repeat: no-repeat;
+  height: 352px;
+}
+
+.electronics-section{
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 28px 10px 124px;
+}
+
+.text-heading{
+  text-align: center;
+  font-family: Roboto,Arial,sans-serif;
+  overflow-wrap: break-word;
+  font-size: 30px;
+  line-height: 1.38;
+  font-weight: 400;
+}
+
+.view-container{
+  margin-top: 24px;
+  text-align: center;
+  background: #fff;
+}
+
+.view-all{
+  background: #2874f0;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  border: none;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.electronics-equipment{
+  display: flex;
+  padding-bottom: 64px;
+  margin-bottom: -64px;
+  width: 1866px;
+  overflow: hidden;
+}
+
+.electronics-items{
+  display: flex;
+}
+
+.electronics-items-list{
+  display: flex;
+  flex-direction: column;
+  width: 232px;
+  padding: 25px 15px;
+  display: inline-block;
+  text-align: center;
+}
+
+.e-image{
+  height: 200px;
+  width: 200px;
+}
+
+.e-image img{
+  max-width: 100%;
+  margin: auto;
+}
+
+.e-title{
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.e-price{
+  font-size: 16px;
+  white-space: nowrap;
+  color: #388e3c;
+  padding-top: 8px;
+}
+
+.e-description{
+  padding-top: 7px;
+  white-space: nowrap;
+}
+
+.left-btn-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-btn-img, .right-btn-img{
+  /* border-radius: 0 4px 4px 0;
+  display: flex;
+  align-self: center;
+  padding: 40px 15px;
+  box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+  background-color: hsla(0, 0%, 100%, .98); */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: calc(50% - 52px);
+  width: 47px;
+  height: 104px;
+  background-color: hsla(0, 0%, 100%, .98);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .11);
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  position: absolute;
+}
+
+.left-btn-img img{
+  width: 14.6;
+  height: 24;
+}
+

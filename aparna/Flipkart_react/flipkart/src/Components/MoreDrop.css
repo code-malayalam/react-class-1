@@ -1,0 +1,72 @@
+.more-drop-down{
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .2);
+  position: absolute;
+  right: 25%;
+  transform: translateX(50%);
+  top: 50px;
+  animation: drop .3s ease forwards;
+  border-radius: 3px;
+  max-width: 240px;
+  margin-top: 6px;
+  background: #fff;
+  min-width: 240px; 
+}
+
+.more-triangle{
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 100%;
+  border-bottom-color: #f0f0f0;
+  border-width: 10px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  border: solid transparent;
+}
+
+.more-triangle::after{
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -30px;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-bottom: solid 60px #fff;
+  border-left: solid 60px transparent;
+  border-right: solid 60px transparent;
+}
+
+.more-drop{
+  padding: 16px;
+  text-align: center; 
+}
+
+.more-items{
+  margin: -16px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #212121;
+}
+
+.more-list{
+  border-bottom: 1px solid #f0f0f0;
+  list-style: none;
+}
+
+.more-card{
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  width: 100%;
+  padding: 16px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.more-text{
+  margin-left: 12px;
+}

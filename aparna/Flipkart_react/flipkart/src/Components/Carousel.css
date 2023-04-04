@@ -1,0 +1,66 @@
+.carousel-container{
+  display: flex;
+  width: 100%;
+}
+
+.carousel-scroll{
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  width: 100vw;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.carousel-scroll img{
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.scroll-dots{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transform: translateY(-14px);
+  z-index: 1;
+}
+
+.scroll-bubble{
+ display: flex;
+ background-color: rgba(40, 36, 36, 0.20);
+ padding-top: 2px;
+ padding-bottom: 2px;
+ padding-left: 6px;
+ padding-right: 6px;
+ border-radius: 6px;
+}
+
+.bubble-elipse{
+ background-color:  rgba(40, 36, 36, 0.20);
+ display: flex;
+ border-radius: 6px;
+}
+
+.bubble{
+  background-color: rgb(169, 169, 169);
+  width: 6px;
+  height: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-radius: 3px;
+}
+
+.bouncing-bubble{
+  width: 10px;
+  height: 6px;
+  background-color: rgba(255, 255, 255, 1.00);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  transition: transform 0.3s ease-in-out;
+}
+

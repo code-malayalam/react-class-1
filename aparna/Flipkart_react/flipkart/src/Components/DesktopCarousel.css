@@ -1,0 +1,64 @@
+@font-face {
+  font-family: regular-font;
+  src: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/roboto-regular.woff2);
+}
+
+@font-face {
+  font-family: medium-font;
+  src: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/roboto-medium.woff2);
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.dt-carousel-container{
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  padding-top: 19px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background: #e4e7ed;
+}
+
+.dt-carousel-section{
+  max-width: 1680px;
+}
+
+.dt-carousel-scroll{
+  width: 100%;
+  transform: translateX(-4992px);
+  display: flex;
+  align-items: flex-start;
+  transition: transform 0.3s ease-in-out;
+  height: 280px;
+}
+
+.dt-banner{
+  width: 100vw;
+  height: 100%;
+}
+
+.left-btn, .right-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: calc(50% - 52px);
+  width: 47px;
+  height: 104px;
+  background-color: hsla(0, 0%, 100%, .98);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .11);
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.right-btn{
+  right: 0px;
+  transform: rotate(180deg);
+}
+

@@ -1,0 +1,66 @@
+@font-face {
+  font-family: regular-font;
+  src: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/roboto-regular.woff2);
+}
+
+@font-face {
+  font-family: medium-font;
+  src: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/roboto-medium.woff2);
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.dt_scroll_container{
+ min-height: 112px;
+}
+
+.dt_scroll_right{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+}
+
+.dt_scroll_flex{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.dt_categories{
+  padding-left: 22px;
+  padding: 12px 8px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dt_scrollitems{
+  margin-bottom: 4px;
+  height: 64px;
+  width: 64px;
+}
+
+.scroll_img{
+  width: 64px;
+}
+
+.scroll_title{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.chevron{
+  transform: rotate(270deg);
+  margin: 7px 0 0 8px;
+  color: #222;
+}

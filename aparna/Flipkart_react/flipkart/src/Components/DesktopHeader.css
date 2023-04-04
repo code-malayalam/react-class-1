@@ -1,0 +1,224 @@
+@font-face {
+  font-family: regular-font;
+  src: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/roboto-regular.woff2);
+}
+
+@font-face {
+  font-family: medium-font;
+  src: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/roboto-medium.woff2);
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.dt_header_container{
+  padding-bottom: 56px;
+  background-color: #2874f0;
+}
+
+.dt_header_nav{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 56px;
+  background-color: #2874f0;
+  color: #f0f0f0;
+  z-index: 10;
+  flex-direction: row;
+}
+
+.dt_nav_items{
+  display: flex;
+  max-width: 1248px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.dt_flipkart_explore{
+  display: flex;
+  justify-content: flex-end;
+  min-width: 137px;
+}
+
+.dt_flipkart_plus{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dt_flipkart_logo{
+  text-decoration: none;
+}
+
+.dt_logo{
+  width: 75px; 
+}
+
+.dt_exp-plus{
+  font-size: 11px;
+  font-style : italic;
+  margin-top : -1px;
+}
+
+.plus{
+  color: #ffe500;
+  font-weight: 500;
+  margin-right: 2px;
+}
+
+.plus_img{
+  width: 10px;
+}
+
+.dt_search_bar{
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  min-width: 304px;
+  width: calc(100% - 540px);
+  margin: 0 auto 0 12px;
+  align-items: center;
+}
+
+.dt_form_search{
+  display: inline-block;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23);
+  width: 100%;
+  height: 36px;
+  max-width: 564px;
+  position: relative;
+}
+
+.dt_search_bar_panel{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.dt_search_input{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dt_search_input input{
+  padding: 0 16px;
+  border: none;
+  border-radius: 2px 0 0 2px;
+  font-size: 14px;
+  height: 36px;
+  width: 100%;
+}
+
+.dt_searchicon{
+  border: 1px solid #fff;
+  background-color: #fff;
+  height: 36px;
+  width: 44px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 4px 12px 0 8px;
+}
+
+.dt_item{
+  display: flex;
+  flex: 0 0 auto;
+  margin: 0 20px;
+  max-width: 150px;
+  justify-content: flex-end;
+}
+
+.dt_login{
+  align-items: center;
+  min-width: 112px;
+  transform: translateX(8px);
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: .1px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.dt_login_text{
+  cursor: pointer;
+}
+
+.dt_login_title{
+  color: #2874f0;
+  font-weight: 500;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 5px 40px;
+  border: 1px solid #dbdbdb;
+}
+
+.dt_seller_text {
+  display: flex;
+  align-items : center;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: .1px;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  text-decoration: none;
+}
+
+.become_a_seller{
+  font-size: 16px;
+}
+
+.more{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 108px;
+  display: block;
+}
+
+.chevron-icon .icon{
+  transform: rotate(270deg);
+  margin: 1px 0 0 8px;
+}
+
+.icon.active{
+  transform: rotate(90deg);
+}
+
+.dt_cart_flex{
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: .1px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.dt_cart_flex img{
+  width: 16px;
+  height: 16px;
+  margin: 0 8px;
+}
+
+.dt_card_text{
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: .1px;
+  font-weight: 500;
+  color: #fff;
+}
