@@ -1,0 +1,67 @@
+.fashion-hover{
+  border-radius: 3px;
+  max-width: 500px;
+  background: #fff;
+  position: absolute;
+  z-index: 1;
+}
+
+.fashion-triangle{
+  left: 50%;
+  transform: translateX(-10px);
+  bottom: 100%;
+  border-bottom-color: #f0f0f0;
+  border-width: 10px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: solid transparent;
+}
+
+.fashion-triangle::after{
+  border-bottom-color: #fff;
+  border-width: 8px;
+  transform: translateX(-8px);
+  bottom: -10px;
+  content: "";
+  left: 0;
+   position: absolute;
+  width: 0;
+  height: 0;
+  border: solid transparent;
+}
+
+.fashion-sub-container{
+  padding: 16px;
+  margin: -16px;
+}
+
+.fashion-division{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.fashion-left-section, .fashion-right-section{
+  position: relative;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  min-width: 240px;
+}
+
+.fashion-items{
+  background-color: #f9f9f9;
+  color: #2874f0;
+  font-weight: 500;
+  padding: 12px;
+  display: flex;
+  background: #fff;
+  justify-content: space-between;
+}
+
+.fashion-items img{
+  transform: rotate(180deg);
+  margin: 7px 0 0 8px;
+}
+

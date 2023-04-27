@@ -1,4 +1,4 @@
-.electronics-container{
+.summer-container{
   display: flex;
   align-items: stretch;
   border-top: 1px solid rgb(234, 234, 234);
@@ -12,16 +12,11 @@
   margin-top: 10px;
 }
 
-.best-of-electronics{
-  background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90);
-  background-position: 0px bottom;
-  width: 230px;
-  background-repeat: no-repeat;
-  height: 352px;
-  
+.shop-summer{
+  height: 352px;  
 }
 
-.electronics-section{
+.summer-section{
   text-align: center;
   height: 100%;
   display: flex;
@@ -58,7 +53,7 @@
   font-weight: 500;
 }
 
-.electronics-equipment{
+.summer-equipments{
   display: flex;
   padding-bottom: 64px;
   margin-bottom: -64px;
@@ -67,36 +62,37 @@
   position: relative;
 }
 
-.electronics-items{
+.summer-items{
   display: flex;
   transition: ease-in-out;
   scroll-behavior: smooth;
 }
 
-.electronics-items::-webkit-scrollbar{
+.summer-items::-webkit-scrollbar{
   display: none;
 }
 
-.electronics-items-list{
+.summer-items-list{
   display: flex;
   flex-direction: column;
   width: 232px;
   padding: 25px 15px;
   display: inline-block;
   text-align: center;
+  max-height: 366px;
 }
 
-.e-image{
+.summer-image{
   height: 200px;
   width: 200px;
 }
 
-.e-image img{
+.summer-image img{
   max-width: 100%;
   margin: auto;
 }
 
-.e-title{
+.summer-title{
   font-size: 14px;
   font-weight: 500;
   margin-top: 15px;
@@ -104,16 +100,11 @@
   text-overflow: ellipsis;
 }
 
-.e-price{
+.summer-price{
   font-size: 16px;
   white-space: nowrap;
   color: #388e3c;
   padding-top: 8px;
-}
-
-.e-description{
-  padding-top: 7px;
-  white-space: nowrap;
 }
 
 .left-btn-box{

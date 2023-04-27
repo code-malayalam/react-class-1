@@ -1,79 +1,40 @@
 import React, { useState, useEffect } from "react";
-import "./DesktopCarousel.css";
-import LeftBtn from '../Assets/LeftBtn.svg'
-import RightBtn from '../Assets/RightBtn.svg'
+import LeftBtn from "../Assets/LeftBtn.svg";
+import RightBtn from "../Assets/RightBtn.svg";
+import { useSelector, useDispatch } from "react-redux";
+import { fetchCarouselData } from "../reducers/carousel";
+import Slider from 'react-slick';
+
 
 function DesktopCarousel() {
-  const [image, setImage] = useState([]);
-  const [visibleIndex, setVisibleIndex] = useState(0);
 
- 
+  
+  // const [visibleIndex, setVisibleIndex] = useState(0);
 
-  useEffect(() => {
-    fetch("./data.json")
-      .then((data) => {
-        return data.json();
-      })
-      .then((data) => {
-        setImage(data.DesktopCarouselItems);
-      });
-  }, []);
+  const dispatch = useDispatch()
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      updateIndex();
-    }, 2000);
-    return () => {
-      clearInterval(interval);
-    };
-  }, [visibleIndex]);
+    dispatch(fetchCarouselData())
+  }, [])
 
+  const image = useSelector((state) => {
+    return state.carousel.data.DesktopCarouselItems
+  });
 
-
-  let updateIndex = () => {
-    if (visibleIndex == image?.length - 1) {
-      setVisibleIndex(0);
-    } else {
-      setVisibleIndex(visibleIndex + 1);
-    }
-    
-  };
-
-  const handleLeftClick = () => {
-    if (visibleIndex === 0) {
-      setVisibleIndex(image?.length - 1);
-    } else {
-      setVisibleIndex(visibleIndex - 1);
-    }
-  }
-
-  const handleRightClick = () => {
-    updateIndex()
-  }
 
   return (
-    <div className="dt-carousel-container">
-
-      {image?.map((items) => {
-        return (
-          <div className="dt-carousel-section" key={items.id} >
-            <div
-              className="dt-carousel-scroll"
-              style={{ transform: `translateX(-${visibleIndex * 100}%)` }}
-            >
-              <img src={items.img} className="dt-banner" width={100} />
-            </div>          
-          </div>
-        );
-      })}
-      
-      <div className="left-btn" onClick={handleLeftClick}>
-        <img src={LeftBtn}/>
+    <div>
+        <Slider autoplay autoplaySpeed={2000} infinite initialSlide={2} >
+        {image?.map((items) => {
+          console.log(items)
+          return (
+              <div key={items.id} >
+                 <img src={items.img} className="dt-banner" width="100%" height="300px"/>
+               </div>
+          );
+        })}
+        </Slider>
       </div>
-      <div className="right-btn" onClick={handleRightClick}>
-        <img src={RightBtn}/>
-      </div>
-    </div>
   );
 }
 

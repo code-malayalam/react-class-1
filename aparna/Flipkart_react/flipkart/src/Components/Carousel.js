@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Carousel.css";
 import DesktopCarousel from "./DesktopCarousel";
-import './DesktopCarousel.css'
+
 
 function CarouselImages() {
   const [image, setImage] = useState([]);

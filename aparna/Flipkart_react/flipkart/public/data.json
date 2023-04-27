@@ -246,7 +246,7 @@
       "description": "Canon"
     }
   ],
-  "BeautyItems": [
+  "toysAndFood": [
     {
       "img": "https://rukminim1.flixcart.com/image/200/200/l111lzk0/cycle/m/r/e/xc-900-grey-lite-26-15-5-cradiac-21-gear-120-original-imagczuzpxeweczm.jpeg?q=70",
       "title": "Geared Cycles",
@@ -258,6 +258,290 @@
       "title": "Top Selling Stationary",
       "price": "From ₹49",
       "description": "Pens, Notebooks & more"
+    },
+    {
+      "img" : "https://rukminim1.flixcart.com/image/200/200/kzzw5u80/coffee/s/b/x/-original-imagbwf3wvhzfh5z.jpeg?q=70",
+      "title": "Coffee Powder",
+      "price": "Upto 80% Off",
+      "description": "Nescafe, Continentals & More"
+    },
+    {
+      "img":"https://rukminim1.flixcart.com/image/200/200/kqgyhe80/stroller-pram/m/g/r/easy-to-push-baby-pram-with-quick-one-hand-folding-blue-mm-50-a-original-imag4h6bzrb6fngh.jpeg?q=70",
+      "title": "Baby Gear",
+      "price": "Up to 70% Off",
+      "description": "MeeMee & More"
+    },
+    {
+      "img" : "https://rukminim1.flixcart.com/image/200/200/kkimfm80/tea/z/n/1/premium-pouch-regular-tea-powder-tata-original-imafzuf2mnubzphd.jpeg?q=70",
+      "title": "Tea Powder",
+      "price": "Upto 75% Off",
+      "description": "Tata, Lipton & More"
+    },
+    {
+      "img":"https://rukminim1.flixcart.com/image/200/200/kz5vwy80/helmet/o/4/k/-original-imagb8azfdthjhqr.jpeg?q=70",
+      "title": "Rider Helmets",
+      "price": "From 699",
+      "description": "Vega, Steelbird, HRX and More"
+    },
+    {
+
+      "img": "https://rukminim1.flixcart.com/image/200/200/jlph9jk0/cycle/h/f/k/skyper-26t-sskp26bk0001-16-hero-original-imaf8ru5xysfgtmx.jpeg?q=70",
+      "title": "Non-Geared Cycles",
+      "price": "Upto 40% Off",
+      "description": "Hercules, Hero & More"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/jxz0brk0/stuffed-toy/n/t/s/4-feet-pink-very-beautiful-best-quality-for-special-gift-125-13-original-imafgv92puzkdytg.jpeg?q=70",
+      "title": "Soft Toys",
+      "price": "Upto 70% Off",
+      "description": "Stuffed Toys, Plush Toys & more"
     }
+  ],
+  "summerSection":[
+    {
+      "img" : "https://rukminim1.flixcart.com/image/200/200/xif0q/vest/o/1/o/s-2-tbl-grvest-believer-tripr-original-imagnwwg2mn8wrmw.jpeg?q=70",
+      "title": "Men's Vests",
+      "price": "Min. 50% Off" 
+    },
+    {
+      "img" : "https://rukminim1.flixcart.com/image/200/200/xif0q/bottle/i/b/n/500-double-wall-stainless-steel-thermos-bottle-vacuum-flask-set-original-imaghgz6rxu3byfa.jpeg?q=70",
+      "title":"Flasks",
+      "price":"Min. 50% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kyxb9u80/bottle/q/h/1/600-portable-spray-water-bottle-used-as-a-water-sprinkler-and-original-imagb2yfksrgqqe2.jpeg?q=70",
+      "title": "Water Bottles",
+      "price": "Min. 50% Off"
+    },
+    {
+      "img":"https://rukminim1.flixcart.com/image/200/200/l4d2ljk0/car-interior-fan/y/o/b/4-12-car-fan12v-electric-2-speed-dual-head-fans-360-degree-original-imagfa6qdvyynbub.jpeg?q=70",
+      "title": "Car Interior Fans",
+      "price":"Min. 50% Off"
+    },
+    {
+      "img":"https://rukminim1.flixcart.com/image/200/200/kst9gnk0/mixer-grinder-juicer/c/0/y/electric-kettle-1-5l-super-combo-lifelong-original-imag6az3rhrzekvf.jpeg?q=70",
+      "title":"Mixer Juicer Grinder",
+      "price":"Min. 50% Off"
+    },
+    {
+      "img":"https://rukminim1.flixcart.com/image/200/200/xif0q/toner/c/f/k/30-belly-drainage-ginger-oil-ginger-massage-oil-lymphatic-original-imaggxu9wzpktjqf.jpeg?q=70",
+      "title": "Toner",
+      "price":"Min. 50% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l432ikw0/air-cooler/5/x/f/220-50-tiara-air-cooler-with-honeycomb-pads-low-power-original-imagf2chtzfgfjgg.jpeg?q=70",
+      "title": "Air Coolers",
+      "price": "Min. 50% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/short/i/e/e/3xl-ic-n24445-indiclub-original-imagc3sfychajz6r-bb.jpeg?q=70",
+      "title": "Shorts",
+      "price": "Min. 50% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/klmmrgw0/fan/n/t/z/bullet-heavy-duty-isi-certified-50-1-400-pedestal-fan-zigma-original-imagypn3ym4jmmm9.jpeg?q=70",
+      "title": "Fans",
+      "price": "Min. 50% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kbcjpu80/ice-cream-maker/2/m/d/kulfi-mould-icecream-021-breyers-original-imafsp2ybfbrufzz.jpeg?q=70",
+      "title": "Ice Cream Makers",
+      "price": "Min. 50% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/keuagsw0/refrigerator-new/y/7/x/hr-65ks-2-haier-original-imafvfqdhdeex9yf.jpeg?q=70",
+      "title": "Refrigerators",
+      "price": "Most-loved"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/electric-insect-killer/v/2/o/save-from-mosquito-fly-killer-3-sunig-original-imagngx82wmghc3b.jpeg?q=70",
+      "title": "Mosquito Layers",
+      "price": "Min. 50% Off"
+    }
+  ],
+  "mobSummerCards": [
+    {
+      "img": "https://rukminim1.flixcart.com/image/350/350/xif0q/emergency-light/y/e/9/multifunction-keychain-rechargeable-led-light-with-bottle-opener-original-imaghtfadhnysgsh.jpeg?q=90",
+      "title": "Emergency Lights",
+      "deals":"Min. 50% Off"
+    },
+    {
+      "img":"https://rukminim1.flixcart.com/image/350/350/xif0q/vest/o/1/o/s-2-tbl-grvest-believer-tripr-original-imagnwwg2mn8wrmw.jpeg?q=90",
+      "title":"Men's Vests",
+      "deals": "Min. 50% Off"
+    },
+    {
+      "img":"https://rukminim1.flixcart.com/image/350/350/l4d2ljk0/car-interior-fan/y/o/b/4-12-car-fan12v-electric-2-speed-dual-head-fans-360-degree-original-imagfa6qdvyynbub.jpeg?q=90",
+      "title":"Car Interior Fans",
+      "deals": "Min. 50% Off"
+    },
+    {
+      "img":"https://rukminim1.flixcart.com/image/350/350/kst9gnk0/mixer-grinder-juicer/c/0/y/electric-kettle-1-5l-super-combo-lifelong-original-imag6az3rhrzekvf.jpeg?q=90",
+      "title":"Mixer Juicer Grinder",
+      "deals": "Min. 50% Off"
+    }
+  ],
+  "fashionDrop": [
+   "Men's Top Wear",
+   "Men's Bottom Wear",
+   "Women Ethnic",
+   "Women Western",
+   "Men Footwear",
+   "Women Footwear",
+   "Watches and Accessories",
+   "Bags, Suitcases & Luggage",
+   "Kids",
+   "Essentials",
+   "Winter"
+  ],
+
+  "fashionRight": [
+
+    [
+      "All",
+      "Men's T-shirts",
+      "Men's Casual Shirts",
+      "Men's Formal Shirts",
+      "Men's Kurtas",
+      "Men's Ethnic Sets",
+      "Men's Blazers",
+      "Men's Raincoat",
+      "Men's Windcheaters",
+      "Men's Suit",
+      "Men's Fabrics"
+    ],
+    [
+     "All",
+     "Men's Jeans",
+     "Men's Trousers",
+     "Men's Trackpants",
+     "Men's Shorts",
+     "Men's Cargos",
+     "Men's Threefourths",
+     "Men's Pyjamas & Loungepants",
+     "Men's Dhoti",
+     "Men's Ethnic Pyjama" 
+    ],
+    [
+      "All",
+      "Women Sarees",
+      "Women Kurtas & Kurtis",
+      "Women Kurta Sets & Salwar Suits",
+      "Ethnic Dresses",
+      "Women Dress Materials",
+      "Women Gowns",
+      "Women Lehenga Cholis",
+      "Women Leggings & Patialas",
+      "Women Palazzos & Shararas",
+      "Women Blouse",
+      "Women Dupatta"
+    ],
+    [
+      "All",
+      "Women Tops",
+      "Women Dresses",
+      "Women T-shirts & Polo T-shirts",
+      "Women Jeans",
+      "Women Nighties & Night Dresses",
+      "Women NightSuit",
+      "Women Trackpants",
+      "Women Trouser",
+      "Women Jumpsuit",
+      "Women Shapewear",
+      "Women Sports Bra"
+    ],
+    [
+      "All",
+      "Men's Sports Shoes",
+      "Men's Casual Shoes",
+      "Men's Sandals & Floaters",
+      "Men's Slippers & Flip Flops",
+      "Men's Formal Shoes",
+      "Men's Ethnic Shoes",
+      "Active Footwear",
+      "Combo Footwear",
+      "Shoe Care"
+    ],
+    [
+      "All",
+      "Women Flats",
+      "Women Heels",
+      "Women Wedges",
+      "Women Slipper Flip Flops",
+      "Women Casual Shoes",
+      "Women Ballerinas",
+      "Women Ethnic Shoes",
+      "Women Sneakers",
+      "Women Walking Shoes",
+      "Women Boots"
+    ],
+    [
+      "Men & Women Watches", 
+      "Men & Women Sunglasses",
+      "Wallets",
+      "Men & Women Belts",
+      "Women Fashion Jewellery",
+      "Men Fashion Jewellery",
+      "Precious Jewellery",
+      "Precious Coins & Bars",
+      "Precious Articles",
+      "Frames & Contact Lenses",
+      "Kids & Accessories"
+    ],
+    [
+      "All",
+      "Bags & Backpacks",
+      "Suitcases & Trolleys",
+      "Dufflebags",
+      "Rucksacks",
+      "Handbags",
+      "Slingbags",
+      "Women's Clutches & Wallets",
+      "Messenger Bags",
+      "Travel Accessories"
+    ],
+    [
+      "All",
+      "Girls Dresses",
+      "Boys & Girls Tshirts",
+      "Boys & Girls Combosets",
+      "Boys & Girls Ethnic wear",
+      "Boys & Girls Jeans",
+      "Boys & Girls Shorts",
+      "Boys & Girls Trackpants",
+      "Boys & Girls Innerwear",
+      "Infant Wear",
+      "Kids Slipper Flip Flops",
+      "Kids Sports Shoes"
+    ],
+    [
+      "Men's Briefs & Trunks",
+      "Men's Vests",
+      "Men's Boxers",
+      "Women Lingerie Sets",
+      "Women Bra",
+      "Women Panty",
+      "Women Sarees",
+      "Women Kurtas",
+      "Women Kurta Sets & Salwar Suits",
+      "Boys Innerwear",
+      "Girls Innerwear",
+      "Women Slipper Flip Flops"
+    ],
+    [
+      "All",
+      "Men's Jackets",
+      "Men's Sweatshirts",
+      "Men's Sweaters",
+      "Men's Thermals",
+      "Women's Jackets",
+      "Women's Sweatshirts",
+      "Women's Sweaters & Cardigans",
+      "Women's Shrugs",
+      "Kids SweatShirts",
+      "Women Kurtas",
+      "Kids Jackets"
+    ]
   ]
+  
 }
