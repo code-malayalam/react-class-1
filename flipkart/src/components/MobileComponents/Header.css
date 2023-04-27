@@ -1,0 +1,118 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(40, 116, 240, 1);
+  color: #fff;
+  font-family: "Roboto";
+  height: 104px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.header_top_container {
+  height: 52px;
+  transform: translateY(-6px);
+}
+.header_top_inner_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top_left_container {
+  display: flex;
+}
+.top_left_container .hamburger {
+  display: flex;
+  justify-content: center;
+  width: 42px;
+  height: 52px;
+}
+.top_left_container .hamburger button {
+  border: none;
+  background-color: transparent;
+}
+.top_left_container .flipkart_img {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 52px;
+}
+.top_left_container .flipkart_img img {
+  width: 85px;
+  height: 30px;
+}
+.top_right_container {
+  display: flex;
+}
+.right_item_container {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top_right_container .right_img_container {
+  width: 42px;
+}
+.top_right_container .right_img_container img {
+  width: 16px;
+  height: 16px;
+  margin-top: -3px;
+}
+.top_right_container .right_img_container:first-child img {
+  margin-left: 1px;
+}
+
+.login_container {
+  width: 90px;
+}
+.login_container a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #eaeaea;
+  margin-top: -4px;
+}
+.header_bottom_container {
+  padding: 0 2%;
+  /* position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10; */
+}
+.header_bottom_container .search_container {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  height: 38px;
+  border-radius: 2px;
+}
+.header_bottom_container .search_btn {
+  background: transparent;
+  border: none;
+  margin: 12px 10px 10px 10px;
+}
+.header_bottom_container .search_btn img {
+  width: 14px;
+  height: 14px;
+}
+.header_bottom_container .search_container input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  color: #878787;
+  font-size: 14px;
+}
+button:focus {
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 972px) {
+  .header {
+    display: none;
+  }
+}

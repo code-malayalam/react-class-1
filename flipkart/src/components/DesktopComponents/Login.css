@@ -1,0 +1,73 @@
+.login_outer_container {
+  box-shadow: 0 4px 16px 0 rgb(0 0 0 / 20%);
+  position: fixed;
+  left: 53%;
+  top: 56px;
+  z-index: 100;
+  color: #212121;
+  min-width: 240px;
+  animation: anim 0.3s forwards;
+}
+.arrow_container {
+  position: relative;
+  width: 100%;
+}
+.arrow_container::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 45%;
+  top: -20px;
+  border: 10px solid transparent;
+  border-top-color: #fff;
+  transform: rotate(180deg);
+}
+.login_inner_container {
+  font-size: 14px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.login_inner_container .signup_container {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+}
+.customer_text_container {
+  font-weight: 500;
+}
+.signup_text_container {
+  font-weight: 500;
+  color: #2874f0;
+}
+.login_inner_container ul {
+  line-height: 18px;
+  text-align: left;
+}
+.login_inner_container ul li {
+  list-style: none;
+  width: 100%;
+  border-bottom: 1px solid #f0f0f0;
+}
+.login_inner_container ul li a {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+}
+.login_inner_container ul li p {
+  margin-left: 12px;
+  color: #212121;
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

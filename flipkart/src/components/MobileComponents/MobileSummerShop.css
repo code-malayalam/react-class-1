@@ -1,0 +1,71 @@
+.summer_shop_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Roboto";
+  background: linear-gradient(rgb(255, 250, 214), rgb(255, 250, 214));
+}
+.summer_shop_heading_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-image: url("https://rukminim1.flixcart.com/fk-p-reco/650/150/images/Reco_BBDH_Apr_fffad6.jpg?q=90");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+.summer_shop_heading_container p {
+  font-size: 16px;
+  color: #111112;
+}
+.summer_shop_heading_container button {
+  background-color: #2874f0;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+.summer_shop_heading_container button img {
+  width: 15px;
+  height: 15px;
+  transform: rotate(180deg);
+}
+.summer_shop_cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 12px 4px 12px;
+}
+.summer_shop_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 0 4px;
+  margin-bottom: 2px;
+  background-color: #fff;
+  border: 1px solid rgba(220, 223, 230, 1);
+}
+
+.shop_card_img_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.shop_card_text_container {
+  padding-top: 8px;
+}
+.shop_card_text_container .card_text {
+  color: #202224;
+  font-size: 12px;
+}
+.shop_card_text_container .card_offer {
+  color: #008c00;
+  font-size: 14px;
+  margin-top: 2px;
+}

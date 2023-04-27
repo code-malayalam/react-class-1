@@ -1,0 +1,22 @@
+.footer_nav_container {
+  padding: 25px 0;
+  margin-top: 40px;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid #454d5e;
+}
+.footer_nav_item_container {
+  display: flex;
+}
+.footer_nav_item_container a {
+  text-decoration: none;
+  color: #ffff;
+  margin-left: 8px;
+  font-size: 14px;
+}
+.footer_nav_copyright_container {
+  font-size: 14px;
+  color: #ffff;
+}

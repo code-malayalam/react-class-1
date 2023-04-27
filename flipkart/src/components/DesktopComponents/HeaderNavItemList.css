@@ -1,0 +1,106 @@
+.item_list_container {
+  position: absolute;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  color: #212121;
+  text-align: left;
+  top: 110px;
+  /* left: -185px; */
+  z-index: 200;
+  border-radius: 3px;
+  max-width: 500px;
+  background-color: #fff;
+}
+
+.item_arrow_container {
+  position: relative;
+  width: 100%;
+  z-index: 200;
+  bottom: 100%;
+  border-color: #f0f0f0;
+  left: 50%;
+}
+
+.item_arrow_container::after {
+  position: absolute;
+  content: "";
+  left: 40%;
+  top: -20px;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+}
+.item_arrow_container.list_arrow::after {
+  left: -10px;
+}
+
+.item_list_inner_container {
+  padding: 16px;
+}
+.itemListContainer {
+  margin: -16px;
+}
+.itemListInnerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.item_list_left_container {
+  position: relative;
+  box-shadow: 0 4px 16px 0 rgb(0 0 0 / 20%);
+  padding: 12px;
+  min-width: 240px;
+}
+.item_list_left_container .list_item_container {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+}
+.item_list_left_container .list_item_container img {
+  width: 6px;
+  transform: rotate(-180deg);
+  /* background-color: #f9f9f9; */
+}
+.item_list_left_container .list_item_container a {
+  font-weight: 400;
+}
+
+.item_list_right_container {
+  display: block;
+  padding: 12px;
+  min-width: 240px;
+  max-width: 240px;
+  position: absolute;
+  right: -239px;
+  top: 0;
+  bottom: 0;
+  background-color: #ffff;
+  box-shadow: 0 4px 16px 0 rgb(0 0 0 / 20%);
+}
+
+.more_item {
+  color: #878787;
+  font-weight: 500;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.item_list_right_container ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.item_list_right_container ul li {
+  padding: 12px;
+  white-space: nowrap;
+}
+.item_list_right_container ul li:first-child {
+  padding-left: 12px;
+}
+
+.list_item_container:hover a {
+  color: #2874f0;
+  font-weight: 500;
+}
+.item_list_right_container ul {
+  height: auto;
+}

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/roboto-regular.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/roboto-medium.woff2);
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f3f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

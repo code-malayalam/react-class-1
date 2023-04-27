@@ -1,0 +1,43 @@
+.mobileAds_container {
+  position: relative;
+  overflow: hidden;
+}
+
+.moblieAds_slides_container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.moblieAds_slides_container img {
+  height: 100%;
+  min-width: 100%;
+  object-fit: contain;
+}
+.dots_container {
+  display: flex;
+  position: absolute;
+  bottom: 5px;
+  left: 30%;
+  background-color: #28242433;
+  padding: 2px 6px;
+  border-radius: 20px;
+}
+.dots_container .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #a9a9a9;
+  margin: 0 3px;
+}
+.dots_container .dot.active {
+  background-color: #fff;
+  width: 10px;
+  border-radius: 20px;
+  transition: 0.1s ease-in-out;
+}
+
+@media screen and (min-width: 972px) {
+  .mobileAds_container {
+    display: none;
+  }
+}

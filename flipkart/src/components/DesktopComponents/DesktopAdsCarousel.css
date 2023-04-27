@@ -1,0 +1,77 @@
+.desktopAds_container {
+  display: none;
+}
+
+/* @media screen and (min-width: 972px) {
+  .desktopAds_container {
+    overflow: hidden;
+    display: flex;
+    position: relative;
+  }
+
+  .desktopAds_slides_container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .desktopAds_slides_container img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .arrow_btn {
+    position: absolute;
+    width: 47px;
+    height: 104px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  .arrow_btn.left {
+    top: 30%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .arrow_btn.right {
+    right: 0;
+    top: 30%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .arrow_btn .btn {
+    border: none;
+    background-color: transparent;
+  }
+  .arrow_btn .right_arrow img {
+    transform: rotate(180deg);
+  }
+} */
+
+@media screen and (min-width: 972px) {
+  .slick-arrow.slick-prev,
+  .slick-arrow.slick-next {
+    background-color: white;
+    width: 47px;
+    height: 104px;
+    z-index: 1;
+  }
+  .slick-arrow.slick-next::before,
+  .slick-arrow.slick-prev::before {
+    display: none;
+  }
+  .slick-arrow.slick-next img {
+    transform: rotate(180deg);
+  }
+  .slick-arrow.slick-next {
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .slick-arrow.slick-prev {
+    left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}

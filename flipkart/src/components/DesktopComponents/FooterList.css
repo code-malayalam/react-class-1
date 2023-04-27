@@ -1,0 +1,26 @@
+.footer_list {
+  display: flex;
+}
+.footer_list_container {
+  flex: 1;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+}
+.footer_list_container .item_heading {
+  font-size: 12px;
+  color: #878787;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+.item_lists {
+  display: flex;
+  flex-direction: column;
+}
+.item_lists a {
+  line-height: 2;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}

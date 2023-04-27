@@ -1,0 +1,14 @@
+.desktop_main {
+  /* min-width: 970px; */
+  display: none;
+}
+
+@media screen and (min-width: 972px) {
+  .desktop_main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1680px;
+    padding: 8px;
+  }
+}

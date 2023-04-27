@@ -1,0 +1,46 @@
+footer {
+  display: none;
+}
+
+@media screen and (min-width: 972px) {
+  footer {
+    background-color: #172337;
+    font-family: "Roboto";
+    display: block;
+  }
+  .footer_top_container {
+    display: flex;
+    margin-left: 65px;
+    width: 90%;
+    padding-top: 40px;
+    text-align: left;
+  }
+  .contact_container {
+    flex: 1;
+  }
+  .contact_container .contact_heading {
+    color: #878787;
+    font-size: 12px;
+    margin-bottom: 9px;
+    line-height: 1.4;
+  }
+  .mail {
+    padding: 0 25px;
+    border-left: 1px solid #454d5e;
+    height: 133.8px;
+  }
+  .address {
+    padding-left: 14px;
+    margin-bottom: 10px;
+  }
+  .contact_text p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+  .contact_text p span {
+    color: #2874f0;
+    font-weight: 500;
+  }
+}

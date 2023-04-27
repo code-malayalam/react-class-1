@@ -1,0 +1,80 @@
+.carousel_container {
+  display: flex;
+  overflow: auto;
+  margin-top: 10px;
+  background-color: #fff;
+  font-family: "Roboto";
+  line-height: 1.4;
+  position: relative;
+}
+.carousel_text_container {
+  background-repeat: no-repeat;
+  background-position: 0px bottom;
+  width: 230px;
+}
+.carousel_text_inner_container {
+  padding: 28px 10px 124px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+.carousel_text_inner_container h2 {
+  font-size: 30px;
+  color: #212121;
+  font-weight: 400;
+}
+.carousel_text_inner_container .viewall_btn {
+  margin-top: 24px;
+}
+.carousel_text_inner_container .viewall_btn button {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #2874f0;
+  border: none;
+  border-radius: 2px;
+}
+.carousel_cards {
+  display: flex;
+  width: calc(100% - 230px);
+  overflow: hidden;
+  scroll-behavior: smooth;
+  /* position: relative; */
+}
+
+.carousel_cards .arrow {
+  position: absolute;
+  /* position: fixed; */
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+  /* top: 23%; */
+}
+.carousel_cards .arrow_left {
+  left: calc(100%- 230);
+}
+.carousel_cards .arrow_right {
+  right: 0;
+}
+.carousel_cards .arrow button {
+  background-color: #fff;
+  padding: 40px 15px;
+  box-shadow: 1px 2px 10px -1px rgb(0 0 0 / 30%);
+  background-color: #fffffffa;
+  border: none;
+  cursor: pointer;
+}
+.carousel_cards .arrow_left button {
+  border-radius: 0 4px 4px 0;
+}
+.carousel_cards .arrow_right button {
+  border-radius: 4px 0px 0px 4px;
+}
+.carousel_cards .arrow_right button img {
+  transform: rotate(180deg);
+}
