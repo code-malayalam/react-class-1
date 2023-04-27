@@ -1,0 +1,103 @@
+.carousel_img_container {
+  display: flex;
+  overflow: hidden;
+}
+.carousel_item img {
+  width: 100vw;
+  transition: transform 0.25s cubic-bezier(0, 0, 0.3, 1);
+}
+.carousel_points {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(40, 36, 36, 0.2);
+  width: min-content;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+.carousel_point {
+  width: 6px;
+  height: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-radius: 3px;
+  background-color: rgb(169, 169, 169);
+}
+.carousel_container {
+  position: relative;
+}
+.carousel_point_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+.carousel_single_point {
+  position: absolute;
+  bottom: -3px;
+  width: 108px;
+  padding: 2px 6px;
+  margin: 3px;
+}
+.carousel_single_point .point {
+  width: 10px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.desktop_container {
+  display: none;
+}
+
+@media screen and (min-width: 855px) {
+  .desktop_view {
+    background-color: rgba(202, 199, 199, 0.2);
+  }
+  .carousel_container {
+    display: none;
+  }
+  .desktop_container {
+    display: block;
+    max-width: 1680px;
+    margin-inline: auto;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  .carousel_container_desktop img {
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+  }
+  .carousel_container_desktop {
+    display: flex;
+  }
+  .slide_left,
+  .slide_right {
+    width: 47px;
+    height: 104px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+    box-shadow: 2px 1px 10px 5px rgb(0 0 0 / 50%);
+  }
+  .slide_left {
+    left: 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .slide_right {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+  }
+  .slide_right img {
+    transform: rotate(180deg);
+  }
+  .carousel_img_container {
+    position: relative;
+  }
+}

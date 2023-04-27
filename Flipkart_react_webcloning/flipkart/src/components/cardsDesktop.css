@@ -1,0 +1,123 @@
+@media screen and (min-width: 855px) {
+  .cards_container_desktop {
+    display: flex;
+    overflow: hidden;
+    max-width: 1680px;
+    margin-inline: auto;
+    background-color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .card_desktop {
+    width: 232px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cards_desktop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card_text_desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card_img_container_desktop {
+    height: 200px;
+    max-width: 200px;
+  }
+  .card_img_container_desktop img {
+    max-height: 200px;
+    max-width: 200px;
+    height: min-content;
+    width: min-content;
+  }
+  .card_section_heading_desktop {
+    width: 230px;
+    padding: 28px 10px 124px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    z-index: 3;
+    background-color: #fff;
+  }
+  .cards_container_desktop:nth-child(1) .card_section_heading_desktop {
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90);
+  }
+  .cards_container_desktop:nth-child(2) .card_section_heading_desktop {
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90);
+  }
+  .heading {
+    width: 230px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.38;
+    font-weight: 400;
+  }
+  .view_all {
+    padding: 10px 20px;
+    background-color: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0/ 20%);
+    white-space: nowrap;
+    width: min-content;
+    margin-top: 24px;
+  }
+  .card_text_desktop {
+    margin-top: 15px;
+  }
+  .card_heading_text {
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .rate {
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #388e3c;
+    padding-top: 8px;
+  }
+  .description {
+    opacity: 0.6;
+    padding-top: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .slide_left_cards,
+  .slide_right_cards {
+    width: 47px;
+    height: 104px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+  }
+  .slide_left_cards {
+    left: 232px;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 3px 0px 5px rgb(0 0 0 / 15%);
+  }
+  .slide_right_cards {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+    box-shadow: 1px 2px 10px -1px rgb(0 0 0 / 30%);
+  }
+  .slide_right_cards img {
+    transform: rotate(180deg);
+  }
+}

@@ -1,0 +1,8 @@
+.desktop_view {
+  display: none;
+}
+@media screen and (min-width: 855px) {
+  .desktop_view {
+    display: block;
+  }
+}

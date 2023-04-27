@@ -1,0 +1,1554 @@
+{
+  "navitems": [
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/033f3268031fa0ba.jpg?q=90",
+      "id": 1
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/0f3d008be60995d4.jpg?q=90",
+      "id": 2
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/42f9a853f9181279.jpg?q=90",
+      "id": 3
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/cbcb478744635781.jpg?q=90",
+      "id": 4
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/913e96c334d04395.jpg?q=90",
+      "id": 5
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/1faac897db7fa1e8.jpg?q=90",
+      "id": 6
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/4be8a679014497f0.png?q=90",
+      "id": 7
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/6ecb75e51b607880.jpg?q=90",
+      "id": 8
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/3e6d75f631ab6055.jpg?q=90",
+      "id": 9
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/89d809684711712a.jpg?q=90",
+      "id": 10
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/150/150/image/4b0a064d53b4ff28.jpg?q=90",
+      "id": 11
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/aeb7da37a9e85209.jpg?q=90",
+      "id": 12
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/ea3c3e826c117fea.jpg?q=90",
+      "id": 13
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/356d37e9512c7fcb.jpg?q=90",
+      "id": 14
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/222e7382a2c2bd72.jpg?q=90",
+      "id": 15
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/flap/150/150/image/818e0398f9dabd3e.JPG?q=90",
+      "id": 16
+    }
+  ],
+  "headerNavItemsDesktop": [
+    {
+      "id": 1,
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100",
+      "text": "Grocery"
+    },
+    {
+      "id": 2,
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100",
+      "text": "Mobiles"
+    },
+    {
+      "id": 3,
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/d34810848b2895c9.png?q=100",
+      "text": "Fashion",
+      "more": "",
+      "dropDown": [
+        {
+          "id": 1,
+          "heading": "Men's Top Wear",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN MEN'S TOP WEAR",
+              "items": [
+                "All",
+                "Men's T-Shirts",
+                "Men's Casual Shirts",
+                "Men's Formal Shirts",
+                "Mens Kurtas",
+                "Men's Ethnic Sets",
+                "Men's Blazers",
+                "Men's Raincoat",
+                "Men's Windcheaters",
+                "Men's Suit",
+                "Men's Fabrics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "heading": "Men's Bottom Wear",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN MEN'S BOTTOM WEAR",
+              "items": [
+                "All",
+                "Men's Jeans",
+                "Men's Trousers",
+                "Men's Trackpants",
+                "Men's Shorts",
+                "Men's Cargos",
+                "Men's Threefourths",
+                "Men's Pyjamas & Loungepants",
+                "Men's Dhoti",
+                "Men's Ethnic Pyjamas"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "heading": "Women Ethnic",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN WOMEN ETHNIC",
+              "items": [
+                "All",
+                "Women Sarees",
+                "Women Kurtas & Kurtis",
+                "Women Kurta Sets & Salwar Suits",
+                "Ethnic Dresses",
+                "Women Dress Materials",
+                "Women Gowns",
+                "Women Lehenga Cholis",
+                "Women Leggings & Patialas",
+                "Women Palazzos & Shararas",
+                "Women Blouse",
+                "Women Dupatta"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "heading": "Women Western",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN WOMEN WESTERN",
+              "items": [
+                "All",
+                "Women Tops",
+                "Women Dresses",
+                "Women T-shirts & Polo T-shirts",
+                "Women Jeans",
+                "Women Nighties and Night Dresses",
+                "Women Nightsuit",
+                "Women Track Pants",
+                "Women Trousers",
+                "Women Jumpsuit",
+                "Women Shapewear",
+                "Women Sports Bra"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "heading": "Men Footwear",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN MEN FOOTWEAR",
+              "items": [
+                "All",
+                "Men's Sports Shoes",
+                "Men's Casual Shoes",
+                "men's Sandals & Floaters",
+                "Men's Slippers and Flip Flops",
+                "Men's Formal Shoes",
+                "Men's Ethnic Shoes",
+                "Active Footwear",
+                "Combo Footwear",
+                "Shoe Care"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "heading": "Women Footwear",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN WOMEN FOOTWEAR",
+              "items": [
+                "All",
+                "Women Flats",
+                "Women Heels",
+                "Women Wedges",
+                "Women Slipper Flip Flops",
+                "Women Casual Shoes",
+                "Women Sports Shoes",
+                "Women Ballerinas",
+                "Women Ethnin Shoes",
+                "Women Sneakers",
+                "Women Walking Shoes",
+                "Women Boots"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "heading": "Watches and Accessories",
+          "dropDownItems": [
+            {
+              "heading": "MORE INFO WATCHES AND ACCESSORIES",
+              "items": [
+                "Men & Women Watches",
+                "Men and Women Sunglasses",
+                "Wallets",
+                "Men & Women Belts",
+                "Women Fashion Jewellery",
+                "Men Fashion Jewellery",
+                "Precious Jewellery",
+                "Precious Coins & Bars",
+                "Precious Articles",
+                "Frames & Contact Lenses",
+                "Kids Accessories"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "heading": "Bags, Suitcases & Luggage",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN BAGS, SUITCASES & LUGGAGE",
+              "items": [
+                "All",
+                "Bags & Backpacks",
+                "Suitcases & Trolleys",
+                "Dufflebags",
+                "Rucksacks",
+                "Handbags",
+                "Slingbags",
+                "Women's Clutches & Wallets",
+                "Messenger Bags",
+                "Travel Accessories"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "heading": "Kids",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN KIDS",
+              "items": [
+                "All",
+                "Girls Dresses",
+                "Boys & Girls Tshirts",
+                "Boys & Girls Combosets",
+                "Boys & Girls Ethnic Wear",
+                "Boys & Girls Jeans",
+                "Boys & Girls Shorts",
+                "Boys & Girls Trackpants",
+                "Boys & Girls Innerwear",
+                "Infant wear",
+                "Kids Slipper FLip FLops",
+                "Kids Sports Shoes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "heading": "Essentials",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN ESSENTIALS",
+              "items": [
+                "Men's Briefs & Trunks",
+                "Men's Vests",
+                "Men's Boxers",
+                "Women Lingerie Sets",
+                "Women Bra",
+                "Women Panty",
+                "Women Sarees",
+                "Women Kurtas",
+                "Women Kurtas Sets & Salwar Suits",
+                "Boys Innerwear",
+                "Boys Innerwear",
+                "Girls Innerwear",
+                "Women Slipper Flip Flops"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "heading": "Winter",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN WINTER",
+              "items": [
+                "All",
+                "Men's Jackets",
+                "Men's Sweatshirts",
+                "Men's Sweaters",
+                "Men's Thermals",
+                "Women's Jackets",
+                "Women's Sweatshirts",
+                "Women's Sweaters & Cardigans",
+                "Women's Shrugs",
+                "Kids Sweatshirts",
+                "Women Kurtas",
+                "Kids Jackets"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100",
+      "text": "Electronics",
+      "more": "",
+      "dropDown": [
+        {
+          "id": 1,
+          "heading": "Audio",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN AUDIO",
+              "items": [
+                "All",
+                "Bluetooth Headphones",
+                "Wired Headphones",
+                "True Wireless Earbuds",
+                "Bluetooth Speakers",
+                "Soundbars",
+                "Home Theatres",
+                "TV Streaming Device",
+                "Remote Control",
+                "DTH Set top box",
+                "Headphones Pouch & Case Covers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "heading": "Electronics GST Store"
+        },
+        {
+          "id": 3,
+          "heading": "Cameras & Accessories",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN CAMERAS & ACCESSORIES",
+              "items": [
+                "All",
+                "DSLR & Mirrorless",
+                "Sports & action",
+                "Point & Shoot",
+                "Instant Cameras",
+                "Camcorders",
+                "Camera tripods",
+                "Camera Lenses",
+                "Drone",
+                "Flashes",
+                "Gimbals",
+                "Binoculars",
+                "Other Camera Accessories"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "heading": "Computer Peripherals",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN COMPUTER PERIPHERALS",
+              "items": [
+                "All",
+                "Printers",
+                "Monitors",
+                "Projectors",
+                "Portable Projectors",
+                "Toners",
+                "Ink Cartridges",
+                "Ink Bottles",
+                "Receipt Printers",
+                "Lamination Machines",
+                "Note counting Machines",
+                "Barcode Scanners",
+                "Currency Detectors"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "heading": "Gaming",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN GAMING",
+              "items": [
+                "All",
+                "Gaming Consoles",
+                "Gaming Mouse",
+                "Gaming Keyboards",
+                "Gamepads",
+                "Games",
+                "Accessory Kits",
+                "Gaming Accessories Combo",
+                "Gaming Mousepads",
+                "Membership Cards",
+                "Controllers",
+                "Other Gaming Accessories",
+                "Gaming Components"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "heading": "Health & Personal Care",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN HEALTH AND PERSONAL CARE",
+              "items": [
+                "All",
+                "Trimmers",
+                "Shavers",
+                "Hair Straighteners",
+                "Hair Dryers",
+                "Epilators",
+                "Glucometers And Accessories",
+                "Blood Pressure Monitors",
+                "Digital Thermometers",
+                "Weighing Scales",
+                "Massagers",
+                "Nebulizers",
+                "Vaporizers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "heading": "Laptop Accessories",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN LAPTOP ACCESSORIES",
+              "items": [
+                "All",
+                "Mouse",
+                "Laptop Keyboards",
+                "Router",
+                "Data Cards",
+                "UPS",
+                "USB Gadgets",
+                "Security Software",
+                "Laptop Battery",
+                "Laptop Adapter",
+                "Processor",
+                "Other Accessories"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "heading": "Laptop and Desktop",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN LAPTOP AND DESKTOP",
+              "items": [
+                "All",
+                "Laptop",
+                "Gaming Laptops",
+                "Desktop PCs",
+                "All In One PCs",
+                "Mini PCs",
+                "Tower PCs",
+                "PC Finder",
+                "GST Invoice on Laptops",
+                "Laptop Buying Guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "heading": "Mobile Accessory",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN MOBILE ACCESSORY",
+              "items": [
+                "All",
+                "Plain Cases",
+                "Designer Cases",
+                "Screen Guards",
+                "Camera Lens Protectors",
+                "Tablet Accessories",
+                "Mobile Cable",
+                "Mobile Charging Mobile Charger",
+                "Mobile Pouches",
+                "Mobile Flash",
+                "Mobile Holder",
+                "Mobile USB Gadget",
+                "Mobile Accessories Combos"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "heading": "Powerbank",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN POWERBANK",
+              "items": ["All", "Powerbank"]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "heading": "Smart Home automation",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN SMART HOME AUTOMATION",
+              "items": [
+                "All",
+                "Smart Assistants",
+                "Smart Cameras",
+                "Smart Switches",
+                "Smart Door locks",
+                "Sensors & Alarms"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "heading": "Smart Wearables",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN SMART WEARABLES",
+              "items": ["All", "Smart Watches", "Smart Bands", "Smart Glasses"]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "heading": "Storage",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN STORAGE",
+              "items": [
+                "All",
+                "Mobile Memory Card",
+                "Computer Storage Pendrive",
+                "External Hard Drive",
+                "Internal Hard Drive"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "heading": "Tablets",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN TABLETS",
+              "items": [
+                "All",
+                "Tablets With Call Facility",
+                "Tablets Without Call Facility"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100",
+      "text": "Home",
+      "more": "",
+      "dropDown": [
+        {
+          "id": 1,
+          "heading": "Home Furnishing",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN HOME FURNISHINGS",
+              "items": [
+                "All",
+                "Bed Linens",
+                "Blanket",
+                "Curtains & Accessories",
+                "Bath linen",
+                "Floor coverings",
+                "Covers & protectors",
+                "Cushions & Pillows",
+                "Kitchen Linen Sets",
+                "Table Linen Sets",
+                "Sofa & curtain fabrics",
+                "Branded Collections"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "heading": "Furniture Studio"
+        },
+        {
+          "id": 3,
+          "heading": "Living Room Studio",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN LIVING ROOM FURNITURE",
+              "items": [
+                "All",
+                "Sofas Sets & Sectionals",
+                "TV Units",
+                "Dining Sets",
+                "Coffee Tables",
+                "Sofa Beds",
+                "Recliners",
+                "Living Room Chairs",
+                "Cabinet & Drawers",
+                "Bookshelves",
+                "Shoe Racks",
+                "Office Tables",
+                "Office Chairs"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "heading": "Kitchen & Dining",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN KITCHEN & DINING",
+              "items": [
+                "All",
+                "Cookware",
+                "Lunchboxes, Bottles & Flasks",
+                "Knives, Choppers & Cutters",
+                "Gas Stoves & Accessories",
+                "Kitchen tools",
+                "Tableware & Dinnerware",
+                "Containers & Kitchen Storage",
+                "Barware",
+                "Bakeware",
+                "Handjuicers & Grinders",
+                "Disposable Supplies",
+                "Outdoor cooking"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "heading": "Bedroom Furniture",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN BEDROOM FURNITURE",
+              "items": [
+                "All",
+                "Mattresses",
+                "Beds",
+                "Wardrobes",
+                "Side Tables",
+                "TV Units",
+                "Office Tables",
+                "Office Chairs",
+                "Bookshelves",
+                "Bar Cabinets",
+                "Bar Stools",
+                "Rocking Chairs",
+                "Benches"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "heading": "Home Decor",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN HOME DECOR",
+              "items": [
+                "All",
+                "Lightings",
+                "Stickers & Wallpapers",
+                "Painting & Posters",
+                "Clocks",
+                "Showpieces & Decoratives",
+                "Wall Decor",
+                "Flowers & Vases",
+                "Home Fragrances",
+                "WindChimes & Dream catcher",
+                "Photo frames & Albums",
+                "Diyas, Candles & Holders",
+                "Festives & Gifting"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "heading": "Tools & Utility",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN TOOLS & UTILITY",
+              "items": [
+                "All",
+                "Hand tools",
+                "Power Tools",
+                "Measuring Tools",
+                "Home Storage & Organizers",
+                "Umbrellas",
+                "Appliances Trolley & Stands",
+                "Cloth Dryer Stand",
+                "Appliance Filter & Catridges",
+                "Laundry Organization",
+                "Lock & Security",
+                "Fire & Personal Safety",
+                "Paint Supplies & Equipments"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "heading": "Work Space Furniture"
+        },
+        {
+          "id": 9,
+          "heading": "Lightings & Electricals",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN LIGHTINGS & ELECTRICALS",
+              "items": [
+                "All",
+                "Bulbs",
+                "Emergency Lights",
+                "Torches",
+                "Tubelights",
+                "Extension Cords",
+                "Outdoor Lamps",
+                "Batteries",
+                "Electrical Wires",
+                "electrical Socket",
+                "Electrical Door Bell",
+                "Solar Lights, Panels & Batteries",
+                "Electrical Hardware"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "heading": "Space Saving Furniture",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN SPACE SAVING FURNITURE",
+              "items": [
+                "All",
+                "Portable Laptop Tables",
+                "Collapsible Wardrobes",
+                "Bean Bags & Covers",
+                "Shoe Racks",
+                "Cabinet & Drawers",
+                "Inflatable Sofas",
+                "Hammock Swings",
+                "Home Temples",
+                "Bookshelves",
+                "TV Mounts",
+                "Kitchen Trolley",
+                "Kitchen Cabinet"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "heading": "Cleaning & Bath",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN CLEANING IN BATH",
+              "items": [
+                "All",
+                "Mops",
+                "Cleaning Supplies",
+                "House Hold supplies",
+                "Air Freshners",
+                "Cleaning Gloves",
+                "Liquid Detergents",
+                "Taps & Faucet",
+                "Toothbrush holder",
+                "Bathroom Rack & Shelves",
+                "Shower Heads",
+                "Bath & Kitchen Fittings",
+                "Bathroom Accessories"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "heading": "Kids Furniture",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN KIDS FURNITURE",
+              "items": [
+                "All",
+                "Bunk Beds",
+                "Kids'Table",
+                "Kids'Chairs",
+                "Kids'Sofas",
+                "Bookshelves",
+                "Chest of Drawers",
+                "Cupboards",
+                "Shoe Racks",
+                "Kids'Bean Bags",
+                "Portable Pool",
+                "Sofa Beds"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "heading": "Pets & Gardening",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN PET & GARDENING",
+              "items": [
+                "All",
+                "Plant Seeds",
+                "Soil Manure",
+                "Pots & Planters",
+                "Plant & Planters",
+                "garden tool set",
+                "watering Equipment",
+                "Dog Essentials",
+                "Cat Essentials",
+                "Fish & Aquatic",
+                "Pet Grooming & Hygiene",
+                "Pets Toys",
+                "Pet Health & Safety"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100",
+      "text": "Appliances"
+    },
+    {
+      "id": 7,
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100",
+      "text": "Travel"
+    },
+    {
+      "id": 8,
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100",
+      "text": "Top Offers"
+    },
+    {
+      "id": 9,
+      "img": "https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100",
+      "text": "Beauty, Toys & More",
+      "more": "",
+      "dropDown": [
+        {
+          "id": 1,
+          "heading": "Beauty & Personal Care",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN BEAUTY & PERSONAL CARE",
+              "items": [
+                "View All",
+                "Bath & Oral Care",
+                "Personal Hygiene",
+                "Eye Makeup",
+                "Face Makeup",
+                "Lip Makeup",
+                "Hair Care",
+                "Bath Essentials",
+                "Women's Personal Hygiene",
+                "Body & Skin Care",
+                "Luxury",
+                "Top Branded Deals"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "heading": "Men's Grooming",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN MEN'S GROOMING",
+              "items": [
+                "View All",
+                "Face Washes",
+                "Beard Oils",
+                "Hair Styiling",
+                "Shaving Essentials",
+                "Aftershave",
+                "Face Creams & Face Packs",
+                "Soaps & Bodywashes",
+                "Men's Grooming Combos",
+                "Sexual Wellness"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "heading": "Food & Drinks",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN FOOD & DRINKS",
+              "items": [
+                "View All",
+                "Beverages",
+                "Nuts & Dry Fruits",
+                "Cooking Essentials",
+                "Breakfast Items",
+                "Snacks Corner",
+                "Jams, spreads & Honey",
+                "Ready to Cook & Eat",
+                "Chocolates",
+                "Baking Essentials",
+                "Sweets Store",
+                "Top Brand Deals"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "heading": "Nutrition & Health Care",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN NUTRITION & HEALTH CARE",
+              "items": [
+                "View All",
+                "Masks",
+                "Ayurvedic Supplements",
+                "Health Drinks",
+                "Vitamin Supplements",
+                "Protein Supplements",
+                "Women's Safety",
+                "Home Medicines",
+                "Home Medical Supplies",
+                "Healthcare Comos",
+                "Professional Medical Supplies",
+                "Top Brand Deals"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "heading": "Baby Care",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN BABY CARE",
+              "items": [
+                "View All",
+                "Baby Diapers",
+                "Baby Wipes",
+                "Baby Bath & Grooming",
+                "Baby Gift Sets & Combo",
+                "Baby Medical & Health Care",
+                "Nursing & Breast Feeding",
+                "Feeding Bottles, Utensils & Accessories",
+                "Baby Food",
+                "Baby Bedding",
+                "Baby Gear",
+                "Top Brand Deals"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "heading": "Toys & School Supplies",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN TOYS & SCHOOL SUPPLIES",
+              "items": [
+                "View All",
+                "Remote Control Toys",
+                "Soft Toys",
+                "Puzzles",
+                "Board Games",
+                "Learning & Educational Toys",
+                "Cars & Die-Cast Vehicles",
+                "Baby Toys",
+                "Gifting Toys",
+                "School Bags & Backpacks",
+                "School Supplies",
+                "Top Brand Deals"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "heading": "Sports & Fitness",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN SPORTS & FITNESS",
+              "items": [
+                "View All",
+                "Badminton",
+                "Cricket",
+                "Cycling",
+                "Football",
+                "Fitness Equipments",
+                "Supports",
+                "Shakers & Sippers",
+                "Gym Gloves",
+                "Dumbbells",
+                "Yoga",
+                "Top Branded Deals"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "heading": "Books",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN BOOKS",
+              "items": [
+                "View All",
+                "Test prep",
+                "Academics",
+                "Literature & Fiction",
+                "Non Fiction",
+                "Young Readers",
+                "Audio Books",
+                "Indian Languages",
+                "Acoustic Guitars",
+                "Musical keyboards",
+                "Microphones",
+                "Stage Equipment & Accessories"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "heading": "Music",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN MUSIC",
+              "items": [
+                "Musical Instruments",
+                "Music & Tv Shows",
+                "Acoustic Guitars",
+                "Keys and Synthesizers",
+                "Microphones",
+                "Studio and Stage equipment",
+                "String Instruments",
+                "Indian instruments",
+                "Wind instruments"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "heading": "Stationery & Office Supplies",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN STATIONERY & OFFICE SUPPLIES",
+              "items": [
+                "View All",
+                "Pens & Gift Sets",
+                "Notebooks & Diaries",
+                "Art Supplies",
+                "Calculators",
+                "Keychains",
+                "Card Holders",
+                "Desk Organizers",
+                "Office Supplies",
+                "Office Equipments",
+                "Party Supplies",
+                "Top Brand Deals"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "heading": "Auto Accessories",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN AUTO ACCESSORIES",
+              "items": [
+                "View All",
+                "Bike Essentials",
+                "Car & Bike Covers",
+                "Car Air Freshner",
+                "Car Bluetooth Device",
+                "Car Lubricant",
+                "Car Vaccum Cleaner",
+                "Car Media Player",
+                "Helmet",
+                "Vehicle Washing & Cleaning Product",
+                "Tyres",
+                "Top Brand Deals"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "heading": "Safety & Hygiene Essentials",
+          "dropDownItems": [
+            {
+              "heading": "MORE IN SAFETY & HYGIENE ESSENTIALS",
+              "items": [
+                "View All",
+                "Masks",
+                "Sanitizers",
+                "Hand Wash",
+                "Gloves",
+                "PPE Kits",
+                "Face Shields",
+                "UV Sterilizers Box",
+                "Safety Goggles",
+                "Vitamins for Immunity"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100",
+      "text": "Two Wheelers",
+      "more": "",
+      "dropDown": [
+        {
+          "id": 1,
+          "heading": "Petrol Vehicles"
+        },
+        {
+          "id": 2,
+          "heading": "Electric Vehicles"
+        }
+      ]
+    }
+  ],
+  "carouselImages": [
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/650/300/image/4e26a78160dcd823.jpg?q=90",
+      "id": 1
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/650/300/image/df0d6993f07081a0.jpeg?q=90",
+      "id": 2
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/650/300/image/dab6e6e883a8844e.jpg?q=20",
+      "id": 3
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/650/300/image/a334449f3c5bdccd.jpeg?q=20",
+      "id": 4
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/650/300/image/fdae9af5e0269f24.jpeg?q=90",
+      "id": 5
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/650/300/image/4a6306b3134e3435.jpeg?q=20",
+      "id": 6
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/650/300/image/83d42a6e946d9b9d.jpeg?q=20",
+      "id": 7
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/650/300/image/cddb930b1b8a92da.jpg?q=20",
+      "id": 8
+    }
+  ],
+  "desktopCarousel": [
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/07ab097e1ede5d0e.jpg?q=50",
+      "id": 1
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/74f1b7b7046999b2.jpg?q=50",
+      "id": 2
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/d5a4c22fa5edbeb3.jpg?q=50",
+      "id": 3
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/f827f8054dbd984a.jpg?q=50",
+      "id": 4
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/f7d0dcc111d27823.jpg?q=50",
+      "id": 5
+    }
+  ],
+  "offerZoneData": [
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/250/250/image/2544077c51de8f7f.jpg?q=90",
+      "id": 1
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/250/250/image/4283f27ea23f9548.jpg?q=90",
+      "id": 2
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/250/250/image/c92bb3ed94b536d4.jpeg?q=90",
+      "id": 3
+    }
+  ],
+  "todayOffer": [
+    {
+      "id": 1,
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/350/500/image/7535150aa2fdcdaa.jpg?q=90"
+    },
+    {
+      "id": 2,
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/350/500/image/2b0844a5d84cc054.jpg?q=90"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": 1,
+      "img": "https://rukminim1.flixcart.com/image/250/250/xif0q/mobile/s/j/p/-original-imagmg6gmq9kzq9j.jpeg?q=90",
+      "textOne": "Top Offers",
+      "textTwo": "Buy 5000+ save ₹3000"
+    },
+    {
+      "id": 2,
+      "img": "https://rukminim1.flixcart.com/image/250/250/kzpw2vk0/mobile/u/o/q/galaxy-s21-fe-5g-lavender-8gb-128gb-storage-sm-g990elviinu-original-imagbnbdaj3tygup.jpeg?q=90",
+      "textOne": "Best Discounts",
+      "textTwo": "Min. 50% Off"
+    },
+    {
+      "id": 3,
+      "img": "https://rukminim1.flixcart.com/image/250/250/xif0q/mobile/y/x/7/c55-rmx3710-realme-original-imagnku6gpzh9qkt.jpeg?q=90",
+      "textOne": "0% Interest",
+      "textTwo": "No Cost EMI"
+    },
+    {
+      "id": 4,
+      "img": "https://rukminim1.flixcart.com/image/250/250/l4ln8nk0/mobile/4/8/h/-original-imagfggrvjdqsrtx.jpeg?q=90",
+      "textOne": "Top Quality",
+      "textTwo": "Plus - Products"
+    }
+  ],
+  "shopSummerHeading": {
+    "textOne": "Shop for a Cool Summer",
+    "textTwo": ""
+  },
+  "officeSuppliesHeading": {
+    "textOne": "Office Supplies For You",
+    "textTwo": ""
+  },
+  "mobilesHeading": {
+    "textOne": "Mobiles To Check Out",
+    "textTwo": "Suggested for You"
+  },
+  "electronics": [
+    {
+      "id": 1,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kactpjk0/shaver/m/6/z/philips-s1121-45-s1121-45-original-imafry2qgxcwnm9r.jpeg?q=70",
+      "textOne": "Best of Shavers",
+      "offer": "From ₹1,649",
+      "textTwo": "Philips & Havells"
+    },
+    {
+      "id": 2,
+      "img": "https://rukminim1.flixcart.com/image/200/200/k3q76a80/camera/a/9/y/sony-apsc-ilce-6100l-b-in5-mirrorless-original-imafm6msv5uzrmgt.jpeg?q=70",
+      "textOne": "Top Mirrorless Cameras",
+      "offer": "Shop Now!",
+      "textTwo": "Canon, Sony, Fujifilm..."
+    },
+    {
+      "id": 3,
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/cases-covers/back-cover/j/i/6/mycas-black-vv-y35-qcase-original-imagj87uwxzarrzk.jpeg?q=70",
+      "textOne": "Plain Cases & Covers",
+      "offer": "Under ₹169",
+      "textTwo": "For All Top Models"
+    },
+    {
+      "id": 4,
+      "img": "https://rukminim1.flixcart.com/image/200/200/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg?q=70",
+      "textOne": "Printers",
+      "offer": "From ₹3999",
+      "textTwo": "HP"
+    },
+    {
+      "id": 5,
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/power-bank/j/i/v/power-bank-dx09-20000-mah-20000-dx09-20k-callmate-original-imagn22tuac3hqnz.jpeg?q=70",
+      "textOne": "Premium PowerBanks",
+      "offer": "Shop Now",
+      "textTwo": "Mi realme & more"
+    },
+    {
+      "id": 6,
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/monitor/0/s/2/-original-imagkgj2hvxpsqpz.jpeg?q=70",
+      "textOne": "Monitors",
+      "offer": "From ₹6599",
+      "textTwo": "acer"
+    },
+    {
+      "id": 7,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kx50gi80/projector/r/9/p/zeb-pixa-play-12-5-6-dobly-audio-led-projector-zebronics-original-imag9z3yujqmzqt4.jpeg?q=70",
+      "textOne": "Projectors",
+      "offer": "From ₹9999",
+      "textTwo": "ZEBRONICS"
+    },
+    {
+      "id": 8,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kmp7ngw0/monitor/j/z/h/s2721hn-27-py0df-dell-original-imagfjphuywuh2a7.jpeg?q=70",
+      "textOne": "Monitor",
+      "offer": "From ₹3999",
+      "textTwo": "DELL"
+    }
+  ],
+  "BeautyFoodToys": [
+    {
+      "id": 1,
+      "img": "https://rukminim1.flixcart.com/image/400/400/kzegk280/action-figure/9/v/t/3-30155-mcfarlane-2-5-original-imagbeyyzehpyk2m.jpeg?q=70",
+      "textOne": "Tricycles & Rideons",
+      "offer": "Up to 70% Off",
+      "textTwo": "Figurines, Battle Toys & more"
+    },
+    {
+      "id": 2,
+      "img": "https://rukminim1.flixcart.com/image/400/400/l58iaa80/electric-cycle/i/y/f/-original-imagfykthgudy4qz.jpeg?q=70",
+      "textOne": "Electric Cycle",
+      "offer": "Up to 40% Off",
+      "textTwo": "Nuze, Motovolt & more"
+    },
+    {
+      "id": 3,
+      "img": "https://rukminim1.flixcart.com/image/400/400/kz5vwy80/helmet/o/4/k/-original-imagb8azfdthjhqr.jpeg?q=70",
+      "textOne": "Rider Helmets",
+      "offer": "From 699",
+      "textTwo": "Vega, Steelbird, HRX and More"
+    },
+    {
+      "id": 4,
+      "img": "https://rukminim1.flixcart.com/image/400/400/k6fd47k0/nut-dry-fruit/p/z/7/200-100-natural-california-pouch-happilo-original-imafzvw2tcazeur6.jpeg?q=70",
+      "textOne": "Dry Fruits",
+      "offer": "Upto 75% Off",
+      "textTwo": "Happilo, Farmley & More"
+    },
+    {
+      "id": 5,
+      "img": "https://rukminim1.flixcart.com/image/400/400/kwpam4w0/book/r/a/r/-original-imag9bv6bzstsjgk.jpeg?q=70",
+      "textOne": "Fiction Books",
+      "offer": "Up to 70% off",
+      "textTwo": "Shop Now!"
+    },
+    {
+      "id": 6,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kdbzqfk0/bar/8/h/q/push-up-bar-0-8-long-ankaro-original-imafu9dmvdk3rzvy.jpeg?q=70",
+      "textOne": "Gym Essentials",
+      "offer": "From ₹139",
+      "textTwo": "Shop Now!"
+    },
+    {
+      "id": 7,
+      "img": "https://rukminim1.flixcart.com/image/400/400/kdj4xow0/treadmill/b/g/c/ft098-steel-motorized-ft98-steel-motorized-motorized-fitkit-original-imafuerskytashcz.jpeg?q=70",
+      "textOne": "Treadmill, Exercise Bikes & More",
+      "offer": "Up to 70% Off",
+      "textTwo": "Fitkit, Powermax & More"
+    },
+    {
+      "id": 8,
+      "img": "https://rukminim1.flixcart.com/image/400/400/kx50gi80/pen/h/z/k/119766-flair-original-imag9nzubznagufg.jpeg?q=70",
+      "textOne": "Top Selling Stationery",
+      "offer": "From ₹139",
+      "textTwo": "Pens, Notebooks & more"
+    }
+  ],
+  "coolSummer": [
+    {
+      "id": 1,
+      "img": "https://rukminim1.flixcart.com/image/400/400/xif0q/cap/k/a/u/free-new-fashion-speqta-original-imaggbugymfewgtg.jpeg?q=70",
+      "textOne": "Caps",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 2,
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/toner/c/f/k/30-belly-drainage-ginger-oil-ginger-massage-oil-lymphatic-original-imaggxu9wzpktjqf.jpeg?q=70",
+      "textOne": "Toner",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 3,
+      "img": "https://rukminim1.flixcart.com/image/200/200/l4d2ljk0/car-interior-fan/y/o/b/4-12-car-fan12v-electric-2-speed-dual-head-fans-360-degree-original-imagfa6qdvyynbub.jpeg?q=70",
+      "textOne": "Car Interior Fans",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 4,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kv1a4cw0/perfume/k/v/s/100-perfume-royal-open-100ml-perfume-st-john-men-original-imag8ymgwqw97enc.jpeg?q=70",
+      "textOne": "Perfume",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 5,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kyxb9u80/bottle/q/h/1/600-portable-spray-water-bottle-used-as-a-water-sprinkler-and-original-imagb2yfksrgqqe2.jpeg?q=70",
+      "textOne": "Water Bottles",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 6,
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/electric-insect-killer/a/b/j/save-from-mosquito-fly-killer-4-sunig-original-imagngx9h2urthsj.jpeg?q=70",
+      "textOne": "Mosquito Killers",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 7,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kst9gnk0/mixer-grinder-juicer/c/0/y/electric-kettle-1-5l-super-combo-lifelong-original-imag6az3rhrzekvf.jpeg?q=70",
+      "textOne": "Mixer Juicer Grinder",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 8,
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/short/i/e/e/3xl-ic-n24445-indiclub-original-imagc3sfychajz6r-bb.jpeg?q=70",
+      "textOne": "Shorts",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 9,
+      "img": "https://rukminim1.flixcart.com/image/200/200/l432ikw0/air-cooler/5/x/f/220-50-tiara-air-cooler-with-honeycomb-pads-low-power-original-imagf2chtzfgfjgg.jpeg?q=70",
+      "textOne": "Air Coolers",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 10,
+      "img": "https://rukminim1.flixcart.com/image/200/200/keuagsw0/refrigerator-new/y/7/x/hr-65ks-2-haier-original-imafvfqdhdeex9yf.jpeg?q=70",
+      "textOne": "Refrigerators",
+      "offer": "Top Collection"
+    },
+    {
+      "id": 11,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kuyf8nk0/fan/k/v/t/fksbfan1200cb-ceiling-fan-flipkart-smartbuy-original-imag7yg4wgcsfm9f.jpeg?q=70",
+      "textOne": "Fans",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 12,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kbcjpu80/ice-cream-maker/2/m/d/kulfi-mould-icecream-021-breyers-original-imafsp2ybfbrufzz.jpeg?q=70",
+      "textOne": "Ice Cream Makers",
+      "offer": "Min. 50% Off"
+    }
+  ],
+  "monthlyEssentials": [
+    {
+      "id": 1,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kwzap3k0/lipstick/j/t/n/16-non-transfer-insta-beauty-waterproof-longlast-sensational-original-imag9jby47tukyz5.jpeg?q=70",
+      "textOne": "Makeup",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 2,
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/bulb/r/y/d/1-b22-foldable-light-25w-4-leaf-fan-blade-home-ceiling-lights-95-original-imaggykhhqhtk5yy.jpeg?q=70",
+      "textOne": "Utility Lighting",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 3,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kzn17680/hair-oil/1/f/a/vishavambhari-medicine-all-type-of-hair-problem-herbal-growth-original-imagbhvfgqxzyebn.jpeg?q=70",
+      "textOne": "Shaving & Beard Care",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 4,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kyxb9u80/bath-brush/h/l/s/bathing-brush-exfoliating-back-scrubber-for-shower-belt-for-original-imagbfxgmkngz8fv.jpeg?q=70",
+      "textOne": "Cleaning Supplies",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 5,
+      "img": "https://rukminim1.flixcart.com/image/200/200/ky1vl3k0/wipe/c/b/c/baby-wipes-80-sheets-pack-with-lid-240-8906006350090-novel-original-imagadpnfuxhyhbt.jpeg?q=70",
+      "textOne": "Baby Wipes",
+      "offer": "Min. 30% Off"
+    },
+    {
+      "id": 6,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kvmpq4w0/shampoo/v/z/a/-original-imag8hfzp4w2zccd.jpeg?q=70",
+      "textOne": "Hair Care And Accessory",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 7,
+      "img": "https://rukminim1.flixcart.com/image/200/200/l3xcr680/face-wash/2/e/v/-original-imageyf8bjnyhkwe.jpeg?q=70",
+      "textOne": "Body And Face Care",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 8,
+      "img": "https://rukminim1.flixcart.com/image/200/200/kv9urgw0/air-freshener/y/w/j/150-double-ring-solar-car-perfumes-crystal-auto-rotate-car-original-imag87eny3n3rrzf.jpeg?q=70",
+      "textOne": "Car Air Fresheners",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 9,
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/deodorant/o/h/w/-original-imaga36aktvbsxmx.jpeg?q=70",
+      "textOne": "Fragrances",
+      "offer": "Min. 50% Off"
+    },
+    {
+      "id": 10,
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/nut-dry-fruit/1/w/z/200-select-californian-almonds-1-pouch-blk-foods-original-imaggnvfvhzt3p8h.jpeg?q=70",
+      "textOne": "Food Products"
+    }
+  ]
+}

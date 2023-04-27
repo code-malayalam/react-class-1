@@ -1,0 +1,22 @@
+.nav_list_container {
+  display: flex;
+  overflow: scroll;
+}
+.item_container img {
+  width: 18.3vw;
+}
+.nav_list_container::-webkit-scrollbar {
+  display: none;
+}
+.item_container {
+  height: min-content;
+}
+.nav_list_container {
+  height: min-content;
+}
+
+@media screen and (min-width: 855px) {
+  .nav_list_container {
+    display: none;
+  }
+}
