@@ -9,7 +9,7 @@ function DesktopMain() {
   return (
     <div className="desktop_main">
       <Slide />
-      {/* <BeautyAndFood /> */}
+      <BeautyAndFood />
       <TopOffers />
       <BestOfElectronics />
     </div>

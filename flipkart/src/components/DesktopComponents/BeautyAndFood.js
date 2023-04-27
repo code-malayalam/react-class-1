@@ -19,11 +19,10 @@ function BeautyAndFood() {
 
   const dispatch = useDispatch();
 
-  const details = useSelector((state) => {
+  const data = useSelector((state) => {
     return state.data.data.beautyAndFood;
   });
 
-//   console.log(details)
   useEffect(() => {
     dispatch(fetchData());
   }, []);
@@ -48,18 +47,17 @@ function BeautyAndFood() {
     setSlideLeft((container.scrollLeft -= width));
   };
 
-  return (
-    <CarouselContainer
-      heading="Beauty ,Food, Toys & more"
-      handleLeftClick={handleLeftClick}
-      handleRightClick={handleRightClick}
-      data={details}
-      // data={beautyData}
-      backgroundImage={bg}
-      slideLeft={slideLeft}
-      innerWidth={window.innerWidth - 230}
-    />
-  );
+  //   return (
+  //     <CarouselContainer
+  //       heading="Beauty ,Food, Toys & more"
+  //       handleLeftClick={handleLeftClick}
+  //       handleRightClick={handleRightClick}
+  //       data={data}
+  //       backgroundImage={bg}
+  //       slideLeft={slideLeft}
+  //       innerWidth={window.innerWidth - 230}
+  //     />
+  //   );
 }
 
 export default BeautyAndFood;
