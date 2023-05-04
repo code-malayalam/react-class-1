@@ -1,0 +1,12 @@
+.Laptop{
+  display: none;
+}
+@media screen and (min-width:960px) {
+  .Laptop{
+    display: block;
+  }
+  .Mobile{
+    display: none;
+  }
+  
+}

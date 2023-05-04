@@ -1,0 +1,20 @@
+@font-face {
+  font-family: font1;
+  src: url(https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/fonts/roboto-regular-webfont.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: font2;
+  src: url(https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/fonts/roboto-medium-webfont.woff2);
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  font-family: font1
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

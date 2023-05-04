@@ -1,0 +1,16 @@
+.item-container{
+padding: 16px 16px 12px;  
+
+}
+.item-container .item-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-container .item-reason{
+    color: #388E3C;
+    font-size:14px ;
+}
+.item-container .item-description{
+    font-size: 10px;
+}

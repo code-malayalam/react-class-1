@@ -1,0 +1,9 @@
+.most-searched{  
+    display: inline-flex;
+}
+.search-items{
+    width: 33vw;
+}
+.most-searched img{
+    width: 100%;
+}

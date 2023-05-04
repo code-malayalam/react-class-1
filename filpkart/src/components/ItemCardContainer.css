@@ -1,0 +1,15 @@
+
+
+.total-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: white;
+    
+}
+.container-outline{
+
+    background-color:rgb(255, 210, 237);
+    padding-inline: 10px;
+    margin-top: -5px;
+    box-shadow: rgba(150, 150, 150, 0.16) 0px 2px 1px;
+}

@@ -1,0 +1,26 @@
+.total-bottom{
+    height: 38px;
+}
+.total-bottom input{
+    padding-block: 8.5px;
+    width: 80%;
+    border: none;
+}
+.total-bottom a{
+    display: flex;
+    justify-content: center;
+    
+}
+.total-bottom button{
+    border: none;
+    background-color: white;
+}
+.total-bottom button img{
+    width: 14px;
+    
+}
+
+.myStyle {
+    font-size: 100px;;
+    color: red;
+}
