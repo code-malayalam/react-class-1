@@ -1,0 +1,32 @@
+.carousel-image img{
+    width: 100%;
+}
+.carousel-image {
+    width: 100vw;
+    
+}
+.carousel{
+   
+   display: inline-flex;
+   overflow-x: scroll;
+}
+.total-carousel {
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-name: slidein;
+    
+}
+.full-carousel{
+    overflow-x: hidden;
+
+}
+
+ /* @keyframes slidein { */
+    /* from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(-100%);
+    } */
+  /* }  */

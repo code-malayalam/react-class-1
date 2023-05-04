@@ -1,0 +1,7 @@
+.top-nav-right{
+    display: flex;
+    color: white;
+    width: 172px;
+    display: flex;
+    justify-content:space-around;
+}

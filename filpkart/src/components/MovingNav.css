@@ -1,0 +1,13 @@
+.total-container-nav{
+    display: flex;
+    overflow: scroll;
+   
+}
+.images{
+    width: 18.5vw;
+}
+.images img{
+    width: inherit;
+    
+
+}

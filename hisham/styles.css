@@ -1,0 +1,1072 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: fontnm;
+  src: url(fonts/Graphik-Regular-Web.woff2);
+}
+@font-face {
+  font-family: fontmd;
+  src: url(fonts/Graphik-Medium-Web.woff2);
+}
+@font-face {
+  font-family: font2;
+  src: url(fonts/Guardian-EgypTT-Light.woff2);
+}
+
+.font {
+  font-family: font;
+}
+.font1 {
+  font-family: font1;
+}
+.font2 {
+  font-family: font2;
+}
+/* ===========
+===========
+header - mobile 
+===========
+=========== */
+.total-header {
+  padding-left: 9px;
+  padding-right: 12px;
+}
+
+.total-header .mobile-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-header-top .esty-logo {
+  padding-bottom: 4px;
+  display: block;
+}
+
+.mobile-header-top .sign-btn {
+  background-color: transparent;
+  font-size: 13px;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #222;
+  font-weight: 550;
+
+  padding: 9px 15px;
+  margin-right: 6px;
+  min-height: 36px;
+}
+.mobile-header-top .top-left-nav {
+  display: flex;
+}
+.top-left-nav .svg-heart,
+.top-left-nav .svg-bag {
+  padding: 12px;
+  padding-top: 11px;
+}
+.top-left-nav .svg-heart {
+  padding-inline: 10px;
+}
+
+.mobile-header-bottom input {
+  padding-left: 18px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 42px;
+  font-size: 16px;
+  line-height: 28px;
+  height: 48px;
+  display: flex;
+  flex: 1;
+  position: relative;
+  border: none;
+  border: 2px solid black;
+  border-radius: 96px;
+}
+.mobile-header-bottom button {
+  background-color: transparent;
+  min-height: 48px;
+  padding: 10px 20px 10px 14px;
+  font-size: 12px;
+  position: absolute;
+  right: 16px;
+  border: none;
+}
+
+.mobile-header-bottom .search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 50%;
+  padding-top: 1px;
+}
+
+.mobile-header-bottom {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.mobile-header-bottom .hambugger {
+  padding: 12px;
+  padding-left: 3px;
+  margin-bottom: 12px;
+}
+
+.tab-header {
+  display: none;
+}
+
+.all-headings {
+  background-color: #d7e6f5;
+  height: 35%;
+}
+.all-headings h2 {
+  font-family: font2;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.35;
+  color: #222;
+  text-align: center;
+  padding-top: 18px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.all-headings ul {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.all-headings li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: fontnm;
+  font-size: 13px;
+  font-weight: 700;
+}
+.all-headings img {
+  max-width: 96px;
+  border-radius: 50%;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+.all-headings ul span {
+  margin-bottom: 6px;
+  text-align: center;
+  margin-inline: 16px;
+  color: #222;
+}
+.deals-of-day .top-text-deals {
+  padding-inline: 10px;
+  padding-top: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1380px;
+  margin: bottom 12px;
+  margin: auto;
+}
+.deals-of-day .top-text-deals h2 {
+  font-family: fontnm;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.deals-of-day .top-text-deals span {
+  font-size: 13px;
+  font-family: fontnm;
+  font-weight: 700;
+  color: #222;
+}
+.top-text-deals .left-arrow {
+  display: flex;
+  align-items: center;
+}
+.top-text-deals .left-arrow img {
+  width: 12px;
+  height: 24px;
+  margin-left: 6px;
+}
+
+.deals-of-day .image-cards {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding-inline: 12px;
+}
+.image-cards a {
+  min-height: 96px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid rgba(34, 34, 34, 0.15);
+
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.deals-of-day .image-cards li {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  flex-grow: 1;
+  padding: 6px;
+  border-radius: 50%;
+  max-width: 265px;
+}
+.image-cards img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.image-cards p {
+  font-family: fontnm;
+  font-weight: 400;
+  font-size: 13px;
+}
+.image-cards span {
+  font-family: fontmd;
+
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 6px;
+
+  padding-bottom: 6px;
+  color: #222;
+}
+
+.shop-selection .heading-top img {
+  width: 24px;
+  height: 24px;
+}
+.shop-selection .heading-top {
+  display: flex;
+  align-items: center;
+  font-family: fontnm;
+  gap: 5px;
+  justify-content: center;
+  padding-top: 30px;
+}
+.shop-selection .heading-top h2 {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+.shop-selection p {
+  color: #595959;
+  font-family: fontnm;
+  text-align: center;
+  font-size: 13px;
+  line-height: 18px;
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+.total-card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline: 12px;
+}
+.total-card-holder div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  flex-grow: 1;
+  padding: 6px;
+  /* max-width: 265px; */
+}
+.total-card-holder div img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.total-card-holder span {
+  display: flex;
+  align-items: center;
+  font-family: fontmd;
+  justify-content: center;
+  padding: 12px;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  min-height: 60px;
+  font-size: 16px;
+}
+
+.nav-bottom .container {
+  display: none;
+}
+.top-of-popular h2 {
+  text-align: center;
+  font-family: fontnm;
+  font-size: 16px;
+  color: #222;
+  padding-top: 25px;
+  margin-left: 30px;
+}
+.top-of-popular{
+  max-width: 1460px;
+  margin: auto;
+}
+
+.popular-gift-cards .full-card {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  
+  padding: 6px;
+}
+.single-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline: 12px;
+}
+.popular-gift-cards {
+  display: flex;
+  flex-direction: column-reverse;
+
+  
+
+}
+.bottom-container h2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.popular-gift-cards img {
+  border-radius: 12px;
+}
+.bottom-container h2 {
+  font-family: fontnm;
+  font-size: 13px;
+  text-align: left;
+  margin-bottom: 3px;
+  padding-top: 5px;
+  color: #222222;
+}
+.bottom-container .rating {
+  display: flex;
+}
+.bottom-container svg {
+  width: 14px;
+  height: 14px;
+}
+.bottom-container .rating span {
+  color: #959595;
+  font-size: 13px;
+}
+.bottom-container .all-prices span:first-child {
+  font-family: fontnm;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.bottom-container .all-prices span:nth-child(2),
+.bottom-container .all-prices span:nth-child(3) {
+  font-family: fontnm;
+  font-size: 13px;
+  line-height: 20px;
+  color: #258635;
+}
+.bottom-container .all-prices span:nth-child(2) {
+  text-decoration: line-through;
+  padding-right: 5px;
+}
+.bottom-container .all-prices span:nth-child(4) {
+  display: block;
+  font-family: fontnm;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 3px 6px;
+  min-width: 17px;
+  border-radius: 12px;
+  padding: 5px;
+
+  background-color: #d4e9d7;
+  width: fit-content;
+}
+.bottom-container .all-prices span.no-delivery {
+  display: none;
+}
+.top-footer .total-container-top {
+  padding: 36px 30px;
+  background-color: #fdebd2;
+}
+.top-footer .total-container-top h2 {
+  font-family: font2;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #222;
+}
+.top-footer .total-container-top .story {
+  text-align: center;
+  text-decoration: underline;
+  font-family: fontnm;
+  font-size: 14px;
+}
+.top-footer .main-section {
+  padding-top: 36px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.top-footer .main-section h3 {
+  font-family: fontnm;
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 18px;
+  color: #222;
+}
+.top-footer .main-section p {
+  font-family: fontnm;
+  font-size: 16px;
+  color: #222;
+  font-weight: 400;
+  line-height: 28px;
+}
+.top-footer .main-section span {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-position: under;
+}
+.top-footer h4 {
+  font-family: fontnm;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #222;
+  padding-top: 24px;
+}
+.top-footer .help-center {
+  font-family: fontnm;
+  border: 2px solid black;
+  width: fit-content;
+  padding: 12px 18px;
+  margin: auto;
+  margin-top: 12px;
+  border-radius: 24px;
+}
+.top-footer .help-center span {
+  font-weight: bold;
+}
+.middle-footer .total-middle-footer {
+  padding: 18px 24px 0;
+  background-color: #d7e6f5;
+  padding-bottom: 36px;
+}
+.total-middle-footer p {
+  text-align: center;
+  font-family: fontnm;
+  font-size: 16px;
+  margin-bottom: 12px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.middle-footer .search-input {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  box-shadow: 1px 2px 4px 0 rgb(34 34 34 / 10%);
+  border-radius: 96px;
+  border: none;
+}
+.middle-footer .search-input input {
+  width: 100%;
+  padding: 9px 12px 9px 18px;
+  background-color: transparent;
+  border: none;
+
+  font-size: 16px;
+
+  line-height: 28px;
+}
+.middle-footer .search-input span {
+  padding: 12px 21px 12px 15px;
+  height: 48px;
+  font-size: 16px;
+  font-family: fontnm;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middle-footer-second .esty-aim svg {
+  width: 36px;
+  height: 36px;
+}
+.middle-footer-second .esty-aim {
+  font-family: fontnm;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-inline: 12px;
+}
+.middle-footer-second .esty-aim span {
+  color: white;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-position: under;
+}
+.middle-footer-second {
+  background-color: #4d6bc6;
+  padding: 12px 0;
+}
+.middle-footer-second .esty-aim {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.middle-footer-third {
+  background-color: #2f466c;
+  color: white;
+}
+.total-about {
+  padding: 12px 18px;
+  list-style: none;
+}
+.total-about ul {
+  list-style: none;
+  padding-inline: 6px;
+}
+.total-about ul li {
+  font-family: fontnm;
+  font-size: 16px;
+  padding: 6px 0 12px;
+}
+.total-about .main-drop-down {
+  display: flex;
+  width: 100%;
+  padding: 12px 0;
+  justify-content: space-between;
+}
+.total-about .main-drop-down span {
+  font-family: fontnm;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.download-app {
+  display: flex;
+  align-items: center;
+  border: white 2px solid;
+  width: fit-content;
+  padding: 5px 15px;
+  margin: 0 auto;
+  border-radius: 96px;
+}
+.download-app span {
+  margin-left: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: fontnm;
+}
+.social-logos {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  margin-top: 18px;
+  gap: 18px;
+}
+.social-media-tab {
+  display: none;
+}
+.last-footer-places {
+  padding: 18px 24px;
+  background-color: #232347;
+}
+.social-medias {
+  padding-bottom: 30px;
+}
+.totalplaces {
+  font-family: fontnm;
+  color: white;
+  font-size: 13px;
+  line-height: 1.4;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+  font-weight: 700;
+}
+.totalplaces svg {
+  width: 18px;
+  height: 18px;
+}
+.terms span {
+  display: flex;
+  font-family: fontnm;
+  width: 100%;
+  justify-content: center;
+  color: white;
+  font-size: 13px;
+  line-height: 18px;
+  padding-top: 10px;
+}
+.terms ul {
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+
+  color: white;
+}
+.terms li {
+  display: inline-block;
+  margin-right: 12px;
+  font-family: fontnm;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.active{
+  display: none;
+
+}
+
+.rotate{
+  transform: rotate(180deg);
+}
+.popular-gift-cards img{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+.popular-gift-cards .image-container{
+  position: relative;
+}
+.popular-gift-cards .heart-btn{
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.popular-gift-cards .heart-btn svg{
+  width: 24px;
+  height: 12px;
+  margin-top: 6px;
+
+}
+.popular-gift-cards .full-card-filter{
+  display: none;
+}
+.popular-gift-cards .heart-btn{
+  display: none;
+}
+.popular-gift-cards .image-container:hover .heart-btn{
+  display: block;
+
+}
+
+
+
+
+
+@media screen and (min-width: 507px) {
+  .all-headings {
+    height: 33%;
+  }
+  .deals-of-day .image-cards li {
+    width: 33%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .popular-gift-cards .full-card {
+    width: 33%;
+  }
+  .top-of-popular h2 {
+    text-align: left;
+    font-size: 28px;
+    line-height: 36px;
+    padding-left: 10px;
+    font-family: fontnm;
+  }
+  .popular-gift-cards {
+    max-width: 1400px;
+    margin: auto;
+  }
+  .top-footer .total-container-top h2 {
+    font-size: 44px;
+    line-height: 48px;
+  }
+  .top-footer .main-section h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .top-footer h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .top-footer .total-container-top {
+    padding: 36px 60px;
+  }
+  .middle-footer .search-input {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  .total-middle-third-footer {
+    padding: 34px 24px 24px;
+  }
+  .social-media-tab {
+    display: block;
+    margin-top: 25px;
+  }
+  .total-about .main-drop-down i {
+    display: none;
+  }
+  .total-about {
+    display: flex;
+  }
+  .sub-items-four {
+    max-width: 25%;
+    flex-basis: 25%;
+    flex-grow: 1;
+  }
+
+  .sub-items-one {
+    max-width: 25%;
+    flex-basis: 25%;
+    flex-grow: 1;
+  }
+  .sub-items-two {
+    max-width: 25%;
+    flex-basis: 25%;
+    flex-grow: 1;
+  }
+  .sub-items-three {
+    max-width: 25%;
+    flex-basis: 25%;
+    flex-grow: 1;
+  }
+  .social-logos {
+    flex-wrap: wrap;
+  }
+  .social-medias {
+    display: none;
+  }
+  .terms span{
+    width: fit-content;
+  }
+  .terms{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+  }
+  .active{
+    display: block;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .esty-logo svg {
+    width: 80px;
+    height: 40px;
+  }
+  .nav-bottom .container {
+    display: none;
+  }
+  .all-headings ul {
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 24px;
+  }
+  .all-headings h2 {
+    font-size: 26px;
+    line-height: 42px;
+  }
+  .all-headings {
+    height: 18%;
+  }
+  .all-headings img {
+    max-width: 86px;
+    margin-bottom: 12px;
+  }
+  .all-headings ul span {
+    width: 75%;
+    text-align: center;
+  }
+  .image-cards span {
+    padding-right: 14px;
+  }
+  .total-card-holder div {
+    width: 33%;
+  }
+  .shop-selection p {
+    display: none;
+  }
+  .shop-selection .heading-top h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .shop-selection .heading-top {
+    justify-content: flex-start;
+    padding-left: 12px;
+  }
+  .shop-selection .heading-top img {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .total-header {
+    display: none;
+  }
+  .tab-header {
+    display: flex;
+    padding: 12px 36px;
+    max-width: 1400px;
+    margin: auto;
+    align-items: center;
+    padding-left: 33px;
+    padding-right: 36px;
+  }
+  .nav-bottom .container {
+    display: block;
+  }
+  
+  .search-bar input {
+    padding-left: 18px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 42px;
+    font-size: 17px;
+    line-height: 28px;
+    height: 48px;
+    display: flex;
+    flex: 1;
+    border: none;
+    border: 2px solid black;
+    border-radius: 96px;
+    background-color: rgba(34, 34, 34, 0.1);
+  }
+  .search-bar button {
+    background-color: transparent;
+    min-height: 48px;
+    padding: 10px 20px 10px 14px;
+    font-size: 12px;
+    position: absolute;
+    right: 21px;
+    border: none;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 50%;
+    padding-top: 1px;
+    position: relative;
+    padding-right: 18px;
+  }
+
+  .sign-btn {
+    background-color: transparent;
+    font-size: 13px;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      color: #222;
+      font-weight: 550;
+      white-space: nowrap;
+
+      padding: 9px 16px;
+      margin-right: 6px;
+      min-height: 36px;
+    }
+    .top-left-nav {
+      display: flex;
+  }
+  .top-left-nav .svg-heart,
+  .top-left-nav .svg-bag {
+    padding: 12px;
+    padding-top: 11px;
+  }
+  .top-left-nav .svg-heart {
+    padding-inline: 10px;
+    padding-right: 12px;
+    margin-left: 2px;
+  }
+  .esty-logo {
+    padding-right: 8px;
+  }
+  .nav-bottom .category {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 36px;
+    max-width: 1400px;
+    margin: auto;
+    gap: 30px;
+  }
+  .nav-bottom .category li {
+    list-style: none;
+    font-size: 13px;
+    font-family: fontnm;
+    color: #222;
+    padding: 0 0 12px;
+    margin: 4px 12px 0 0;
+  }
+  
+  .nav-bottom .category li:last-child {
+    white-space: nowrap;
+  }
+  
+  .all-headings h2 {
+    font-size: 32px;
+    line-height: 36px;
+    padding: 18px;
+  }
+  .all-headings img {
+    max-width: 114px;
+  }
+  .all-headings {
+    height: 20%;
+  }
+  .all-headings ul span {
+    font-size: 16px;
+    width: 79.5%;
+    color: #222;
+  }
+  .image-cards span {
+    padding-right: 35px;
+  }
+  
+  .deals-of-day .image-cards li {
+    width: 16%;
+  }
+  .deals-of-day .top-text-deals {
+    margin: bottom 12px;
+  }
+  .total-card-holder div:last-child {
+    display: none;
+  }
+  .total-card-holder div {
+    width: 20%;
+  }
+  .total-card-holder span {
+    min-height: 78px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+  }
+  .popular-gift-cards .full-card {
+    width: 15%;
+  }
+  .popular-gift-cards .full-card:last-child {
+    display: none;
+  }
+  .top-footer .total-container-top {
+    padding: 36px 54px;
+    max-width: 1400px;
+    margin: auto;
+  }
+  .top-footer .main-section {
+    /* flex-direction: row; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+  }
+  .top-footer {
+    background-color: #fdebd2;
+  }
+  .last-footer-places{
+    display: flex;
+  }
+  .middle-footer-second .esty-aim{
+    flex-direction: row;
+    gap: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .all-headings {
+    height: 15%;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .all-headings ul {
+    max-width: 1080px;
+    margin: auto;
+  }
+  .all-headings {
+    height: 14%;
+  }
+  .deals-of-day .image-cards {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+  }
+  .total-card-holder {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+  }
+
+  .shop-selection .heading-top {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1400px;
+    margin: auto;
+  }
+  .total-about {
+    max-width: 1400px;
+    margin: auto;
+  }
+  .total-about ul {
+    padding: 0;
+  }
+  .social-logos {
+    margin: 0;
+  }
+  .download-app {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  .popular-gift-cards .heart-btn svg{
+    width: 22px;
+    height: 22px;
+    margin-top: 4px;
+    margin-left: 3px;
+  }
+  .popular-gift-cards .heart-btn {
+    width: 30px;
+    height: 30px;
+
+  } 
+   .popular-gift-cards .full-card {
+    width: 20%;
+  }
+}

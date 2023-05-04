@@ -1,0 +1,5 @@
+.left-total{
+    width: 127px;
+    display: flex;
+    justify-content: space-around;
+}
